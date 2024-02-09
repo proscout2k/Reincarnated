@@ -19,7 +19,7 @@
     - Podnosic wiecej niż 1 unikatowy talizman:
         + np. Esencja Piekelnego Ognia + Duży Talizman = Hellfire Torch
         + np. Diablo Clone 
-
+ddd
     - Nowe waypointy
     - Używanie niektórych skilli podczas przemiany
     - Poprawa tekstur miksturek
