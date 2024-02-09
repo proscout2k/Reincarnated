@@ -10,7 +10,7 @@
         + Item Level
     
     - Stackowanie innych przedmiotow jak:
-        + Klucze
+        + Uber Klucze
     
     - Unikaty dropią więcej niż raz w jednej grze
     - Zwiększony stacksize do 100
@@ -31,6 +31,7 @@
         + Akt 4 - Skrzynka i Cain koło waypointu
 
 2. Zmiany w rozgrywce:
+    - Postacie zaczynają bez żadnych broni
     - Rare Arrows, Belts i Charms
     - Kapliczki i Klątwy teraz się stackują i nie podmieniają sobie bonusów
     - Sockety we wszystkich itemach, plus podbicie socketó np. Zbroja może mieć 6 socketów itd. (Utrudnienie)
