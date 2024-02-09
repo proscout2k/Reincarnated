@@ -1,0 +1,423 @@
+description	enabled	firstLadderSeason	lastLadderSeason	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+Staff of Kings + Amulet of the Viper -> Horadric Staff	1				0	28				2	msf	vip						hst																																																																																							0
+Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will	1				0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1				0	28				2	leg	tbk						Cow Portal																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion	1				0					7	"hpot,qty=3"	"mpot,qty=3"	gem2					rvl																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion	1				0					7	"hpot,qty=3"	"mpot,qty=3"	gem0					rvs																																																																																							0
+3 Rejuvenation Potions -> Full Rejuvenation Potion	1				0					3	"rvs,qty=3"							rvl																																																																																							0
+6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet	1				0					7	"amu,mag"	gpv	gpy	gpb	gpg	gpr	gpw	"amu,mag,pre=331"	50																																																																																						0
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring	1				0					3	"rin,mag"	gpr	opm					"rin,mag,pre=372"	30																																																																																						0
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring	1				0					3	"rin,mag"	gpb	wms					"rin,mag,pre=353"	30																																																																																						0
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring	1				0					3	"rin,mag"	gpy	rvs					"rin,mag,pre=392"	30																																																																																						0
+1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring	1				0					3	"rin,mag"	gpg	yps					"rin,mag,pre=412"	30																																																																																						0
+1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe	1				0					2	axe	knif						"tax,nor"																																																																																							0
+1 Spear (Any) + 1 Arrows -> Javelins	1				0					2	spea	aqv						"jav,nor"																																																																																							0
+3 Magic Rings -> Magic Amulet	1				0					3	"rin,mag,qty=3"							"amu,mag"		75																																																																																					0
+3 Magic Amulets -> Magic Ring	1				0					3	"amu,mag,qty=3"							"rin,mag"		75																																																																																					0
+3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon	1				0					4	"weap,sock"	"gem2,qty=3"						"usetype,mag"	30		60	sock			1	2																																																																															0
+3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon	1				0					4	"weap,mag"	"gem3,qty=3"						"usetype,mag"	30		60	sock			1	2																																																																															0
+1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes	1				0					4	"shld,mag"	"gemz,qty=2"	spc					"usetype,mag,suf=162"	30		60																																																																																				0
+4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech	1				0					6	"swor,mag"	gemr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
+1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1				0					4	kri	gemd	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
+1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
+2 Arrows -> Bolts	1				0					2	"aqv,qty=2"							cqv																																																																																							0
+2 Bolts -> Arrows	1				0					2	"cqv,qty=2"							aqv																																																																																							0
+3 Chipped Amethysts -> Flawed Amethyst	1				0					3	"gcv,qty=3"							gfv																																																																																							0
+3 Flawed Amethysts -> Standard Amethyst	1				0					3	"gfv,qty=3"							gsv																																																																																							0
+3 Standard Amethysts -> Flawless Amethyst	1				0					3	"gsv,qty=3"							gzv																																																																																							0
+3 Flawless Amethysts -> Perfect Amethyst	1				0					3	"gzv,qty=3"							gpv																																																																																							0
+3 Chipped Rubies -> Flawed Ruby	1				0					3	"gcr,qty=3"							gfr																																																																																							0
+3 Flawed Rubies -> Standard Ruby	1				0					3	"gfr,qty=3"							gsr																																																																																							0
+3 Standard Rubies -> Flawless Ruby	1				0					3	"gsr,qty=3"							glr																																																																																							0
+3 Flawless Rubies -> Perfect Ruby	1				0					3	"glr,qty=3"							gpr																																																																																							0
+3 Chipped Sapphires -> Flawed Sapphire	1				0					3	"gcb,qty=3"							gfb																																																																																							0
+3 Flawed Sapphires -> Standard Sapphire	1				0					3	"gfb,qty=3"							gsb																																																																																							0
+3 Standard Sapphires -> Flawless Sapphire	1				0					3	"gsb,qty=3"							glb																																																																																							0
+3 Flawless Sapphires -> Perfect Sapphire	1				0					3	"glb,qty=3"							gpb																																																																																							0
+3 Chipped Topazes -> Flawed Topaz	1				0					3	"gcy,qty=3"							gfy																																																																																							0
+3 Flawed Topazes -> Standard Topaz	1				0					3	"gfy,qty=3"							gsy																																																																																							0
+3 Standard Topazes -> Flawless Topaz	1				0					3	"gsy,qty=3"							gly																																																																																							0
+3 Flawless Topazes -> Perfect Topaz	1				0					3	"gly,qty=3"							gpy																																																																																							0
+3 Chipped Emeralds -> Flawed Emerald	1				0					3	"gcg,qty=3"							gfg																																																																																							0
+3 Flawed Emeralds -> Standard Emerald	1				0					3	"gfg,qty=3"							gsg																																																																																							0
+3 Standard Emeralds -> Flawless Emerald	1				0					3	"gsg,qty=3"							glg																																																																																							0
+3 Flawless Emeralds -> Perfect Emerald	1				0					3	"glg,qty=3"							gpg																																																																																							0
+3 Chipped Diamonds -> Flawed Diamond	1				0					3	"gcw,qty=3"							gfw																																																																																							0
+3 Flawed Diamonds -> Standard Diamond	1				0					3	"gfw,qty=3"							gsw																																																																																							0
+3 Standard Diamonds -> Flawless Diamond	1				0					3	"gsw,qty=3"							glw																																																																																							0
+3 Flawless Diamonds -> Perfect Diamond	1				0					3	"glw,qty=3"							gpw																																																																																							0
+3 Chipped Skulls -> Flawed Skull	1				0					3	"skc,qty=3"							skf																																																																																							0
+3 Flawed Skulls -> Standard Skull	1				0					3	"skf,qty=3"							sku																																																																																							0
+3 Standard Skulls -> Flawless Skull	1				0					3	"sku,qty=3"							skl																																																																																							0
+3 Flawless Skulls -> Perfect Skull	1				0					3	"skl,qty=3"							skz																																																																																							0
+3 El Runes -> Eld Rune	1				100					3	"r01,qty=3"							r02																																																																																							0
+3 Eld Runes -> Tir Rune	1				100					3	"r02,qty=3"							r03																																																																																							0
+3 Tir Runes -> Nef Rune	1				100					3	"r03,qty=3"							r04																																																																																							0
+3 Nef Runes -> Eth Rune	1				100					3	"r04,qty=3"							r05																																																																																							0
+3 Eth Runes -> Ith Rune	1				100					3	"r05,qty=3"							r06																																																																																							0
+3 Ith Runes -> Tal Rune	1				100					3	"r06,qty=3"							r07																																																																																							0
+3 Tal Runes -> Ral Rune	1				100					3	"r07,qty=3"							r08																																																																																							0
+3 Ral Runes -> Ort Rune	1				100					3	"r08,qty=3"							r09																																																																																							0
+3 Ort Runes -> Thul Rune	1				100					3	"r09,qty=3"							r10																																																																																							0
+3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
+6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
+1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
+3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item	1				0					5	"any,rar,nos"	"skz,qty=3"	The Stone of Jordan					"useitem,sock=1"																																																																																							0
+1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	"fhl,mag,upg"	jew	r06	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	ac-miss			25	50																																																																					0
+1 Magic Chain Boots + 1 Jewel + 1 Ral Rune + 1 Perfect Sapphire -> Hit Power Boots	1				100					4	"mbt,mag,upg"	jew	r08	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	ac-hth			25	60																																																																					0
+1 Magic Chain Gloves + 1 Jewel + 1 Ort Rune + 1 Perfect Sapphire -> Hit Power Gloves	1				100					4	"mgl,mag,upg"	jew	r09	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	knock			1	1																																																																					0
+1 Magic Heavy Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Sapphire -> Hit Power Belt	1				100					4	"tbl,mag,upg"	jew	r07	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	dmg-to-mana			5	10																																																																					0
+1 Magic Gothic Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Sapphire -> Hit Power Shield	1				100					4	"gts,mag,upg"	jew	r05	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	block			5	10																																																																					0
+1 Magic Field Plate + 1 Jewel + 1 Nef Rune + 1 Perfect Sapphire -> Hit Power Body	1				100					4	"fld,mag,upg"	jew	r04	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	balance1			10	20																																																																					0
+1 Magic Amulet + 1 Jewel + Thul Rune + 1 Perfect Sapphire -> Hit Power Amulet	1				100					4	"amul,mag"	jew	r10	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	howl			5	15																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Sapphire -> Hit Power Ring	1				100					4	"ring,mag"	jew	r11	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	6	dex			1	5																																																																					0
+1 Magic Blunt Weapon + 1 Jewel + 1 Tir Rune + 1 Perfect Sapphire -> Hit Power Weapon	1				100					4	"blun,mag"	jew	r03	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	dmg%			35	60																																																																					0
+1 Magic Helm + 1 Jewel + 1 Ral Rune + 1 Perfect Ruby -> Blood Helm	1				100					4	"hlm,mag,upg"	jew	r08	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	deadly			5	10																																																																					0
+1 Magic Light Plated Boots + 1 Jewel + 1 Eth Rune + 1 Perfect Ruby -> Blood Boots	1				100					4	"tbt,mag,upg"	jew	r05	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	regen			5	10																																																																					0
+1 Magic Heavy Gloves + 1 Jewel + 1 Nef Rune + 1 Perfect Ruby -> Blood Gloves	1				100					4	"vgl,mag,upg"	jew	r04	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	crush			5	10																																																																					0
+1 Magic Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Ruby -> Blood Belt	1				100					4	"mbl,mag,upg"	jew	r07	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	openwounds			5	10																																																																					0
+1 Magic Spiked Shield + 1 Jewel + 1 Ith Rune + 1 Perfect Ruby -> Blood Shield	1				100					4	"spk,mag,upg"	jew	r06	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	thorns			4	7																																																																					0
+1 Magic Plate Mail + 1 Jewel + 1 Thul Rune + 1 Perfect Ruby -> Blood Body	1				100					4	"plt,mag,upg"	jew	r10	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	demon-heal			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Amn Rune + 1 Perfect Ruby -> Blood Amulet	1				100					4	"amul,mag"	jew	r11	gpr				"usetype,crf"		50	50	lifesteal			1	4	hp			10	20	move1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Sol Rune + 1 Perfect Ruby -> Blood Ring	1				100					4	"ring,mag"	jew	r12	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	str			1	5																																																																					0
+1 Magic Axe + 1 Jewel + Ort Rune + 1 Perfect Ruby -> Blood Weapon	1				100					4	"axe,mag"	jew	r09	gpr				"usetype,crf"		50	50	lifesteal			1	4	hp			10	20	dmg%			35	60																																																																					0
+1 Magic Mask + 1 Jewel + Nef Rune + 1 Perfect Amethyst -> Caster Helm	1				100					4	"msk,mag,upg"	jew	r04	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
+1 Magic Boots + 1 Jewel + Thul Rune + 1 Perfect Amethyst -> Caster Boots	1				100					4	"lbt,mag,upg"	jew	r10	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
+1 Magic Leather Gloves + 1 Jewel + Ort Rune + 1 Perfect Amethyst -> Caster Gloves	1				100					4	"lgl,mag,upg"	jew	r09	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Light Belt + 1 Jewel + Ith Rune + 1 Perfect Amethyst -> Caster Belt	1				100					4	"vbl,mag,upg"	jew	r06	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Small Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Amethyst -> Caster Shield	1				100					4	"sml,mag,upg"	jew	r05	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
+1 Magic Light Plate + 1 Jewel + 1 Tal Rune + 1 Perfect Amethyst -> Caster Body	1				100					4	"ltp,mag,upg"	jew	r07	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Ral Rune + 1 Perfect Amethyst -> Caster Amulet	1				100					4	"amul,mag"	jew	r08	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Amethyst -> Caster Ring	1				100					4	"ring,mag"	jew	r11	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
+1 Magic Rod + 1 Jewel + 1 Tir Rune + 1 Perfect Amethyst -> Caster Weapon	1				100					4	"rod,mag"	jew	r03	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
+1 Magic Crown + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1				100					4	"crn,mag,upg"	jew	r06	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-ltng			5	10	ac%			10	30																																																																0
+1 Magic Plated Boots + 1 Jewel + 1 Ort Rune + 1 Perfect Emerald -> Safety Boots	1				100					4	"hbt,mag,upg"	jew	r09	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-fire			5	10	ac%			10	30																																																																0
+1 Magic Gauntlets + 1 Jewel + 1 Ral Rune + 1 Perfect Emerald -> Safety Gloves	1				100					4	"hgl,mag,upg"	jew	r08	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-cold			5	10	ac%			10	30																																																																0
+1 Magic Sash + 1 Jewel + 1 Tal Rune + 1 Perfect Emerald -> Safety Belt	1				100					4	"lbl,mag,upg"	jew	r07	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-pois			5	10	ac%			10	30																																																																0
+1 Magic Kite Shield + 1 Jewel + 1 Nef Rune + 1 Perfect Emerald -> Safety Shield	1				100					4	"kit,mag,upg"	jew	r04	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-mag			5	10	ac%			10	30																																																																0
+1 Magic Breast Plate + 1 Jewel + 1 Eth Rune + 1 Perfect Emerald -> Safety Body	1				100					4	"brs,mag,upg"	jew	r05	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	half-freeze			1	1	ac%			10	30																																																																0
+1 Magic Amulet + 1 Jewel + 1 Thul Rune + 1 Perfect Emerald -> Safety Amulet	1				100					4	"amul,mag"	jew	r10	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	block			1	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Emerald -> Safety Ring	1				100					4	"ring,mag"	jew	r11	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	vit			1	5																																																																					0
+1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald -> Safety Weapon	1				100					4	"spea,mag"	jew	r12	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	ac%			5	10																																																																					0
+3 Thul Runes + 1 Chipped Topaz -> Amn Rune	1				100					4	"r10,qty=3"	gcy						r11																																																																																							0
+3 Amn Runes + 1 Chipped Amethyst -> Sol Rune	1				100					4	"r11,qty=3"	gcv						r12																																																																																							0
+3 Sol Runes + 1 Chipped Sapphire -> Shael Rune	1				100					4	"r12,qty=3"	gcb						r13																																																																																							0
+3 Shael Runes + 1 Chipped Ruby -> Dol Rune	1				100					4	"r13,qty=3"	gcr						r14																																																																																							0
+3 Dol Runes + 1 Chipped Emerald -> Hel Rune	1				100					4	"r14,qty=3"	gcg						r15																																																																																							0
+3 Hel Runes + 1 Chipped Diamond -> Io Rune	1				100					4	"r15,qty=3"	gcw						r16																																																																																							0
+3 Io Runes + 1 Flawed Topaz -> Lum Rune	1				100					4	"r16,qty=3"	gfy						r17																																																																																							0
+3 Lum Runes + 1 Flawed Amethyst -> Ko Rune	1				100					4	"r17,qty=3"	gfv						r18																																																																																							0
+3 Ko Runes + 1 Flawed Sapphire -> Fal Rune	1				100					4	"r18,qty=3"	gfb						r19																																																																																							0
+3 Fal Runes + 1 Flawed Ruby -> Lem Rune	1				100					4	"r19,qty=3"	gfr						r20																																																																																							0
+3 Lem Runes + 1 Flawed Emerald -> Pul Rune	1				100					4	"r20,qty=3"	gfg						r21																																																																																							0
+2 Pul Runes + 1 Flawed Diamond -> Um Rune	1				100					3	"r21,qty=2"	gfw						r22																																																																																							0
+2 Um Runes + 1 Standard Topaz -> Mal Rune	1				100					3	"r22,qty=2"	gsy						r23																																																																																							0
+2 Mal Runes + 1 Standard Amethyst -> Ist Rune	1				100					3	"r23,qty=2"	gsv						r24																																																																																							0
+2 Ist Runes + 1 Standard Sapphire -> Gul Rune	1				100					3	"r24,qty=2"	gsb						r25																																																																																							0
+2 Gul Runes + 1 Standard Ruby -> Vex Rune	1				100					3	"r25,qty=2"	gsr						r26																																																																																							0
+2 Vex Runes + 1 Standard Emerald -> Ohm Rune	1				100					3	"r26,qty=2"	gsg						r27																																																																																							0
+2 Ohm Runes + 1 Standard Diamond -> Lo Rune	1				100					3	"r27,qty=2"	gsw						r28																																																																																							0
+2 Lo Runes + 1 Flawless Topaz -> Sur Rune	1				100					3	"r28,qty=2"	gly						r29																																																																																							0
+2 Sur Runes + 1 Flawless Amethyst -> Ber Rune	1				100					3	"r29,qty=2"	gzv						r30																																																																																							0
+2 Ber Runes + 1 Flawless Sapphire -> Jah Rune	1				100					3	"r30,qty=2"	glb						r31																																																																																							0
+2 Jah Runes + 1 Flawless Ruby -> Cham Rune	1				100					3	"r31,qty=2"	glr						r32																																																																																							0
+2 Cham Runes + 1 Flawless Emerald -> Zod Rune	1				100					3	"r32,qty=2"	glg						r33																																																																																							0
+1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1				100					4	"tors,nor,nos"	r07	r10	gpy				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon	1				100					4	"weap,nor,nos"	r08	r11	gpv				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1				100					4	"helm,nor,nos"	r08	r10	gpb				useitem				sock			1	6																																																																															0
+1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	"shld,nor,nos"	r07	r11	gpr				useitem				sock			1	6																																																																															0
+1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon	1				100					3	"weap,low"	r02	gem0					"usetype,nor"																																																																																							0
+1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor	1				100					3	"armo,low"	r01	gem0					"usetype,nor"																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon	1				100					4	"weap,bas,uni"	r08	r12	gpg				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor	1				100					4	"armo,bas,uni"	r07	r13	gpw				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon	1				100					4	"weap,exc,uni"	r17	r21	gpg				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor	1				100					4	"armo,exc,uni"	r18	r20	gpw				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon	1				100					4	"weap,bas,rar"	r09	r11	gpb				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor	1				100					4	"armo,bas,rar"	r08	r10	gpv				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	1				100					4	"weap,exc,rar"	r19	r22	gpb				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	1				100					4	"armo,exc,rar"	r18	r21	gpv				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1				100					2	"weap,noe"	r09						"useitem,rep,qty=255"																																																																																							0
+1 Ral Rune + 1 Armor -> Fully Repaired Armor	1				100					2	"armo,noe"	r08						"useitem,rep,qty=255"																																																																																							0
+1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1				100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=255"																																																																																							0
+1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1				100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=255"																																																																																							0
+1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item	1				100					3	"any,sock"	r15	tsc					"useitem,uns"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor					100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon					100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring					100					3	"ring,mag"	jew	r08					"usetype,tmp"				levelreq			3	3																																																																															0
+1 Ral Rune + 1 Jewel + 1 Magic Amulet -> Tempered Amulet					100					3	"amu,mag"	jew	r08					"usetype,tmp"				levelreq			5	5																																																																															0
+1 El Rune + 1 Chipped Gem (Any) + 1 Tempered Weapon -> Weapon With Extra Attack Rating					100					3	"weap,tmp"	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
+3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1				0					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
+1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1				100					4	tes	ceh	bet	fed				toa																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon	1	1	2		100					4	"weap,bas,set"	r08	r12	gpg				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor	1	1	2		100					4	"armo,bas,set"	r07	r13	gpw				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1	1	2		100					4	"weap,exc,set"	r17	r21	gpg				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1	1	2		100					4	"armo,exc,set"	r18	r20	gpw				"useitem,mod,eli"				levelreq			7	7																																																																															0
+gcv -> zcv	1				100					1	gcv							zcv																																																																																							
+zcv -> gcv	1				100	18	70	1		1	zcv							gcv																																																																																							
+gfv -> zfv	1				100					1	gfv							zfv																																																																																							
+zfv -> gfv	1				100	18	70	1		1	zfv							gfv																																																																																							
+gsv -> zsv	1				100					1	gsv							zsv																																																																																							
+zsv -> gsv	1				100	18	70	1		1	zsv							gsv																																																																																							
+gzv -> zzv	1				100					1	gzv							zzv																																																																																							
+zzv -> gzv	1				100	18	70	1		1	zzv							gzv																																																																																							
+gpv -> zpv	1				100					1	gpv							zpv																																																																																							
+zpv -> gpv	1				100	18	70	1		1	zpv							gpv																																																																																							
+gcy -> zcy	1				100					1	gcy							zcy																																																																																							
+zcy -> gcy	1				100	18	70	1		1	zcy							gcy																																																																																							
+gfy -> zfy	1				100					1	gfy							zfy																																																																																							
+zfy -> gfy	1				100	18	70	1		1	zfy							gfy																																																																																							
+gsy -> zsy	1				100					1	gsy							zsy																																																																																							
+zsy -> gsy	1				100	18	70	1		1	zsy							gsy																																																																																							
+gly -> zly	1				100					1	gly							zly																																																																																							
+zly -> gly	1				100	18	70	1		1	zly							gly																																																																																							
+gpy -> zpy	1				100					1	gpy							zpy																																																																																							
+zpy -> gpy	1				100	18	70	1		1	zpy							gpy																																																																																							
+gcb -> zcb	1				100					1	gcb							zcb																																																																																							
+zcb -> gcb	1				100	18	70	1		1	zcb							gcb																																																																																							
+gfb -> zfb	1				100					1	gfb							zfb																																																																																							
+zfb -> gfb	1				100	18	70	1		1	zfb							gfb																																																																																							
+gsb -> zsb	1				100					1	gsb							zsb																																																																																							
+zsb -> gsb	1				100	18	70	1		1	zsb							gsb																																																																																							
+glb -> qlb	1				100					1	glb							qlb																																																																																							
+qlb -> glb	1				100	18	70	1		1	qlb							glb																																																																																							
+gpb -> zpb	1				100					1	gpb							zpb																																																																																							
+zpb -> gpb	1				100	18	70	1		1	zpb							gpb																																																																																							
+gcg -> zcg	1				100					1	gcg							zcg																																																																																							
+zcg -> gcg	1				100	18	70	1		1	zcg							gcg																																																																																							
+gfg -> zfg	1				100					1	gfg							zfg																																																																																							
+zfg -> gfg	1				100	18	70	1		1	zfg							gfg																																																																																							
+gsg -> zsg	1				100					1	gsg							zsg																																																																																							
+zsg -> gsg	1				100	18	70	1		1	zsg							gsg																																																																																							
+glg -> zlg	1				100					1	glg							zlg																																																																																							
+zlg -> glg	1				100	18	70	1		1	zlg							glg																																																																																							
+gpg -> zpg	1				100					1	gpg							zpg																																																																																							
+zpg -> gpg	1				100	18	70	1		1	zpg							gpg																																																																																							
+gcr -> zcr	1				100					1	gcr							zcr																																																																																							
+zcr -> gcr	1				100	18	70	1		1	zcr							gcr																																																																																							
+gfr -> zfr	1				100					1	gfr							zfr																																																																																							
+zfr -> gfr	1				100	18	70	1		1	zfr							gfr																																																																																							
+gsr -> zsr	1				100					1	gsr							zsr																																																																																							
+zsr -> gsr	1				100	18	70	1		1	zsr							gsr																																																																																							
+glr -> zlr	1				100					1	glr							zlr																																																																																							
+zlr -> glr	1				100	18	70	1		1	zlr							glr																																																																																							
+gpr -> zpr	1				100					1	gpr							zpr																																																																																							
+zpr -> gpr	1				100	18	70	1		1	zpr							gpr																																																																																							
+gcw -> zcw	1				100					1	gcw							zcw																																																																																							
+zcw -> gcw	1				100	18	70	1		1	zcw							gcw																																																																																							
+gfw -> zfw	1				100					1	gfw							zfw																																																																																							
+zfw -> gfw	1				100	18	70	1		1	zfw							gfw																																																																																							
+gsw -> zsw	1				100					1	gsw							zsw																																																																																							
+zsw -> gsw	1				100	18	70	1		1	zsw							gsw																																																																																							
+glw -> zlw	1				100					1	glw							zlw																																																																																							
+zlw -> glw	1				100	18	70	1		1	zlw							glw																																																																																							
+gpw -> zpw	1				100					1	gpw							zpw																																																																																							
+zpw -> gpw	1				100	18	70	1		1	zpw							gpw																																																																																							
+skc -> zkc	1				100					1	skc							zkc																																																																																							
+zkc -> skc	1				100	18	70	1		1	zkc							skc																																																																																							
+skf -> zkf	1				100					1	skf							zkf																																																																																							
+zkf -> skf	1				100	18	70	1		1	zkf							skf																																																																																							
+sku -> zku	1				100					1	sku							zku																																																																																							
+zku -> sku	1				100	18	70	1		1	zku							sku																																																																																							
+skl -> zkl	1				100					1	skl							zkl																																																																																							
+zkl -> skl	1				100	18	70	1		1	zkl							skl																																																																																							
+skz -> zkz	1				100					1	skz							zkz																																																																																							
+zkz -> skz	1				100	18	70	1		1	zkz							skz																																																																																							
+Stack of 2 -> Stack of 1 and Stack of 1	1				0	18	70	2		1	misc							"usetype,qty=1"																													"usetype,qty=1"																																																										
+Stack of 3 -> Stack of 2 and Stack of 1	1				0	18	70	3		1	misc							"usetype,qty=2"																													"usetype,qty=1"																																																										
+Stack of 4 -> Stack of 3 and Stack of 1	1				0	18	70	4		1	misc							"usetype,qty=3"																													"usetype,qty=1"																																																										
+Stack of 5 -> Stack of 4 and Stack of 1	1				0	18	70	5		1	misc							"usetype,qty=4"																													"usetype,qty=1"																																																										
+Stack of 6 -> Stack of 5 and Stack of 1	1				0	18	70	6		1	misc							"usetype,qty=5"																													"usetype,qty=1"																																																										
+Stack of 7 -> Stack of 6 and Stack of 1	1				0	18	70	7		1	misc							"usetype,qty=6"																													"usetype,qty=1"																																																										
+Stack of 8 -> Stack of 7 and Stack of 1	1				0	18	70	8		1	misc							"usetype,qty=7"																													"usetype,qty=1"																																																										
+Stack of 9 -> Stack of 8 and Stack of 1	1				0	18	70	9		1	misc							"usetype,qty=8"																													"usetype,qty=1"																																																										
+Stack of 10 -> Stack of 9 and Stack of 1	1				0	18	70	10		1	misc							"usetype,qty=9"																													"usetype,qty=1"																																																										
+Stack of 11 -> Stack of 10 and Stack of 1	1				0	18	70	11		1	misc							"usetype,qty=10"																													"usetype,qty=1"																																																										
+Stack of 12 -> Stack of 11 and Stack of 1	1				0	18	70	12		1	misc							"usetype,qty=11"																													"usetype,qty=1"																																																										
+Stack of 13 -> Stack of 12 and Stack of 1	1				0	18	70	13		1	misc							"usetype,qty=12"																													"usetype,qty=1"																																																										
+Stack of 14 -> Stack of 13 and Stack of 1	1				0	18	70	14		1	misc							"usetype,qty=13"																													"usetype,qty=1"																																																										
+Stack of 15 -> Stack of 14 and Stack of 1	1				0	18	70	15		1	misc							"usetype,qty=14"																													"usetype,qty=1"																																																										
+Stack of 16 -> Stack of 15 and Stack of 1	1				0	18	70	16		1	misc							"usetype,qty=15"																													"usetype,qty=1"																																																										
+Stack of 17 -> Stack of 16 and Stack of 1	1				0	18	70	17		1	misc							"usetype,qty=16"																													"usetype,qty=1"																																																										
+Stack of 18 -> Stack of 17 and Stack of 1	1				0	18	70	18		1	misc							"usetype,qty=17"																													"usetype,qty=1"																																																										
+Stack of 19 -> Stack of 18 and Stack of 1	1				0	18	70	19		1	misc							"usetype,qty=18"																													"usetype,qty=1"																																																										
+Stack of 20 -> Stack of 19 and Stack of 1	1				0	18	70	20		1	misc							"usetype,qty=19"																													"usetype,qty=1"																																																										
+Stack of 21 -> Stack of 20 and Stack of 1	1				0	18	70	21		1	misc							"usetype,qty=20"																													"usetype,qty=1"																																																										
+Stack of 22 -> Stack of 21 and Stack of 1	1				0	18	70	22		1	misc							"usetype,qty=21"																													"usetype,qty=1"																																																										
+Stack of 23 -> Stack of 22 and Stack of 1	1				0	18	70	23		1	misc							"usetype,qty=22"																													"usetype,qty=1"																																																										
+Stack of 24 -> Stack of 23 and Stack of 1	1				0	18	70	24		1	misc							"usetype,qty=23"																													"usetype,qty=1"																																																										
+Stack of 25 -> Stack of 24 and Stack of 1	1				0	18	70	25		1	misc							"usetype,qty=24"																													"usetype,qty=1"																																																										
+Stack of 26 -> Stack of 25 and Stack of 1	1				0	18	70	26		1	misc							"usetype,qty=25"																													"usetype,qty=1"																																																										
+Stack of 27 -> Stack of 26 and Stack of 1	1				0	18	70	27		1	misc							"usetype,qty=26"																													"usetype,qty=1"																																																										
+Stack of 28 -> Stack of 27 and Stack of 1	1				0	18	70	28		1	misc							"usetype,qty=27"																													"usetype,qty=1"																																																										
+Stack of 29 -> Stack of 28 and Stack of 1	1				0	18	70	29		1	misc							"usetype,qty=28"																													"usetype,qty=1"																																																										
+Stack of 30 -> Stack of 29 and Stack of 1	1				0	18	70	30		1	misc							"usetype,qty=29"																													"usetype,qty=1"																																																										
+Stack of 31 -> Stack of 30 and Stack of 1	1				0	18	70	31		1	misc							"usetype,qty=30"																													"usetype,qty=1"																																																										
+Stack of 32 -> Stack of 31 and Stack of 1	1				0	18	70	32		1	misc							"usetype,qty=31"																													"usetype,qty=1"																																																										
+Stack of 33 -> Stack of 32 and Stack of 1	1				0	18	70	33		1	misc							"usetype,qty=32"																													"usetype,qty=1"																																																										
+Stack of 34 -> Stack of 33 and Stack of 1	1				0	18	70	34		1	misc							"usetype,qty=33"																													"usetype,qty=1"																																																										
+Stack of 35 -> Stack of 34 and Stack of 1	1				0	18	70	35		1	misc							"usetype,qty=34"																													"usetype,qty=1"																																																										
+Stack of 36 -> Stack of 35 and Stack of 1	1				0	18	70	36		1	misc							"usetype,qty=35"																													"usetype,qty=1"																																																										
+Stack of 37 -> Stack of 36 and Stack of 1	1				0	18	70	37		1	misc							"usetype,qty=36"																													"usetype,qty=1"																																																										
+Stack of 38 -> Stack of 37 and Stack of 1	1				0	18	70	38		1	misc							"usetype,qty=37"																													"usetype,qty=1"																																																										
+Stack of 39 -> Stack of 38 and Stack of 1	1				0	18	70	39		1	misc							"usetype,qty=38"																													"usetype,qty=1"																																																										
+Stack of 40 -> Stack of 39 and Stack of 1	1				0	18	70	40		1	misc							"usetype,qty=39"																													"usetype,qty=1"																																																										
+Stack of 41 -> Stack of 40 and Stack of 1	1				0	18	70	41		1	misc							"usetype,qty=40"																													"usetype,qty=1"																																																										
+Stack of 42 -> Stack of 41 and Stack of 1	1				0	18	70	42		1	misc							"usetype,qty=41"																													"usetype,qty=1"																																																										
+Stack of 43 -> Stack of 42 and Stack of 1	1				0	18	70	43		1	misc							"usetype,qty=42"																													"usetype,qty=1"																																																										
+Stack of 44 -> Stack of 43 and Stack of 1	1				0	18	70	44		1	misc							"usetype,qty=43"																													"usetype,qty=1"																																																										
+Stack of 45 -> Stack of 44 and Stack of 1	1				0	18	70	45		1	misc							"usetype,qty=44"																													"usetype,qty=1"																																																										
+Stack of 46 -> Stack of 45 and Stack of 1	1				0	18	70	46		1	misc							"usetype,qty=45"																													"usetype,qty=1"																																																										
+Stack of 47 -> Stack of 46 and Stack of 1	1				0	18	70	47		1	misc							"usetype,qty=46"																													"usetype,qty=1"																																																										
+Stack of 48 -> Stack of 47 and Stack of 1	1				0	18	70	48		1	misc							"usetype,qty=47"																													"usetype,qty=1"																																																										
+Stack of 49 -> Stack of 48 and Stack of 1	1				0	18	70	49		1	misc							"usetype,qty=48"																													"usetype,qty=1"																																																										
+Stack of 50 -> Stack of 49 and Stack of 1	1				0	18	70	50		1	misc							"usetype,qty=49"																													"usetype,qty=1"																																																										
+Stack of 51 -> Stack of 50 and Stack of 1	1				0	18	70	51		1	misc							"usetype,qty=50"																													"usetype,qty=1"																																																										
+Stack of 52 -> Stack of 51 and Stack of 1	1				0	18	70	52		1	misc							"usetype,qty=51"																													"usetype,qty=1"																																																										
+Stack of 53 -> Stack of 52 and Stack of 1	1				0	18	70	53		1	misc							"usetype,qty=52"																													"usetype,qty=1"																																																										
+Stack of 54 -> Stack of 53 and Stack of 1	1				0	18	70	54		1	misc							"usetype,qty=53"																													"usetype,qty=1"																																																										
+Stack of 55 -> Stack of 54 and Stack of 1	1				0	18	70	55		1	misc							"usetype,qty=54"																													"usetype,qty=1"																																																										
+Stack of 56 -> Stack of 55 and Stack of 1	1				0	18	70	56		1	misc							"usetype,qty=55"																													"usetype,qty=1"																																																										
+Stack of 57 -> Stack of 56 and Stack of 1	1				0	18	70	57		1	misc							"usetype,qty=56"																													"usetype,qty=1"																																																										
+Stack of 58 -> Stack of 57 and Stack of 1	1				0	18	70	58		1	misc							"usetype,qty=57"																													"usetype,qty=1"																																																										
+Stack of 59 -> Stack of 58 and Stack of 1	1				0	18	70	59		1	misc							"usetype,qty=58"																													"usetype,qty=1"																																																										
+Stack of 60 -> Stack of 59 and Stack of 1	1				0	18	70	60		1	misc							"usetype,qty=59"																													"usetype,qty=1"																																																										
+Stack of 61 -> Stack of 60 and Stack of 1	1				0	18	70	61		1	misc							"usetype,qty=60"																													"usetype,qty=1"																																																										
+Stack of 62 -> Stack of 61 and Stack of 1	1				0	18	70	62		1	misc							"usetype,qty=61"																													"usetype,qty=1"																																																										
+Stack of 63 -> Stack of 62 and Stack of 1	1				0	18	70	63		1	misc							"usetype,qty=62"																													"usetype,qty=1"																																																										
+Stack of 64 -> Stack of 63 and Stack of 1	1				0	18	70	64		1	misc							"usetype,qty=63"																													"usetype,qty=1"																																																										
+Stack of 65 -> Stack of 64 and Stack of 1	1				0	18	70	65		1	misc							"usetype,qty=64"																													"usetype,qty=1"																																																										
+Stack of 66 -> Stack of 65 and Stack of 1	1				0	18	70	66		1	misc							"usetype,qty=65"																													"usetype,qty=1"																																																										
+Stack of 67 -> Stack of 66 and Stack of 1	1				0	18	70	67		1	misc							"usetype,qty=66"																													"usetype,qty=1"																																																										
+Stack of 68 -> Stack of 67 and Stack of 1	1				0	18	70	68		1	misc							"usetype,qty=67"																													"usetype,qty=1"																																																										
+Stack of 69 -> Stack of 68 and Stack of 1	1				0	18	70	69		1	misc							"usetype,qty=68"																													"usetype,qty=1"																																																										
+Stack of 70 -> Stack of 69 and Stack of 1	1				0	18	70	70		1	misc							"usetype,qty=69"																													"usetype,qty=1"																																																										
+Stack of 71 -> Stack of 70 and Stack of 1	1				0	18	70	71		1	misc							"usetype,qty=70"																													"usetype,qty=1"																																																										
+Stack of 72 -> Stack of 71 and Stack of 1	1				0	18	70	72		1	misc							"usetype,qty=71"																													"usetype,qty=1"																																																										
+Stack of 73 -> Stack of 72 and Stack of 1	1				0	18	70	73		1	misc							"usetype,qty=72"																													"usetype,qty=1"																																																										
+Stack of 74 -> Stack of 73 and Stack of 1	1				0	18	70	74		1	misc							"usetype,qty=73"																													"usetype,qty=1"																																																										
+Stack of 75 -> Stack of 74 and Stack of 1	1				0	18	70	75		1	misc							"usetype,qty=74"																													"usetype,qty=1"																																																										
+Stack of 76 -> Stack of 75 and Stack of 1	1				0	18	70	76		1	misc							"usetype,qty=75"																													"usetype,qty=1"																																																										
+Stack of 77 -> Stack of 76 and Stack of 1	1				0	18	70	77		1	misc							"usetype,qty=76"																													"usetype,qty=1"																																																										
+Stack of 78 -> Stack of 77 and Stack of 1	1				0	18	70	78		1	misc							"usetype,qty=77"																													"usetype,qty=1"																																																										
+Stack of 79 -> Stack of 78 and Stack of 1	1				0	18	70	79		1	misc							"usetype,qty=78"																													"usetype,qty=1"																																																										
+Stack of 80 -> Stack of 79 and Stack of 1	1				0	18	70	80		1	misc							"usetype,qty=79"																													"usetype,qty=1"																																																										
+Stack of 81 -> Stack of 80 and Stack of 1	1				0	18	70	81		1	misc							"usetype,qty=80"																													"usetype,qty=1"																																																										
+Stack of 82 -> Stack of 81 and Stack of 1	1				0	18	70	82		1	misc							"usetype,qty=81"																													"usetype,qty=1"																																																										
+Stack of 83 -> Stack of 82 and Stack of 1	1				0	18	70	83		1	misc							"usetype,qty=82"																													"usetype,qty=1"																																																										
+Stack of 84 -> Stack of 83 and Stack of 1	1				0	18	70	84		1	misc							"usetype,qty=83"																													"usetype,qty=1"																																																										
+Stack of 85 -> Stack of 84 and Stack of 1	1				0	18	70	85		1	misc							"usetype,qty=84"																													"usetype,qty=1"																																																										
+Stack of 86 -> Stack of 85 and Stack of 1	1				0	18	70	86		1	misc							"usetype,qty=85"																													"usetype,qty=1"																																																										
+Stack of 87 -> Stack of 86 and Stack of 1	1				0	18	70	87		1	misc							"usetype,qty=86"																													"usetype,qty=1"																																																										
+Stack of 88 -> Stack of 87 and Stack of 1	1				0	18	70	88		1	misc							"usetype,qty=87"																													"usetype,qty=1"																																																										
+Stack of 89 -> Stack of 88 and Stack of 1	1				0	18	70	89		1	misc							"usetype,qty=88"																													"usetype,qty=1"																																																										
+Stack of 90 -> Stack of 89 and Stack of 1	1				0	18	70	90		1	misc							"usetype,qty=89"																													"usetype,qty=1"																																																										
+Stack of 91 -> Stack of 90 and Stack of 1	1				0	18	70	91		1	misc							"usetype,qty=90"																													"usetype,qty=1"																																																										
+Stack of 92 -> Stack of 91 and Stack of 1	1				0	18	70	92		1	misc							"usetype,qty=91"																													"usetype,qty=1"																																																										
+Stack of 93 -> Stack of 92 and Stack of 1	1				0	18	70	93		1	misc							"usetype,qty=92"																													"usetype,qty=1"																																																										
+Stack of 94 -> Stack of 93 and Stack of 1	1				0	18	70	94		1	misc							"usetype,qty=93"																													"usetype,qty=1"																																																										
+Stack of 95 -> Stack of 94 and Stack of 1	1				0	18	70	95		1	misc							"usetype,qty=94"																													"usetype,qty=1"																																																										
+Stack of 96 -> Stack of 95 and Stack of 1	1				0	18	70	96		1	misc							"usetype,qty=95"																													"usetype,qty=1"																																																										
+Stack of 97 -> Stack of 96 and Stack of 1	1				0	18	70	97		1	misc							"usetype,qty=96"																													"usetype,qty=1"																																																										
+Stack of 98 -> Stack of 97 and Stack of 1	1				0	18	70	98		1	misc							"usetype,qty=97"																													"usetype,qty=1"																																																										
+Stack of 99 -> Stack of 98 and Stack of 1	1				0	18	70	99		1	misc							"usetype,qty=98"																													"usetype,qty=1"																																																										
+Stack of 100 -> Stack of 99 and Stack of 1	1				0	18	70	100		1	misc							"usetype,qty=99"																													"usetype,qty=1"																																																										
+r01 -> s01	1				100					1	r01							s01																																																																																							
+s01 -> r01	1				100	18	70	1		1	s01							r01																																																																																							
+r02 -> s02	1				100					1	r02							s02																																																																																							
+s02 -> r02	1				100	18	70	1		1	s02							r02																																																																																							
+r03 -> s03	1				100					1	r03							s03																																																																																							
+s03 -> r03	1				100	18	70	1		1	s03							r03																																																																																							
+r04 -> s04	1				100					1	r04							s04																																																																																							
+s04 -> r04	1				100	18	70	1		1	s04							r04																																																																																							
+r05 -> s05	1				100					1	r05							s05																																																																																							
+s05 -> r05	1				100	18	70	1		1	s05							r05																																																																																							
+r06 -> s06	1				100					1	r06							s06																																																																																							
+s06 -> r06	1				100	18	70	1		1	s06							r06																																																																																							
+r07 -> s07	1				100					1	r07							s07																																																																																							
+s07 -> r07	1				100	18	70	1		1	s07							r07																																																																																							
+r08 -> s08	1				100					1	r08							s08																																																																																							
+s08 -> r08	1				100	18	70	1		1	s08							r08																																																																																							
+r09 -> s09	1				100					1	r09							s09																																																																																							
+s09 -> r09	1				100	18	70	1		1	s09							r09																																																																																							
+r10 -> s10	1				100					1	r10							s10																																																																																							
+s10 -> r10	1				100	18	70	1		1	s10							r10																																																																																							
+r11 -> s11	1				100					1	r11							s11																																																																																							
+s11 -> r11	1				100	18	70	1		1	s11							r11																																																																																							
+r12 -> s12	1				100					1	r12							s12																																																																																							
+s12 -> r12	1				100	18	70	1		1	s12							r12																																																																																							
+r13 -> s13	1				100					1	r13							s13																																																																																							
+s13 -> r13	1				100	18	70	1		1	s13							r13																																																																																							
+r14 -> s14	1				100					1	r14							s14																																																																																							
+s14 -> r14	1				100	18	70	1		1	s14							r14																																																																																							
+r15 -> s15	1				100					1	r15							s15																																																																																							
+s15 -> r15	1				100	18	70	1		1	s15							r15																																																																																							
+r16 -> s16	1				100					1	r16							s16																																																																																							
+s16 -> r16	1				100	18	70	1		1	s16							r16																																																																																							
+r17 -> s17	1				100					1	r17							s17																																																																																							
+s17 -> r17	1				100	18	70	1		1	s17							r17																																																																																							
+r18 -> s18	1				100					1	r18							s18																																																																																							
+s18 -> r18	1				100	18	70	1		1	s18							r18																																																																																							
+r19 -> s19	1				100					1	r19							s19																																																																																							
+s19 -> r19	1				100	18	70	1		1	s19							r19																																																																																							
+r20 -> s20	1				100					1	r20							s20																																																																																							
+s20 -> r20	1				100	18	70	1		1	s20							r20																																																																																							
+r21 -> s21	1				100					1	r21							s21																																																																																							
+s21 -> r21	1				100	18	70	1		1	s21							r21																																																																																							
+r22 -> s22	1				100					1	r22							s22																																																																																							
+s22 -> r22	1				100	18	70	1		1	s22							r22																																																																																							
+r23 -> s23	1				100					1	r23							s23																																																																																							
+s23 -> r23	1				100	18	70	1		1	s23							r23																																																																																							
+r24 -> s24	1				100					1	r24							s24																																																																																							
+s24 -> r24	1				100	18	70	1		1	s24							r24																																																																																							
+r25 -> s25	1				100					1	r25							s25																																																																																							
+s25 -> r25	1				100	18	70	1		1	s25							r25																																																																																							
+r26 -> s26	1				100					1	r26							s26																																																																																							
+s26 -> r26	1				100	18	70	1		1	s26							r26																																																																																							
+r27 -> s27	1				100					1	r27							s27																																																																																							
+s27 -> r27	1				100	18	70	1		1	s27							r27																																																																																							
+r28 -> s28	1				100					1	r28							s28																																																																																							
+s28 -> r28	1				100	18	70	1		1	s28							r28																																																																																							
+r29 -> s29	1				100					1	r29							s29																																																																																							
+s29 -> r29	1				100	18	70	1		1	s29							r29																																																																																							
+r30 -> s30	1				100					1	r30							s30																																																																																							
+s30 -> r30	1				100	18	70	1		1	s30							r30																																																																																							
+r31 -> s31	1				100					1	r31							s31																																																																																							
+s31 -> r31	1				100	18	70	1		1	s31							r31																																																																																							
+r32 -> s32	1				100					1	r32							s32																																																																																							
+s32 -> r32	1				100	18	70	1		1	s32							r32																																																																																							
+r33 -> s33	1				100					1	r33							s33																																																																																							
+s33 -> r33	1				100	18	70	1		1	s33							r33																																																																																							
+Rune 2 -> Rune 1	1				100					2	r02	isc						r01																																																																																							
+Rune 3 -> Rune 2	1				100					2	r03	isc						r02																																																																																							
+Rune 4 -> Rune 3	1				100					2	r04	isc						r03																																																																																							
+Rune 5 -> Rune 4	1				100					2	r05	isc						r04																																																																																							
+Rune 6 -> Rune 5	1				100					2	r06	isc						r05																																																																																							
+Rune 7 -> Rune 6	1				100					2	r07	isc						r06																																																																																							
+Rune 8 -> Rune 7	1				100					2	r08	isc						r07																																																																																							
+Rune 9 -> Rune 8	1				100					2	r09	isc						r08																																																																																							
+Rune 10 -> Rune 9	1				100					2	r10	isc						r09																																																																																							
+Rune 11 -> Rune 10	1				100					2	r11	isc						r10																																																																																							
+Rune 12 -> Rune 11	1				100					2	r12	isc						r11																																																																																							
+Rune 13 -> Rune 12	1				100					2	r13	isc						r12																																																																																							
+Rune 14 -> Rune 13	1				100					2	r14	isc						r13																																																																																							
+Rune 15 -> Rune 14	1				100					2	r15	isc						r14																																																																																							
+Rune 16 -> Rune 15	1				100					2	r16	isc						r15																																																																																							
+Rune 17 -> Rune 16	1				100					2	r17	isc						r16																																																																																							
+Rune 18 -> Rune 17	1				100					2	r18	isc						r17																																																																																							
+Rune 19 -> Rune 18	1				100					2	r19	isc						r18																																																																																							
+Rune 20 -> Rune 19	1				100					2	r20	isc						r19																																																																																							
+Rune 21 -> Rune 20	1				100					2	r21	isc						r20																																																																																							
+Rune 22 -> Rune 21	1				100					2	r22	isc						r21																																																																																							
+Rune 23 -> Rune 22	1				100					2	r23	isc						r22																																																																																							
+Rune 24 -> Rune 23	1				100					2	r24	isc						r23																																																																																							
+Rune 25 -> Rune 24	1				100					2	r25	isc						r24																																																																																							
+Rune 26 -> Rune 25	1				100					2	r26	isc						r25																																																																																							
+Rune 27 -> Rune 26	1				100					2	r27	isc						r26																																																																																							
+Rune 28 -> Rune 27	1				100					2	r28	isc						r27																																																																																							
+Rune 29 -> Rune 28	1				100					2	r29	isc						r28																																																																																							
+Rune 30 -> Rune 29	1				100					2	r30	isc						r29																																																																																							
+Rune 31 -> Rune 30	1				100					2	r31	isc						r30																																																																																							
+Rune 32 -> Rune 31	1				100					2	r32	isc						r31																																																																																							
+Rune 33 -> Rune 32	1				100					2	r33	isc						r32																																																																																							
