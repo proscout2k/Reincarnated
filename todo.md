@@ -5,7 +5,7 @@
     - Arrows i Belts są nieskończone
     - Każdy movement skill może być użyty w mieście
     - Loot Filter:
-        + Skrócone nazwy
+        + Skrócone nazwy i ikonki
         + Particlesy run
         + Item Level
     
