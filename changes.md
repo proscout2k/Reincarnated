@@ -38,3 +38,6 @@
     - Poprawiono drop hrabiny
     - Downgrade run np. 1 Ber + ID Scroll -> 1 Sur
     - Dodano możliwość ubrania merca w cały ekwipunek
+    - Dodanie movement speed penalty dla rekawic, butów itd.
+    - Density na mapach pomnożone o 2.5x   
+    - Wymagania levelowe skilli pomnożone o 1.5x
