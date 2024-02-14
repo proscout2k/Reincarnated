@@ -4,15 +4,15 @@ None	none			0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0								0
 Shield	shie	shld		1	1	rarm	larm			0	0	0	0		1	0	0	3	25	3	40	4	0	3			0							armo	0
 Armor	tors	armo		1	1	tors	tors			0	0	0	0		1	0	0	3	25	4	40	6	0	3			0							armo	0
 Gold	gold	misc		0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0								0
-Bow Quiver	bowq	misl	seco	0	1	rarm	larm		bow	0	1	0	1			1	0	0	25	0	40	0	0	3			0							misc	0
-Crossbow Quiver	xboq	misl	seco	0	1	rarm	larm		xbow	0	1	0	1			1	0	0	25	0	40	0	0	3			0							misc	0
+Bow Quiver	bowq	misl	seco	0	1	rarm	larm		bow	0	1	0	1		1	0	0	0	25	0	40	0	0	3			0							misc	0
+Crossbow Quiver	xboq	misl	seco	0	1	rarm	larm		xbow	0	1	0	1		1	0	0	0	25	0	40	0	0	3			0							misc	0
 Player Body Part	play	misc		0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0
 Herb	herb	misc		0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0							misc	0
 Potion	poti	misc		0	0					0	0	0	0			1	1	0	25	0	40	0	0	3			0							misc	0
 Ring	ring	misc	merc	0	1	rrin	lrin			0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			5	invrin1	invrin2	invrin3	invrin4	invrin5		misc	0
 Elixir	elix	misc		0	0					0	0	0	0			0	1	0	25	0	40	0	0	3			0							misc	0
 Amulet	amul	misc	merc	0	1	neck	neck			0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			3	invamu1	invamu2	invamu3				misc	0
-Charm	char	misc		0	0					0	0	0	0	1		0	0	0	25	0	40	0	0	3			3	invch1	invch4	invch7				misc	0
+Charm	char	misc		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			3	invch1	invch4	invch7				misc	0
 Not Used				0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0								0
 Boots	boot	armo	merc	1	1	feet	feet			0	0	0	0		1	0	0	0	25	0	40	0	0	3			0							armo	0
 Gloves	glov	armo	merc	1	1	glov	glov			0	0	0	0		1	0	0	0	25	0	40	0	0	3			0							armo	0
@@ -55,7 +55,7 @@ Miscellaneous	misc			0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Socket Filler	sock	misc		0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0								0
 Second Hand	seco			0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Staves And Rods	rod	blun		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
-Missile	misl	misc		0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0								0
+Missile	misl	misc		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			0								0
 Blunt	blun	mele		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Expansion																																			0
 Jewel	jewl	sock		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			6	invjw1	invjw2	invjw3	invjw4	invjw5	invjw6	misc	0
@@ -82,9 +82,9 @@ Rejuv Potion	rpot	hpot	mpot	0	0					0	0	0	0			1	1	0	25	0	40	0	0	3			0							misc
 Stamina Potion	spot	poti		0	0					0	0	0	0			1	1	0	25	0	40	0	0	3			0							misc	0
 Antidote Potion	apot	poti		0	0					0	0	0	0			1	1	0	25	0	40	0	0	3			0							misc	0
 Thawing Potion	wpot	poti		0	0					0	0	0	0			1	1	0	25	0	40	0	0	3			0							misc	0
-Small Charm	scha	char		0	0					0	0	0	0	1		0	0	0	25	0	40	0	0	3			3	invch1	invch4	invch7				misc	0
-Medium Charm	mcha	char		0	0					0	0	0	0	1		0	0	0	25	0	40	0	0	3			3	invch2	invch5	invch8				misc	0
-Large Charm	lcha	char		0	0					0	0	0	0	1		0	0	0	25	0	40	0	0	3			3	invch3	invch6	invch9				misc	0
+Small Charm	scha	char		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			3	invch1	invch4	invch7				misc	0
+Medium Charm	mcha	char		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			3	invch2	invch5	invch8				misc	0
+Large Charm	lcha	char		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			3	invch3	invch6	invch9				misc	0
 Amazon Bow	abow	bow	amaz	0	1	rarm	larm	bowq		0	0	0	0		1	0	0	3	25	4	40	5	1	1		ama	0							weap	0
 Amazon Spear	aspe	spea	amaz	1	1	rarm	larm			0	0	0	0		1	0	0	3	25	4	40	6	0	1		ama	0							weap	0
 Amazon Javelin	ajav	jave	amaz	1	1	rarm	larm			1	1	1	1		1	0	0	0	25	0	40	0	0	1		ama	0							misc	0

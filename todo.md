@@ -1,38 +1,34 @@
 # Do zrobienia
 
 1. Zmiany QoL:
-    - Postać zaczyna z stackami TP, ID i kluczy
-    - Arrows i Belts są nieskończone
-    - Każdy movement skill może być użyty w mieście
-    - Loot Filter:
-        + Skrócone nazwy i ikonki
-        + Particlesy run
-        + Item Level
     
+    - Loot Filter:
+        + Particlesy run
+        + Lightpillar zależny od itemu
+
+    - Nowe waypointy
+
+    - Cube Recipes, Runewords i mod info w panelu    
+
     - Stackowanie innych przedmiotow jak:
         + Uber Klucze
     
-    - Unikaty dropią więcej niż raz w jednej grze
     - Zwiększony stacksize do 100
-    - Lightpillar zależny od itemu:
-    - Cube Recipes, Runewords i mod info w panelu
+    
     - Podnosic wiecej niż 1 unikatowy talizman:
         + np. Esencja Piekelnego Ognia + Duży Talizman = Hellfire Torch
         + np. Diablo Clone 
 
-    - Nowe waypointy
     - Używanie niektórych skilli podczas przemiany
     - Poprawa tekstur miksturek
     - Optymalizacja aktów:
         + Akt 1 - TP koło skrzynki
         + Akt 2:
             - Gniazdo tylko poziom 3
-
         + Akt 4 - Skrzynka i Cain koło waypointu
 
 2. Zmiany w rozgrywce:
-    - Postacie zaczynają bez żadnych broni
-    - Rare Arrows, Belts i Charms
+
     - Kapliczki i Klątwy teraz się stackują i nie podmieniają sobie bonusów
     - Sockety we wszystkich itemach, plus podbicie socketó np. Zbroja może mieć 6 socketów itd. (Utrudnienie)
     - Rejuvy u vendorów
@@ -40,7 +36,7 @@
         + Antidotum
         + Gas i Explode Potion itd.
 
-    - Splash Damage
+
     - Dodanie movement speed penalty dla rekawic, butów itd.
     - Wymagania levelowe skilli pomnożone o 1.5x
     - Ladder runewordy odblokowane
@@ -51,6 +47,8 @@
 3. Zmiany w postaciach, skille, synergie:
 
     - Amazonka
+        + Elemental & Magic Arrows:
+            - Co (x) lvl otrzymuje dodatkową strzałę. 
 
     - Zabójczyni
 

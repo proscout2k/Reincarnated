@@ -360,3 +360,6 @@ passive_mag_mastery	357		1	12											1211	431		8	0	9	50																						
 passive_mag_pierce	358		1	9												2812		8	0	8	0																														0
 skill_cooldown	359																																																		0
 skill_missile_damage_scale	360			32	16																																														0
+item_meleeareadamage	361		1	7	16						1				190	256		21	0	7	0	16										1	domeleedamage	20			200	19		MeleeAreaDamage	MeleeAreaDamage										0
+melee_maxdamage_percent	362		1	22											45	20		18	512	18	512			11			maxdamage	maxdamage				1					129	19		MeleeMaxDamagePercent	MeleeMaxDamagePercent										0
+melee_mindamage_percent	363		1	22											45	20		18	512	18	512			11			mindamage	mindamage				1					130	19		MeleeMinDamagePercent	MeleeMinDamagePercent										0

@@ -120,7 +120,7 @@ reanimate	1	24	item_reanimate																											Reanimate As: [Returned]
 pierce	1	1	item_pierce																											Piercing Attack		Min %	Max %		0
 magicarrow	1	1	item_magicarrow																											Fires Magic Arrows		Min #	Max #		0
 explosivearrow	1	1	item_explosivearrow																											Fires Explosive Arrows or Bolts		Min #	Max #		0
-Expansion																																			
+Expansion																																			0
 dru	1	21	item_addclassskills		5																									+# to Druid Skill Levels		Min #	Max #		0
 ass	1	21	item_addclassskills		6																									+# to Assassin Skill Levels		Min #	Max #		0
 skill	1	22	item_singleskill																											+# to [Skill] ([Class] only)	Skill	Min #	Max #		0
@@ -276,3 +276,6 @@ pierce-immunity-poison	1	1	item_pierce_poison_immunity																										
 pierce-immunity-damage	1	1	item_pierce_damage_immunity																											Monster Physical Immunity is Sundered		Min %	Max %		0
 pierce-immunity-magic	1	1	item_pierce_magic_immunity																											Monster Magic Immunity is Sundered		Min %	Max %		0
 charge-noconsume	1	1	item_charge_noconsume																											+#% chance for finishing moves to not consume charges		Min %	Max %		0
+dmg-meleearea	1	11	item_meleeareadamage																											#% Chance of Melee Area Damage	Skill	% Chance (If 0, then default to 5)	Skill Level		0
+dmg%-melee-min	1	15	melee_mindamage_percent																											+#% Enhanced Minimum Melee Damage		Min %	Max %		0
+dmg%-melee-max	1	16	melee_maxdamage_percent																											+#% Enhanced Maximum Melee Damage		Min %	Max %		0
