@@ -41,3 +41,28 @@
     - Dodanie movement speed penalty dla rekawic, butów itd.
     - Density na mapach pomnożone o 2.5x   
     - Wymagania levelowe skilli pomnożone o 1.5x
+    - Maksymalna cena sprzedaży itemu to 50000
+    - Zmniejszony koszt naprawy itemów
+    - Ladder runewordy odblokowane
+
+
+3. Zmiany w postaciach, skille, synergie:
+
+    - Amazonka
+
+    - Zabójczyni
+
+    - Nekromanta
+
+    - Barbarzyńca
+
+    - Paladyn
+        + Aury:
+            Range pomnożony o 3x (Damage Aura range tylko o 1.5x)
+
+        + Holy Bolt:
+            - Działa na wszystkich
+
+    - Czarodziejka
+
+    - Druid

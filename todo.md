@@ -35,14 +35,6 @@
     - Usunięcie większosci zbędnych itemów i dodanie ich do akary:
         + Antidotum
         + Gas i Explode Potion itd.
-
-
-    - Dodanie movement speed penalty dla rekawic, butów itd.
-    - Wymagania levelowe skilli pomnożone o 1.5x
-    - Ladder runewordy odblokowane
-    - Density na mapach pomnożone o 2.5x
-    - Maksymalna cena sprzedaży itemu to 50000
-    - Zmniejszony koszt naprawy itemów
     
 3. Zmiany w postaciach, skille, synergie:
 
