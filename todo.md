@@ -13,8 +13,6 @@
     - Stackowanie innych przedmiotow jak:
         + Uber Klucze
     
-    - Zwiększony stacksize do 100
-    
     - Podnosic wiecej niż 1 unikatowy talizman:
         + np. Esencja Piekelnego Ognia + Duży Talizman = Hellfire Torch
         + np. Diablo Clone 

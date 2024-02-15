@@ -3,7 +3,7 @@
 1. Zmiany QoL:
     - Każdy movement skill może być użyty w mieście
     - Unikaty dropią więcej niż raz w jednej grze
-
+    - Zwiększony stacksize do 100
     - Arrows i Belts są nieskończone
     - Postać zaczyna z stackami TP, ID i kluczy
     - Zwiększony Ekwipunek, Skrzynka i Kostka
@@ -21,8 +21,6 @@
         + Item Level
 
     - Zmiany graficzne:
-        + Diablood dla bardziej krwawych efektów
-        + Enhanced effects and sounds dla lepszych efektów podczas atakowania
         + Wyświetlanie
             - Ładunki Assassinki
         + Lekko Zmienione i Poprawione GUI
