@@ -776,13 +776,13 @@ Summoner (N)			5	900	900	972	1024	19	"gld,mul=1536"	9	Act 2 (N) Equip C	15	Act 3
 Summoner (N) Desecrated A	24	55	5	900	900	972	1024	19	"gld,mul=1536"	9	Act 4 (N) Equip A	15	Act 5 (N) Junk	5	Act 4 (N) Good	3	Act 5 (N) Magic A	4																	0
 Summoner (N) Desecrated B	24	63	5	900	900	972	1024	19	"gld,mul=1536"	9	Act 5 (N) Equip A	15	Act 1 (H) Junk	5	Act 5 (N) Good	3	Act 1 (H) Magic A	4																	0
 Summoner (N) Desecrated C	24	73	5	900	900	972	1024	19	"gld,mul=1536"	9	Act 3 (H) Equip A	15	Act 3 (H) Junk	5	Act 3 (H) Good	3	Act 3 (H) Magic A	4																	0
-Summoner (H)			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 2 (H) Equip C	15	Act 3 (H) Junk	5	Act 2 (H) Good	3	Act 3 (H) Magic A	4	pk2	1															0
-Summoner Item (H) Desecrated A			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 5 (H) Junk	5	Act 4 (H) Good	3	Act 5 (H) Magic A	4	pk2	1															0
-Summoner Item (H) Desecrated B			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip B	15	Act 5 (H) Junk	5	Act 4 (H) Good	3	Act 5 (H) Magic B	4	pk2	1															0
-Summoner Item (H) Desecrated C			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip C	15	Act 5 (H) Junk	5	Act 4 (H) Good	3	Act 5 (H) Magic A	4	pk2	1															0
-Summoner Item (H) Desecrated D			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip A	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4	pk2	1															0
-Summoner Item (H) Desecrated E			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip B	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4	pk2	1															0
-Summoner Item (H) Desecrated F			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip C	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4	pk2	1															0
+Summoner (H)			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 2 (H) Equip C	15	Act 3 (H) Junk	5	Act 2 (H) Good	3	Act 3 (H) Magic A	4	sk2	1															0
+Summoner Item (H) Desecrated A			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 5 (H) Junk	5	Act 4 (H) Good	3	Act 5 (H) Magic A	4	sk2	1															0
+Summoner Item (H) Desecrated B			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip B	15	Act 5 (H) Junk	5	Act 4 (H) Good	3	Act 5 (H) Magic B	4	sk2	1															0
+Summoner Item (H) Desecrated C			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip C	15	Act 5 (H) Junk	5	Act 4 (H) Good	3	Act 5 (H) Magic A	4	sk2	1															0
+Summoner Item (H) Desecrated D			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip A	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4	sk2	1															0
+Summoner Item (H) Desecrated E			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip B	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4	sk2	1															0
+Summoner Item (H) Desecrated F			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip C	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4	sk2	1															0
 Summoner (H) Desecrated A	24	80	-2					0	Sunder Charms	1	Summoner Item (H) Desecrated A	1																							0
 Summoner (H) Desecrated B	24	84	-2					0	Sunder Charms	1	Summoner Item (H) Desecrated B	1																							0
 Summoner (H) Desecrated C	24	87	-2					0	Sunder Charms	1	Summoner Item (H) Desecrated C	1																							0
@@ -846,8 +846,8 @@ Nihlathak			5	900	900	900	1024	19	"gld,mul=1280"	14	Act 5 Equip B	19	Act 5 Junk	
 Nihlathak Desecrated	28	68	5	900	900	900	1024	19	"gld,mul=1280"	14	Act 3 (N) Equip A	19	Act 3 (N) Junk	5	Act 3 (N) Good	3																			0
 Nihlathak (N)			5	900	900	900	1024	19	"gld,mul=1536"	14	Act 5 (N) Equip B	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																			0
 Nihlathak (N) Desecrated	28	73	5	900	900	900	1024	19	"gld,mul=1280"	14	Act 3 (H) Equip A	19	Act 3 (H) Junk	5	Act 3 (H) Good	3																			0
-Nihlathak (H)			5	900	900	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip B	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	pk3	1																	0
-Nihlathak Item (H) Desecrated			5	900	900	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	pk3	1																	0
+Nihlathak (H)			5	900	900	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip B	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	sk3	1																	0
+Nihlathak Item (H) Desecrated			5	900	900	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	sk3	1																	0
 Nihlathak (H) Desecrated	28	95	-2						Sunder Charms	1	Nihlathak Item (H) Desecrated	1																							0
 Baal			7	983	983	983	1024	15	"gld,mul=1280"	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																			0
 Baal Desecrated	29	60	7	983	983	983	1024	15	"gld,mul=1280"	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																			0
@@ -1051,13 +1051,13 @@ Countess Item (N)			5					19	"gld,mul=1536"	11	Act 1 (N) Equip C	19	Act 2 (N) Ju
 Countess Item (N) Desecrated A			5					19	"gld,mul=1536"	11	Act 2 (N) Equip B	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																			0
 Countess Item (N) Desecrated B			5					19	"gld,mul=1536"	11	Act 4 (N) Equip B	19	Act 5 (N) Junk	15	Act 5 (N) Good	3																			0
 Countess Item (N) Desecrated C			5					19	"gld,mul=1536"	11	Act 3 (H) Equip A	19	Act 4 (H) Junk	15	Act 4 (H) Good	3																			0
-Countess Item (H)			5					19	"gld,mul=2048"	11	Act 1 (H) Equip C	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	pk1	1																	0
-Countess Item (H) Desecrated A			5					19	"gld,mul=2048"	11	Act 4 (H) Equip A	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	pk1	1																	0
-Countess Item (H) Desecrated B			5					19	"gld,mul=2048"	11	Act 4 (H) Equip B	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	pk1	1																	0
-Countess Item (H) Desecrated C			5					19	"gld,mul=2048"	11	Act 4 (H) Equip C	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	pk1	1																	0
-Countess Item (H) Desecrated D			5					19	"gld,mul=2048"	11	Act 5 (H) Equip A	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	pk1	1																	0
-Countess Item (H) Desecrated E			5					19	"gld,mul=2048"	11	Act 5 (H) Equip B	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	pk1	1																	0
-Countess Item (H) Desecrated F			5					19	"gld,mul=2048"	11	Act 5 (H) Equip C	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	pk1	1																	0
+Countess Item (H)			5					19	"gld,mul=2048"	11	Act 1 (H) Equip C	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	sk1	1																	0
+Countess Item (H) Desecrated A			5					19	"gld,mul=2048"	11	Act 4 (H) Equip A	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	sk1	1																	0
+Countess Item (H) Desecrated B			5					19	"gld,mul=2048"	11	Act 4 (H) Equip B	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	sk1	1																	0
+Countess Item (H) Desecrated C			5					19	"gld,mul=2048"	11	Act 4 (H) Equip C	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	sk1	1																	0
+Countess Item (H) Desecrated D			5					19	"gld,mul=2048"	11	Act 5 (H) Equip A	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	sk1	1																	0
+Countess Item (H) Desecrated E			5					19	"gld,mul=2048"	11	Act 5 (H) Equip B	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	sk1	1																	0
+Countess Item (H) Desecrated F			5					19	"gld,mul=2048"	11	Act 5 (H) Equip C	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	sk1	1																	0
 Countess			-2	883	883	883	1024	0	Countess Rune	1	Countess Item	1																							0
 Countess Desecrated A	35	11	-2	883	883	883	1024	0	Countess Item Desecrated A	1	Countess Rune	1																							0
 Countess Desecrated B	35	34	-2	883	883	883	1024	0	Countess Item Desecrated B	1	Countess Rune	1																							0
@@ -1076,9 +1076,9 @@ Countess (H) Desecrated F	35	96	-3	883	883	983	1024	0	Sunder Charms	1	Countess I
 Uber Andariel			1	1024				0	dhn	1																									0
 Uber Duriel			1	1024				0	bey	1																									0
 Uber Izual			1	1024				0	mbr	1																									0
-Pandemonium Key A			1	1024				0	pk1	1																									0
-Pandemonium Key B			1	1024				0	pk2	1																									0
-Pandemonium Key C			1	1024				0	pk3	1																									0
+Pandemonium Key A			1	1024				0	sk1	1																									0
+Pandemonium Key B			1	1024				0	sk2	1																									0
+Pandemonium Key C			1	1024				0	sk3	1																									0
 Act 1 (H) Champ A Desecrated	36	63	-2					0	Sunder Charms	1	Act 1 (H) Champ A	1																							0
 Act 1 (H) Champ B Desecrated	36	66	-2					0	Sunder Charms	1	Act 1 (H) Champ B	1																							0
 Act 1 (H) Champ C Desecrated	36	68	-2					0	Sunder Charms	1	Act 1 (H) Champ C	1																							0
