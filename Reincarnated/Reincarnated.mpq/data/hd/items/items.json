@@ -3641,17 +3641,17 @@
     },
     {
         "sk1": {
-            "asset": "key/mephisto_key_stack"
+            "asset": "key/terror_key_stack"
         }
     },
     {
         "sk2": {
-            "asset": "key/mephisto_key_stack"
+            "asset": "key/hate_key_stack"
         }
     },
     {
         "sk3": {
-            "asset": "key/mephisto_key_stack"
+            "asset": "key/destruction_key_stack"
         }
     }
 ]
