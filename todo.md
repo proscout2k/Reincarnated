@@ -15,11 +15,12 @@
     - Cube Recipes, Runewords i mod info w panelu    
 
     - Stackowanie innych przedmiotow jak:
-        + Uber Klucze
     
+    - UI
+        + usunąc przycisk Online
+
     - Podnosic wiecej niż 1 unikatowy talizman:
-        + np. Esencja Piekelnego Ognia + Duży Talizman = Hellfire Torch
-        + np. Diablo Clone 
+        + naprawic ze dropia rozne talizmany, czyli zrobic nowy charm np. cm5 itd,
 
     - Używanie niektórych skilli podczas przemiany
     - Poprawa tekstur miksturek
@@ -37,6 +38,14 @@
     - Usunięcie większosci zbędnych itemów i dodanie ich do akary:
         + Antidotum
         + Gas i Explode Potion itd.
+    - Crafted Charms & Jewels
+    - Odzyskanie wszystkich superunikatów
+        + https://www.nexusmods.com/diablo2resurrected/mods/289?tab=description
+    - Redukcja dropu rare charmów
+    - Podzielić drop goblina [orby,itemy,gemy,itd.]
+    - rozdzielenie amuletów, ringów i Jewelów [np. sapphire Jewel, Prismatic amulet] (zobaczymy)
+
+    
     
 3. Zmiany w postaciach, skille, synergie:
 

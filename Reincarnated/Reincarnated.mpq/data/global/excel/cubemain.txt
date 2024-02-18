@@ -422,8 +422,11 @@ Rune 31 -> Rune 30	1				100					2	r31	isc						r30																														
 Rune 32 -> Rune 31	1				100					2	r32	isc						r31																																																																																							0
 Rune 33 -> Rune 32	1				100					2	r33	isc						r32																																																																																							0
 pk1 -> sk1	1				100					1	pk1							sk1																																																																																							0
-sk1 -> pk1	1				100					1	sk1							pk1																																																																																							0
+sk1 -> pk1	1				100	18	70	1		1	sk1							pk1																																																																																							0
 pk2 -> sk2	1				100					1	pk2							sk2																																																																																							0
-sk2 -> pk2	1				100					1	sk2							pk2																																																																																							0
+sk2 -> pk2	1				100	18	70	1		1	sk2							pk2																																																																																							0
 pk3 -> sk3	1				100					1	pk3							sk3																																																																																							0
-sk3 -> pk3	1				100					1	sk3							pk3																																																																																							0
+sk3 -> pk3	1				100	18	70	1		1	sk3							pk3																																																																																							0
+Annihilus -> Annihilus 2	1				100	18	364	1		1	"Annihilus,uni"							"Annihilus 2,uni"	127																																																																																						0
+Hellfire Torch -> Hellfire Torch 2	1				100	18	364	1		1	"Hellfire Torch,uni"							"Hellfire Torch 2,uni"	127																																																																																						0
+Gheed's Fortune -> Gheed's Fortune 2	1				100	18	364	1		1	"Gheed's Fortune,uni"							"Gheed's Fortune 2,uni"	127																																																																																						0

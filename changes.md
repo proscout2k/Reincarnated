@@ -9,7 +9,7 @@
     - Zwiększony Ekwipunek, Skrzynka i Kostka
     - Miniony nie powodują już kolizji
     - Duchy w Arcane Sanctuary nie mogą wychodzić poza mape
-    - Stackowanie Run i Gemów
+    - Stackowanie Run, gemów, uber kluczy
     - Optymalizacja Aktów:
         + Akt 2 - Spawn i TP koło Fary
         + Akt 3 - Spawn gracza koło skrzynki
