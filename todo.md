@@ -2,6 +2,10 @@
 
 1. Zmiany QoL:
     
+    - Particlesy bonusów:
+        - BO (Barb)
+        - Duchy (Druid)
+
     - Loot Filter:
         + Particlesy run
         + Lightpillar zależny od itemu
@@ -26,7 +30,7 @@
         + Akt 4 - Skrzynka i Cain koło waypointu
 
 2. Zmiany w rozgrywce:
-
+    - Craftingi we wszystkich itemach
     - Kapliczki i Klątwy teraz się stackują i nie podmieniają sobie bonusów
     - Sockety we wszystkich itemach, plus podbicie socketó np. Zbroja może mieć 6 socketów itd. (Utrudnienie)
     - Rejuvy u vendorów

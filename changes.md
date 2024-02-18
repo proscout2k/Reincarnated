@@ -42,7 +42,7 @@
     - Maksymalna cena sprzedaży itemu to 50000
     - Zmniejszony koszt naprawy itemów
     - Ladder runewordy odblokowane
-
+    
 
 3. Zmiany w postaciach, skille, synergie:
 
