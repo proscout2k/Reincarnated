@@ -11388,3 +11388,4 @@ desecrated_enter	11385	desecrated_enter_hd	sfx/ambient/event-3d_sd	quest\desecra
 desecrated_enter_hd	11386		sfx/ambient/event-3d_hd	quest\desecrated_enter_hd.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	4	25	60	255	1	0	0	1	0	-1	-1	-1	0	0	
 music_desecrated	11387	music_desecrated_hd	music_sd	common\options.flac	0	1	0	0	0	127	127	100	100	0	0	1	125	125	1	0	0	0	0	25	0	255	1	1	0	0	1	-1	-1	-1	0	0	
 music_desecrated_hd	11388		music_hd	common\options_hd.flac	0	1	0	0	0	127	127	100	100	0	0	1	125	125	1	0	0	0	0	100	0	255	1	1	0	0	1	-1	-1	-1	0	0	
+goblin_laugh	11389	goblin_laugh_hd	sfx/monster_hd	reincarnated\monsters\goblin\laugh.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	4	1	15	90	100	0	0	1	0	0	-1	-1	-1	0	0	

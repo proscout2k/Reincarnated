@@ -191,3 +191,4 @@ impale	188																																																																						
 desecrated	189																												1	1																																											0
 markbear	190	4																																					1				bloodlust_state																														0
 markwolf	191	5										1																											1				impregnated																														0
+goblinaura	192																																						1				aura_fanatic																			goblin_laugh											0
