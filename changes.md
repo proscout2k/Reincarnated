@@ -10,15 +10,15 @@
     - Miniony nie powodują już kolizji
     - Duchy w Arcane Sanctuary nie mogą wychodzić poza mape
     - Stackowanie Run, gemów, uber kluczy
-    - Optymalizacja Aktów:
-        + Akt 2 - Spawn i TP koło Fary
-        + Akt 3 - Spawn gracza koło skrzynki
-        + Akt 5 - Cain spawnuje się koło waypointu
 
-    - Loot Filter
-        + Lightpillar
-        + Skrócone nazwy i ikonki
-        + Item Level
+    - Optymalizacja Aktów:
+        + Akt 1 - TP koło skrzynki
+        + Akt 2:
+            - Spawn i TP koło Fary
+            - Gniazdo tylko poziom 3
+        + Akt 3 - Spawn gracza koło skrzynki
+        + Akt 4 - Skrzynka i Cain koło waypointu
+        + Akt 5 - Cain spawnuje się koło waypointu
 
     - Zmiany graficzne:
         + Wyświetlanie
@@ -26,6 +26,11 @@
         + Lekko Zmienione i Poprawione GUI
             - Jaśniejsze kolory tekstu dla magicznych i unikatowych itemów
             - Panele np. pojawiają sie w rogach ekranu
+        + Poprawa tekstur miksturek
+        + Loot Filter
+            - Lightpillar
+            - Skrócone nazwy i ikonki
+            - Item Level
         
         + Kolor HP potwora jest zalezny aktualnej ilości (Fioletowy 100% HP, Żołty 50% HP, Czerwony 25% HP)    
 
@@ -42,7 +47,7 @@
     - Maksymalna cena sprzedaży itemu to 50000
     - Zmniejszony koszt naprawy itemów
     - Ladder runewordy odblokowane
-    
+    - Redukcja dropu Charmów
 
 3. Zmiany w postaciach, skille, synergie:
 

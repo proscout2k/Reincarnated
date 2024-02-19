@@ -2686,26 +2686,5 @@
       "uber": "charm/charm_large",
       "ultra": "charm/charm_large"
     }
-  },
-  {
-    "annihilus_2": {
-      "normal": "quest/mephisto_soul_stone",
-      "uber": "quest/mephisto_soul_stone",
-      "ultra": "quest/mephisto_soul_stone"
-    }
-  },
-  {
-    "hellfire_torch_2": {
-      "normal": "torch/torch",
-      "uber": "torch/torch",
-      "ultra": "torch/torch"
-    }
-  },
-  {
-    "gheeds_fortune_2": {
-      "normal": "charm/charm_large",
-      "uber": "charm/charm_large",
-      "ultra": "charm/charm_large"
-    }
   }
 ]
