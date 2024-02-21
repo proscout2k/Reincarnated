@@ -40,6 +40,7 @@
     - Usunięcie większosci zbędnych itemów i dodanie ich do akary:
         + Antidotum
         + Gas i Explode Potion itd.
+    - Usunąć Cooldown wszystkich skilli
 
     # Do Przemyslenia
     - Crafted Charms & Jewels

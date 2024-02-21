@@ -427,4 +427,3 @@ pk2 -> sk2	1				100					1	pk2							sk2																																									
 sk2 -> pk2	1				100	18	70	1		1	sk2							pk2																																																																																							0
 pk3 -> sk3	1				100					1	pk3							sk3																																																																																							0
 sk3 -> pk3	1				100	18	70	1		1	sk3							pk3																																																																																							0
-test1	1				100					2	tsc	isc						Annihilus,uni	127																																																																																						0
