@@ -25,7 +25,8 @@
             - Ładunki Assassinki
         + Lekko Zmienione i Poprawione GUI
             - Jaśniejsze kolory tekstu dla magicznych i unikatowych itemów
-            - Panele np. pojawiają sie w rogach ekranu
+            - usunięty przycisk Online
+
         + Poprawa tekstur miksturek
         + Loot Filter
             - Lightpillar
@@ -35,23 +36,37 @@
         + Kolor HP potwora jest zalezny aktualnej ilości (Fioletowy 100% HP, Żołty 50% HP, Czerwony 25% HP)    
 
 2. Zmiany w rozgrywce:
+    - Rejuvy u vendorów
+    - Kapliczki i Klątwy teraz się stackują i nie podmieniają sobie bonusów
     - Rare Arrows, Belts i Charms
     - Splash Damage
     - Postacie zaczynają bez żadnych broni
     - Poprawiono drop hrabiny
     - Downgrade run np. 1 Ber + ID Scroll -> 1 Sur
     - Dodano możliwość ubrania merca w cały ekwipunek
-    - Dodanie movement speed penalty dla rekawic, butów itd.
-    - Density na mapach pomnożone o 2.5x   
-    - Wymagania levelowe skilli pomnożone o 1.5x
+    - //Dodanie movement speed penalty dla rekawic, butów itd.
+    - //Density na mapach pomnożone o 2.5x   
+    - //Wymagania levelowe skilli pomnożone o 1.5x
     - Maksymalna cena sprzedaży itemu to 50000
     - Zmniejszony koszt naprawy itemów
     - Ladder runewordy odblokowane
     - Redukcja dropu Charmów
+    - Usunięcie większosci zbędnych itemów i dodanie ich do akary:
+        + Antidotum
+        + Gas i Explode Potion itd.
+    - Craftingi we wszystkich itemach
+    - Usunięty cooldown ze skilli
+    - Używanie niektórych skilli podczas przemiany np. Teleport, BO
+    - Sockety we wszystkich itemach
+    - Zmieniono bazowy Run/Walk postaci
 
 3. Zmiany w postaciach, skille, synergie:
 
     - Amazonka
+
+        + Skille:
+            - Elemental & Magic Arrows:
+                + Co 2 lvl otrzymuje dodatkową strzałę. 
 
     - Zabójczyni
 
@@ -60,11 +75,16 @@
     - Barbarzyńca
 
     - Paladyn
-        + Aury:
-            Range pomnożony o 3x (Damage Aura range tylko o 1.5x)
+        - Skille:
+            + Aury:
+                - Range pomnożony o 3x (Damage Aura range tylko o 1.5x)
 
-        + Holy Bolt:
-            - Działa na wszystkich
+            + Holy Bolt:
+                - Działa na wszystkich
+
+            + Fist of the Heavens
+                - Usunięty Cooldown
+                - Działa na wszystkich
 
     - Czarodziejka
 

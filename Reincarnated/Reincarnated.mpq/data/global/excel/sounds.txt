@@ -2232,7 +2232,7 @@ zombie_raise_3	2229		sfx/monster_sd	monster\zombie\raise5.flac	0	0	0	0	0	180	180
 player_townportal_cast	2230	player_townportal_cast_hd1	sfx/player-skills_sd	skill\misc\portalcast.flac	0	0	0	0	0	140	140	100	100	0	0	0	0	0	1	0	0	0	1	15	90	100	0	0	1	0	0	-1	-1	-1	0	0	
 player_townportal_enter	2231	player_townportal_enter_hd	sfx/player-skills_sd	skill\misc\portalenter.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	1	15	90	100	0	0	1	0	0	-1	-1	-1	0	0	
 amazon_cast_poison	2232	amazon_cast_poison_hd1	sfx/player-skills_sd	skill\amazon\poisoncast.flac	0	0	0	0	0	180	180	100	100	0	0	0	8	8	0	0	0	-1	1	15	90	100	0	0	1	0	0	-1	-1	-1	0	0	
-amazon_coldarrow_1	2233	amazon_coldarrow_hd1	sfx/player-skills_sd	skill\amazon\coldarrow1.flac	0	0	0	0	0	255	255	100	100	3	0	1	0	6	0	0	0	0	1	15	90	100	0	0	1	0	0	26302	-1	-1	0	0	
+amazon_coldarrow_1	2233	amazon_coldarrow_hd1	sfx/player-skills_sd	skill\amazon\coldarrow1.flac	0	0	0	0	0	180	180	100	100	3	0	0	0	0	0	0	0	4	1	15	90	80	0	0	1	0	0	-1	-1	-1	0	0	
 amazon_coldarrow_2	2234		sfx/player-skills_sd	skill\amazon\coldarrow2.flac	0	0	0	0	0	255	255	100	100	0	0	1	0	6	0	0	0	0	1	15	90	100	0	0	1	0	0	22230	-1	-1	0	0	
 amazon_coldarrow_3	2235		sfx/player-skills_sd	skill\amazon\coldarrow3.flac	0	0	0	0	0	255	255	100	100	0	0	1	0	6	0	0	0	0	1	15	90	100	0	0	1	0	0	25722	-1	-1	0	0	
 amazon_dodge_1	2236	amazon_dodge_hd1	sfx/player-skills_sd	skill\amazon\dodge1.flac	0	0	0	0	0	255	255	100	100	5	0	0	0	0	1	0	0	0	1	0	0	100	0	0	1	0	0	-1	-1	-1	0	0	
@@ -10673,9 +10673,9 @@ event_arcane_distant_hd3	10670		sfx/ambient/event-3d_hd	ambient\event\arcane_eve
 event_arcane_distant_hd4	10671		sfx/ambient/event-3d_hd	ambient\event\arcane_event_distant_hd_04.flac	0	0	0	1	0	255	255	100	100	0	0	0	0	0	0	0	0	0	3	20	100	20	0	0	1	0	0	-1	-1	-1	0	0	
 event_arcane_distant_hd5	10672		sfx/ambient/event-3d_hd	ambient\event\arcane_event_distant_hd_05.flac	0	0	0	1	0	255	255	100	100	0	0	0	0	0	0	0	0	0	3	20	100	20	0	0	1	0	0	-1	-1	-1	0	0	
 event_arcane_distant_hd6	10673		sfx/ambient/event-3d_hd	ambient\event\arcane_event_distant_hd_06.flac	0	0	0	1	0	255	255	100	100	0	0	0	0	0	0	0	0	0	3	20	100	20	0	0	1	0	0	-1	-1	-1	0	0	
-amazon_coldarrow_hd1	10674		sfx/player-skills_hd	skill\amazon\coldarrow_hd1.flac	0	0	0	0	0	196	255	94	107	3	0	1	0	6	0	0	0	0	1	25	90	100	0	0	1	0	0	26302	-1	-1	0	0	
-amazon_coldarrow_hd2	10675		sfx/player-skills_hd	skill\amazon\coldarrow_hd2.flac	0	0	0	0	0	196	255	94	107	0	0	1	0	6	0	0	0	0	1	25	90	100	0	0	1	0	0	22230	-1	-1	0	0	
-amazon_coldarrow_hd3	10676		sfx/player-skills_hd	skill\amazon\coldarrow_hd3.flac	0	0	0	0	0	196	255	94	107	0	0	1	0	6	0	0	0	0	1	25	90	100	0	0	1	0	0	25722	-1	-1	0	0	
+amazon_coldarrow_hd1	10674		sfx/player-skills_hd	skill\amazon\coldarrow_hd1.flac	0	0	0	0	0	196	196	94	107	3	0	1	0	0	0	0	0	4	1	25	90	100	0	0	1	0	0	-1	-1	-1	0	0	
+amazon_coldarrow_hd2	10675		sfx/player-skills_hd	skill\amazon\coldarrow_hd2.flac	0	0	0	0	0	196	196	94	107	0	0	1	0	6	0	0	0	0	1	25	90	100	0	0	1	0	0	22230	-1	-1	0	0	
+amazon_coldarrow_hd3	10676		sfx/player-skills_hd	skill\amazon\coldarrow_hd3.flac	0	0	0	0	0	196	196	94	107	0	0	1	0	6	0	0	0	0	1	25	90	100	0	0	1	0	0	25722	-1	-1	0	0	
 amazon_dodge_hd1	10677		sfx/eax/player-skills_shouts	skill\amazon\dodge_hd1.flac	0	0	0	0	0	79	126	100	100	5	0	0	0	0	1	0	0	0	1	0	0	100	0	0	1	0	0	-1	-1	-1	0	0	
 amazon_dodge_hd2	10678		sfx/eax/player-skills_shouts	skill\amazon\dodge_hd2.flac	0	0	0	0	0	79	126	100	100	0	0	0	0	0	1	0	0	0	1	0	0	100	0	0	1	0	0	-1	-1	-1	0	0	
 amazon_dodge_hd3	10679		sfx/eax/player-skills_shouts	skill\amazon\dodge_hd3.flac	0	0	0	0	0	79	126	100	100	0	0	0	0	0	1	0	0	0	1	0	0	100	0	0	1	0	0	-1	-1	-1	0	0	
