@@ -1,0 +1,10 @@
+
+
+    Goblin Hit 20% -
+        TreasureClass -
+            Good
+            Gem
+            Gold
+            Equip
+            Rune
+            

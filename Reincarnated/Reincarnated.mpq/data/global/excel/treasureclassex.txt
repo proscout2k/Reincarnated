@@ -1030,5 +1030,9 @@ Act 5 (H) Super Ax Desecrated	39	90	-2					0	Sunder Charms	1	Act 5 (H) Super Ax	
 Act 5 (H) Super Bx Desecrated	39	93	-2					0	Sunder Charms	1	Act 5 (H) Super Bx	1																							0
 Act 5 (H) Super Cx Desecrated	39	96	-2					0	Sunder Charms	1	Act 5 (H) Super Cx	1																							0
 Treasure Goblin Act 1 A			6	960	960	972	1024	0	Act 1 Equip A	80	Act 1 Good	15																							0
-Treasure Goblin (N) Act 1 A			6	960	960	972	1024	0	Act 1 (N) Equip A	80	Act 1 (N) Good	15																							0
-Treasure Goblin (H) Act 1 A			6	960	960	972	1024	0	Act 1 (H) Equip A	80	Act 1 (H) Good	15																							0
+Glided Baron Act 1 A			6	740	740	740	1024	0	"gld,mul=6400"	80	"gld,mul=7400"	40	"gld,mul=8400"	20																					0
+Gem Hoarder Rnd GetHit Gem			1					0	Chipped Gem	100																									0
+Gem Hoarder Act 1 A			6					0	Chipped Gem	80	Flawed Gem	30																							0
+Rune Hoarder Rnd GetHit Rune			1					0	Runes 1	100																									0
+Rune Hoarder Act 1 A			6					0	Runes 3	100																									0
+Rune Hoarder Act 1 A Extra			3					0	Runes 3	100																									0

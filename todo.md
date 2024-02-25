@@ -19,13 +19,20 @@
     # Pozniejsze zmiany:
     - Odzyskanie wszystkich superunikatów
         + https://www.nexusmods.com/diablo2resurrected/mods/289?tab=description
+
+    - Dodać więcej goblinów
+    - Dodać Skille do Goblina upuszczające złoto po zaatakowaniu, itd.
+    - Podzielić drop goblina [orby,itemy,gemy,itd.]
+
+    - Zbalansowac te gobliny
     
     # Zmiany ktore mozna dodac teraz:
+    - Charms Limit
 
     # Do Przemyslenia
     - Crafted Charms & Jewels
 
-    - Podzielić drop goblina [orby,itemy,gemy,itd.]
+
 
     
     
