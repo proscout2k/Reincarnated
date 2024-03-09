@@ -48,23 +48,25 @@
     - Poprawiono drop hrabiny
     - Downgrade run np. 1 Ber + ID Scroll -> 1 Sur
     - Dodano możliwość ubrania merca w cały ekwipunek
-    - //Dodanie movement speed penalty dla rekawic, butów itd.
     - Density na mapach pomnożone o 2x  
-    - //Wymagania levelowe skilli pomnożone o 1.5x
+    - Wymagania levelowe skilli pomnożone o 1.5x
     - Maksymalna cena sprzedaży itemu to 50000
     - Zmniejszony koszt naprawy itemów
     - Ladder runewordy odblokowane
     - Redukcja dropu Charmów
-    - Usunięcie większosci zbędnych itemów i dodanie ich do akary:
-        + Antidotum
+    - Usunięcie większosci zbędnych itemów i dodanie ich do vendorów
         + Gas i Explode Potion itd.
-    - Craftingi we wszystkich itemach
+
+    - Crafting
+        + Usunięto wymagania co do danych itemów
+        + Usunięto zwiększanie się reqlevel zależnego od character level i item level 
+        + Możliwosć robienia craftingu w rare itemach
+    
     - Usunięty cooldown ze skilli
     - Używanie niektórych skilli podczas przemiany np. Teleport, BO
     - Sockety we wszystkich itemach
         + Sockety w itemach stackowanych tylko przez larzuka
-        
-    - Zmieniono bazowy Run/Walk postaci
+    
     - Zmniejszono Stamina Per Level/Per Vitality i Bazowy Light radius
 
 3. Zmiany w postaciach, skille, synergie:

@@ -26127,39 +26127,5 @@
         "ptBR": "Annihilus",
         "ruRU": "Аннигилюс",
         "zhCN": "毁灭"
-    },
-    {
-        "id": 60001,
-        "Key": "Hellfire Torch 2",
-        "enUS": "Hellfire Torch",
-        "zhTW": "地獄火炬",
-        "deDE": "Höllenfeuerfackel",
-        "esES": "Antorcha de fuego infernal",
-        "frFR": "Torche des flammes infernales",
-        "itIT": "Torcia di Fuoco Infernale",
-        "koKR": "지옥불 횃불",
-        "plPL": "Pochodnia Piekielnego Ognia",
-        "esMX": "Antorcha de fuego infernal",
-        "jaJP": "業火のたいまつ",
-        "ptBR": "Tocha Infernígnea",
-        "ruRU": "Факел адского пламени",
-        "zhCN": "地狱火炬"
-    },
-    {
-        "id": 60002,
-        "Key": "Gheed's Fortune 2",
-        "enUS": "Gheed's Fortune",
-        "zhTW": "基德的財運",
-        "deDE": "Gheeds Glück",
-        "esES": "Fortuna de Gheed",
-        "frFR": "Fortune de Gheed",
-        "itIT": "Fortuna di Gheed",
-        "koKR": "기드의 행운",
-        "plPL": "Fortuna Gheeda",
-        "esMX": "Fortuna de Gheed",
-        "jaJP": "ギードの運気",
-        "ptBR": "Fortuna de Gheed",
-        "ruRU": "Сокровища Гида",
-        "zhCN": "基德的好运"
     }
 ]

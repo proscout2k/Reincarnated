@@ -107,7 +107,7 @@ Swords and Knives	blde	mele		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Spears and Polearms	sppl	mele		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Merc Equip	helm	armo	merc	1	1	head	head			0	0	0	0		1	0	0	2	25	2	40	3	0	3			0							armo	0
 Stack items	stac	misc		0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
-Gem Stack	sgem	stac		0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
-Rune Stack	runs	stac		0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
-Key Stack	skey	stac		0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
+Gem Stack	sgem	stac	ques	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
+Rune Stack	runs	stac	ques	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
+Key Stack	skey	stac	ques	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
 Only Item	only	misc		0	0					0	0	0	1		1	0	0	0	25	0	40	0	0	3			0							misc	0
