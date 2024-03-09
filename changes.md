@@ -36,6 +36,10 @@
         + Kolor HP potwora jest zalezny aktualnej ilości (Fioletowy 100% HP, Żołty 50% HP, Czerwony 25% HP)    
 
 2. Zmiany w rozgrywce:
+    - Zmiany w poziomach trudnosci
+        + -50 / -100 / -150 odpornosci [normal, nightmare, hell]
+        + 3 / 5 / 7 dodatkowy skill level dla potworów [normal, nightmare, hell]
+
     - Rejuvy u vendorów
     - Kapliczki i Klątwy teraz się stackują i nie podmieniają sobie bonusów
     - Rare Arrows, Belts i Charms
@@ -45,7 +49,7 @@
     - Downgrade run np. 1 Ber + ID Scroll -> 1 Sur
     - Dodano możliwość ubrania merca w cały ekwipunek
     - //Dodanie movement speed penalty dla rekawic, butów itd.
-    - //Density na mapach pomnożone o 2.5x   
+    - Density na mapach pomnożone o 2x  
     - //Wymagania levelowe skilli pomnożone o 1.5x
     - Maksymalna cena sprzedaży itemu to 50000
     - Zmniejszony koszt naprawy itemów
@@ -58,7 +62,10 @@
     - Usunięty cooldown ze skilli
     - Używanie niektórych skilli podczas przemiany np. Teleport, BO
     - Sockety we wszystkich itemach
+        + Sockety w itemach stackowanych tylko przez larzuka
+        
     - Zmieniono bazowy Run/Walk postaci
+    - Zmniejszono Stamina Per Level/Per Vitality i Bazowy Light radius
 
 3. Zmiany w postaciach, skille, synergie:
 

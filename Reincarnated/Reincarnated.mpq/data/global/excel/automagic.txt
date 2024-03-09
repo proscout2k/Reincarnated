@@ -37,6 +37,3 @@ of Pestilence	100	1	1	25		18				2	305	pois-min		32	32	pois-max		72	72	pois-len		
 of Anthrax	100	1		33		25				2	305	pois-min		64	64	pois-max		128	128	pois-len		100	100		armo	weap											0	0
 Infinite Arrows and Bolts	100	1	1	1		0				2	306	noconsume		100	100										misl												0	0
 Splashing	100	1	1	1		0				1	307	dmg-meleearea	373	100	1	dmg%-melee-min		-33	-33	dmg%-melee-max		-33	-33		armo	weap											0	0
-Small Charm	100	1	1	1		0				1	308	charm-count		1	1										char												0	0
-Large Charm	100	1	1	1		0				1	309	charm-count		2	2										char												0	0
-Grand Charm	100	1	1	1		0				1	310	charm-count		3	3										char												0	0
