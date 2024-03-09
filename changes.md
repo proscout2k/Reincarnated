@@ -75,7 +75,7 @@
 
         + Skille:
             - Elemental & Magic Arrows:
-                + Co 2 lvl otrzymuje dodatkową strzałę. 
+                + Co 3 skill lvl otrzymuje dodatkową strzałę. 
 
     - Zabójczyni
 
