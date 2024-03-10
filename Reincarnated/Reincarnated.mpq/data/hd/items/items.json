@@ -3653,5 +3653,15 @@
         "sk3": {
             "asset": "key/destruction_key_stack"
         }
+    },
+    {
+        "or1": {
+            "asset": "..\\reincarnated/misc/orbs/magic_orb"
+        }
+    },
+    {
+        "or2": {
+            "asset": "..\\reincarnated/misc/orbs/rare_orb"
+        }
     }
 ]

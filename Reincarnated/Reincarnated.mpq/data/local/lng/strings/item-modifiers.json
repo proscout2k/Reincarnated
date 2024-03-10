@@ -5865,7 +5865,7 @@
         "zhCN": "%+d%% 攻击速度"
     },
     {
-        "id": 27410,
+        "id": 27381,
         "Key": "StackableGem",
         "enUS": "Can be transmuted into a usable gem",
         "zhTW": "可以转化为可用的宝石",
@@ -5882,7 +5882,7 @@
         "zhCN": "可以转化为可用的宝石"
     },
     {
-        "id": 27411,
+        "id": 27382,
         "Key": "StackableRune",
         "enUS": "Can be transmuted into a usable rune",
         "zhTW": "可以转化为可用的符文",
@@ -5899,7 +5899,7 @@
         "zhCN": "可以转化为可用的符文"
     },
     {
-        "id": 27541,
+        "id": 27383,
         "Key": "MeleeAreaDamage",
         "enUS": "%d%% Chance of Melee Area Damage",
         "zhTW": "%d%% 有机会造成近战区域伤害",
@@ -5916,7 +5916,7 @@
         "zhCN": "%d%% 有机会造成近战区域伤害"
     },
     {
-        "id": 27542,
+        "id": 27384,
         "Key": "MeleeMinDamagePercent",
         "enUS": "%+d%% Enhanced Minimum Melee Damage",
         "zhTW": "%+d%% 提高近战最低伤害",
@@ -5933,7 +5933,7 @@
         "zhCN": "%+d%% 提高近战最低伤害"
     },
     {
-        "id": 27543,
+        "id": 27385,
         "Key": "MeleeMaxDamagePercent",
         "enUS": "%+d%% Enhanced Maximum Melee Damage",
         "zhTW": "%+d%% 提升近战最大伤害",
@@ -5950,9 +5950,43 @@
         "zhCN": "%+d%% 提升近战最大伤害"
     },
     {
-        "id": 70000,
+        "id": 27386,
         "Key": "modTransmute",
         "enUS": "ÿc8Transmute to get bonuses",
+        "zhTW": "",
+        "deDE": "",
+        "esES": "",
+        "frFR": "",
+        "itIT": "",
+        "koKR": "",
+        "plPL": "",
+        "esMX": "",
+        "jaJP": "",
+        "ptBR": "",
+        "ruRU": "",
+        "zhCN": ""
+    },
+    {
+        "id": 27387,
+        "Key": "StrMagicOrb",
+        "enUS": "ÿc8Transmute with magic item to reroll bonuses",
+        "zhTW": "",
+        "deDE": "",
+        "esES": "",
+        "frFR": "",
+        "itIT": "",
+        "koKR": "",
+        "plPL": "",
+        "esMX": "",
+        "jaJP": "",
+        "ptBR": "",
+        "ruRU": "",
+        "zhCN": ""
+    },
+    {
+        "id": 27388,
+        "Key": "StrRareOrb",
+        "enUS": "ÿc8Transmute with rare item to reroll bonuses",
         "zhTW": "",
         "deDE": "",
         "esES": "",

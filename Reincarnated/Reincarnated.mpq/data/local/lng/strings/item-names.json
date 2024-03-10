@@ -16747,7 +16747,7 @@
     {
         "id": 20676,
         "Key": "spe",
-        "enUS": "Spleen",
+        "enUS": "ÿc4Spleen",
         "zhTW": "脾臟",
         "deDE": "[fs]Milz",
         "esES": "[ms]Bazo",
@@ -16798,7 +16798,7 @@
     {
         "id": 20679,
         "Key": "qll",
-        "enUS": "Quill",
+        "enUS": "ÿc4Quill",
         "zhTW": "刺針",
         "deDE": "[ms]Stachel",
         "esES": "[ms]Cálamo",
@@ -16815,7 +16815,7 @@
     {
         "id": 20680,
         "Key": "fng",
-        "enUS": "Fang",
+        "enUS": "ÿc4Fang",
         "zhTW": "尖牙",
         "deDE": "[ms]Hauer",
         "esES": "[ms]Colmillo",
@@ -16832,7 +16832,7 @@
     {
         "id": 20681,
         "Key": "flg",
-        "enUS": "Flag",
+        "enUS": "ÿc4Flag",
         "zhTW": "旗幟",
         "deDE": "[fs]Flagge",
         "esES": "[fs]Bandera",
@@ -16849,7 +16849,7 @@
     {
         "id": 20682,
         "Key": "tal",
-        "enUS": "Tail",
+        "enUS": "ÿc4Tail",
         "zhTW": "尾巴",
         "deDE": "[ms]Schwanz",
         "esES": "[fs]Cola",
@@ -16866,7 +16866,7 @@
     {
         "id": 20683,
         "Key": "hrn",
-        "enUS": "Horn",
+        "enUS": "ÿc4Horn",
         "zhTW": "尖角",
         "deDE": "[ns]Horn",
         "esES": "[ms]Cuerno",
@@ -16883,7 +16883,7 @@
     {
         "id": 20684,
         "Key": "eyz",
-        "enUS": "Eye",
+        "enUS": "ÿc4Eye",
         "zhTW": "眼球",
         "deDE": "[ns]Auge",
         "esES": "[ms]Ojo",
@@ -16900,7 +16900,7 @@
     {
         "id": 20685,
         "Key": "jaw",
-        "enUS": "Jawbone",
+        "enUS": "ÿc4Jawbone",
         "zhTW": "顎骨",
         "deDE": "[ms]Kiefer",
         "esES": "[fs]Mandíbula",
@@ -16917,7 +16917,7 @@
     {
         "id": 20686,
         "Key": "brz",
-        "enUS": "Brain",
+        "enUS": "ÿc4Brain",
         "zhTW": "腦",
         "deDE": "[ns]Gehirn",
         "esES": "[ms]Cerebro",
@@ -16934,7 +16934,7 @@
     {
         "id": 20687,
         "Key": "hrt",
-        "enUS": "Heart",
+        "enUS": "ÿc4Heart",
         "zhTW": "心臟",
         "deDE": "[ns]Herz",
         "esES": "[ms]Corazón",
@@ -26112,20 +26112,37 @@
         "zhCN": "漆黑裂痕"
     },
     {
-        "id": 60000,
-        "Key": "Annihilus 2",
-        "enUS": "Annihilus",
-        "zhTW": "滅絕",
-        "deDE": "Vernichtikus",
-        "esES": "Annihilus",
-        "frFR": "Annihilus",
-        "itIT": "Annichilus",
-        "koKR": "어나이얼러스",
-        "plPL": "Annihilus",
-        "esMX": "Annihilus",
-        "jaJP": "アニヒラス",
-        "ptBR": "Annihilus",
-        "ruRU": "Аннигилюс",
-        "zhCN": "毁灭"
+        "id": 27379,
+        "Key": "or1",
+        "enUS": "Magic Orb",
+        "zhTW": "",
+        "deDE": "",
+        "esES": "",
+        "frFR": "",
+        "itIT": "",
+        "koKR": "",
+        "plPL": "",
+        "esMX": "",
+        "jaJP": "",
+        "ptBR": "",
+        "ruRU": "",
+        "zhCN": ""
+    },
+    {
+        "id": 27380,
+        "Key": "or2",
+        "enUS": "Rare Orb",
+        "zhTW": "",
+        "deDE": "",
+        "esES": "",
+        "frFR": "",
+        "itIT": "",
+        "koKR": "",
+        "plPL": "",
+        "esMX": "",
+        "jaJP": "",
+        "ptBR": "",
+        "ruRU": "",
+        "zhCN": ""
     }
 ]
