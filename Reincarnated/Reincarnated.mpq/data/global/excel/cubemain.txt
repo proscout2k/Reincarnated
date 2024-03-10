@@ -463,5 +463,340 @@ pk2 -> sk2	1				100					1	pk2							sk2																																									
 sk2 -> pk2	1				100	18	70	1		1	sk2							pk2																																																																																							0
 pk3 -> sk3	1				100					1	pk3							sk3																																																																																							0
 sk3 -> pk3	1				100	18	70	1		1	sk3							pk3																																																																																							0
-Magic Orb + Helm -> Reroll Magic Item	1				100					2	"any,mag"	or1						"usetype,mag"			100																																																																																				0
-Rare Orb + Helm -> Reroll Rare Item	1				100					2	"any,rar"	or2						"usetype,rar"			100																																																																																				0
+Magic Orb + Item -> Reroll Magic Item	1				100					2	"weap,mag"	or1						"usetype,mag"			100																																																																																				0
+Magic Orb + Item -> Reroll Magic Item	1				100					2	"armo,mag"	or1						"usetype,mag"			100																																																																																				0
+Magic Orb + Item -> Reroll Magic Item	1				100					2	"amul,mag"	or1						"usetype,mag"			100																																																																																				0
+Magic Orb + Item -> Reroll Magic Item	1				100					2	"ring,mag"	or1						"usetype,mag"			100																																																																																				0
+Magic Orb + Item -> Reroll Magic Item	1				100					2	"misl,mag"	or1						"usetype,mag"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"weap,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"armo,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"amul,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"ring,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"misl,rar"	or2						"usetype,rar"			100																																																																																				0
+START CORRUPTING	0																																																																																																								0
+Weapon	1				100	18	366	0		2	weap	or3						useitem			100	corruptnum			1	1000																					or3																																																										0
+Armor	1				100	18	366	0		2	armo	or3						useitem			100	corruptnum			1	1000																					or3																																																										0
+Missiles	1				100	18	366	0		2	misl	or3						useitem			100	corruptnum			1	1000																					or3																																																										0
+Amulet	1				100	18	366	0		2	amul	or3						useitem			100	corruptnum			1	1000																					or3																																																										0
+Ring	1				100	18	366	0		2	ring	or3						useitem			100	corruptnum			1	1000																					or3																																																										0
+CORRUPT - DESTROY NO SOCKET	0																																																																																																								0
+Weapon	1				100	16	366	250		2	weap,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Armor	1				100	16	366	250		2	armo,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Missiles	1				100	16	366	250		2	misl,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Amulet	1				100	16	366	250		2	amul,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Ring	1				100	16	366	250		2	ring,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+WEAPONS	0																																																																																																								0
+weapon -> + 1 sockets  (6%)	1				100	16	366	310		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+weapon -> + 2 sockets  (5.5%)	1				100	16	366	365		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			2	2	corruptnum			1001	1001																																																																					0
+weapon -> + 3 sockets  (4.5%)	1				100	16	366	410		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			3	3	corruptnum			1001	1001																																																																					0
+weapon -> + 4 sockets  (4%)	1				100	16	366	450		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+weapon -> + 5 sockets  (3%)	1				100	16	366	480		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			2	2	corruptnum			1001	1001																																																																					0
+weapon -> + 6 sockets  (2%)	1				100	16	366	500		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			3	3	corruptnum			1001	1001																																																																					0
+BELT	0																																																																																																								0
+armour -> + 1 sockets  (15%)	1				100	16	366	400		2	belt,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+armour -> + 2 sockets  (10%)	1				100	16	366	500		2	belt,nos	or3						useitem			100	corrupt			1	1	sock			2	2	corruptnum			1001	1001																																																																					0
+CHEST, HELM, BOOTS, GLOVES & SHIELD	0																																																																																																								0
+armour -> + 1 sockets  (18%)	1				100	16	366	430		2	armo,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+armour -> + 2 sockets  (5%)	1				100	16	366	480		2	armo,nos	or3						useitem			100	corrupt			1	1	sock			2	2	corruptnum			1001	1001																																																																					0
+armour -> + 3 sockets  (2%)	1				100	16	366	500		2	armo,nos	or3						useitem			100	corrupt			1	1	sock			3	3	corruptnum			1001	1001																																																																					0
+RING	0																																																																																																								0
+ring -> + 1 sockets  (25%)	1				100	16	366	500		2	ring,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+AMULET	0																																																																																																								0
+amulet -> + 1 sockets  (25%)	1				100	16	366	500		2	amul,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+QUIVERS	0																																																																																																								0
+quiver -> + 1 sockets  (18%)	1				100	16	366	430		2	misl,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
+quiver -> + 2 sockets  (5%)	1				100	16	366	480		2	misl,nos	or3						useitem			100	corrupt			1	1	sock			2	2	corruptnum			1001	1001																																																																					0
+quiver -> + 3 sockets  (2%)	1				100	16	366	500		2	misl,nos	or3						useitem			100	corrupt			1	1	sock			3	3	corruptnum			1001	1001																																																																					0
+CORRUPT - DESTROY SOCKETED	0																																																																																																								0
+Weapon	1				100	16	366	500		2	weap,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Armor	1				100	16	366	500		2	armo,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Missiles	1				100	16	366	500		2	misl,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Amulet	1				100	16	366	500		2	amul,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+Ring	1				100	16	366	500		2	ring,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+ADD SPECIAL CORRUPT MOD 	0																																																																																																								0
+WEAPONS (global) ------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1				100	16	366	525		2	weap	or3						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		40	80																																																																					0
+item -> added mod 2	1				100	16	366	550		2	weap	or3						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	250																																																																					0
+item -> added mod 3	1				100	16	366	575		2	weap	or3						useitem			100	corrupt	100		4	4	corruptnum	100		1001	1001	heal-hit	100		3	6																																																																					0
+item -> added mod 4	1				100	16	366	600		2	weap	or3						useitem			100	corrupt	100		5	5	corruptnum	100		1001	1001	att-demon	100		200	200	dmg-demon	100		100	150																																																																0
+item -> added mod 5	1				100	16	366	625		2	weap	or3						useitem			100	corrupt	100		6	6	corruptnum	100		1001	1001	ease	100		-25	-50																																																																					0
+item -> added mod 6	1				100	16	366	650		2	weap	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		20	30																																																																					0
+item -> added mod 1	1				100	16	366	675		2	weap	or3						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		3	5																																																																					0
+item -> added mod 2	1				100	16	366	700		2	weap	or3						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		3	5																																																																					0
+item -> added mod 3	1				100	16	366	725		2	weap	or3						useitem			100	corrupt	100		16	16	corruptnum	100		1001	1001	cast2	100		10	10																																																																					0
+item -> added mod 4	1				100	16	366	750		2	weap	or3						useitem			100	corrupt	100		77	77	corruptnum	100		1001	1001	att-undead	100		200	200	dmg-undead	100		100	150																																																																0
+Tier 2	0																																																																																																								0
+item -> added mod 5	1				100	16	366	765		2	weap	or3						useitem			100	corrupt	100		12	12	corruptnum	100		1001	1001	pierce-fire	100		5	10																																																																					0
+item -> added mod 6	1				100	16	366	780		2	weap	or3						useitem			100	corrupt	100		13	13	corruptnum	100		1001	1001	pierce-ltng	100		5	10																																																																					0
+item -> added mod 1	1				100	16	366	795		2	weap	or3						useitem			100	corrupt	100		14	14	corruptnum	100		1001	1001	pierce-cold	100		5	10																																																																					0
+item -> added mod 2	1				100	16	366	810		2	weap	or3						useitem			100	corrupt	100		15	15	corruptnum	100		1001	1001	pierce-pois	100		5	10																																																																					0
+item -> added mod 3	1				100	16	366	825		2	weap	or3						useitem			100	corrupt	100		16	16	corruptnum	100		1001	1001	cast2	100		20	20																																																																					0
+item -> added mod 4	1				100	16	366	840		2	weap	or3						useitem			100	corrupt	100		17	17	corruptnum	100		1001	1001	lifesteal	100		5	5	dmg%	100		40	60																																																																0
+item -> added mod 5	1				100	16	366	855		2	weap	or3						useitem			100	corrupt	100		18	18	corruptnum	100		1001	1001	att	100		200	300																																																																					0
+item -> added mod 6	1				100	16	366	870		2	weap	or3						useitem			100	corrupt	100		19	19	corruptnum	100		1001	1001	deadly	100		20	30																																																																					0
+item -> added mod 1	1				100	16	366	885		2	weap	or3						useitem			100	corrupt	100		20	20	corruptnum	100		1001	1001	swing1	100		30	40																																																																					0
+item -> added mod 2	1				100	16	366	900		2	weap	or3						useitem			100	corrupt	100		21	21	corruptnum	100		1001	1001	crush	100		20	30																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 3	1				100	16	366	910		2	weap	or3						useitem			100	corrupt	100		22	22	corruptnum	100		1001	1001	swing1	100		20	20	dmg%	100		80	120																																																																0
+item -> added mod 4	1				100	16	366	920		2	weap	or3						useitem			100	corrupt	100		23	23	corruptnum	100		1001	1001	swing1	100		30	30	crush	100		20	30																																																																0
+item -> added mod 5	1				100	16	366	930		2	weap	or3						useitem			100	corrupt	100		24	24	corruptnum	100		1001	1001	ignore-ac	100		1	1	dmg%	100		60	80																																																																0
+item -> added mod 6	1				100	16	366	940		2	weap	or3						useitem			100	corrupt	100		25	25	corruptnum	100		1001	1001	deadly	100		25	25	dmg%	100		50	70																																																																0
+item -> added mod 1	1				100	16	366	950		2	weap	or3						useitem			100	corrupt	100		26	26	corruptnum	100		1001	1001	att	100		250	250	dmg%	100		80	120																																																																0
+item -> added mod 2	1				100	16	366	960		2	weap	or3						useitem			100	corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
+item -> added mod 3	1				100	16	366	970		2	weap	or3						useitem			100	corrupt	100		28	28	corruptnum	100		1001	1001	extra-fire	100		5	5	cast2	100		10	10																																																																0
+item -> added mod 4	1				100	16	366	980		2	weap	or3						useitem			100	corrupt	100		29	29	corruptnum	100		1001	1001	extra-cold	100		5	5	cast2	100		10	10																																																																0
+item -> added mod 5	1				100	16	366	990		2	weap	or3						useitem			100	corrupt	100		30	30	corruptnum	100		1001	1001	extra-ltng	100		5	5	cast2	100		10	10																																																																0
+item -> added mod 6	1				100	16	366	1000		2	weap	or3						useitem			100	corrupt	100		31	31	corruptnum	100		1001	1001	extra-pois	100		5	5	cast2	100		10	10																																																																0
+CHEST --------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1				100	16	366	530		2	tors	or3						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
+item -> added mod 2	1				100	16	366	560		2	tors	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		20	30																																																																					0
+item -> added mod 3	1				100	16	366	590		2	tors	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		20	30																																																																					0
+item -> added mod 4	1				100	16	366	620		2	tors	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		30	35																																																																					0
+item -> added mod 5	1				100	16	366	650		2	tors	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		30	35																																																																					0
+item -> added mod 6	1				100	16	366	680		2	tors	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		30	35																																																																					0
+item -> added mod 7	1				100	16	366	710		2	tors	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		30	35																																																																					0
+item -> added mod 8	1				100	16	366	740		2	tors	or3						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		15	25																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1				100	16	366	760		2	tors	or3						useitem			100	corrupt	100		41	41	corruptnum	100		1001	1001	thorns/lvl	100		32	48																																																																					0
+item -> added mod 2	1				100	16	366	780		2	tors	or3						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 3	1				100	16	366	800		2	tors	or3						useitem			100	corrupt	100		43	43	corruptnum	100		1001	1001	hp%	100		4	6																																																																					0
+item -> added mod 4	1				100	16	366	820		2	tors	or3						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		20	20																																																																					0
+item -> added mod 5	1				100	16	366	840		2	tors	or3						useitem			100	corrupt	100		45	45	corruptnum	100		1001	1001	nofreeze	100		1	1																																																																					0
+item -> added mod 6	1				100	16	366	860		2	tors	or3						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		6	10																																																																					0
+item -> added mod 7	1				100	16	366	880		2	tors	or3						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		6	10																																																																					0
+item -> added mod 8	1				100	16	366	900		2	tors	or3						useitem			100	corrupt	100		48	48	corruptnum	100		1001	1001	indestruct	100		1	1	ac%	100		50	80																																																																0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1				100	16	366	912		2	tors	or3						useitem			100	corrupt	100		49	49	corruptnum	100		1001	1001	hp%	100		5	5																																																																					0
+item -> added mod 2	1				100	16	366	925		2	tors	or3						useitem			100	corrupt	100		50	50	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
+item -> added mod 3	1				100	16	366	937		2	tors	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		15	20																																																																					0
+item -> added mod 4	1				100	16	366	950		2	tors	or3						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		6	6																																																																					0
+item -> added mod 5	1				100	16	366	962		2	tors	or3						useitem			100	corrupt	100		53	53	corruptnum	100		1001	1001	res-fire-max	100		4	5	res-fire	100		15	15																																																																0
+item -> added mod 6	1				100	16	366	975		2	tors	or3						useitem			100	corrupt	100		54	54	corruptnum	100		1001	1001	res-cold-max	100		4	5	res-cold	100		15	15																																																																0
+item -> added mod 7	1				100	16	366	987		2	tors	or3						useitem			100	corrupt	100		55	55	corruptnum	100		1001	1001	res-ltng-max	100		4	5	res-ltng	100		15	15																																																																0
+item -> added mod 8	1				100	16	366	1000		2	tors	or3						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		4	5	res-pois	100		15	15																																																																0
+HELMS --------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	530		2	helm	or3						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
+item -> added mod 2	1	1			100	16	366	560		2	helm	or3						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		10	20																																																																					0
+item -> added mod 3	1	1			100	16	366	590		2	helm	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		20	30																																																																					0
+item -> added mod 4	1	1			100	16	366	620		2	helm	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		30	35																																																																					0
+item -> added mod 5	1	1			100	16	366	650		2	helm	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		30	35																																																																					0
+item -> added mod 6	1	1			100	16	366	680		2	helm	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		30	35																																																																					0
+item -> added mod 7	1	1			100	16	366	710		2	helm	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		30	35																																																																					0
+item -> added mod 8	1	1			100	16	366	740		2	helm	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		20	30																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	760		2	helm	or3						useitem			100	corrupt	100		48	48	corruptnum	100		1001	1001	indestruct	100		1	1	ac%	100		50	80																																																																0
+item -> added mod 2	1	1			100	16	366	780		2	helm	or3						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		3	5																																																																					0
+item -> added mod 3	1	1			100	16	366	800		2	helm	or3						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		3	5																																																																					0
+item -> added mod 4	1	1			100	16	366	820		2	helm	or3						useitem			100	corrupt	100		43	43	corruptnum	100		1001	1001	hp%	100		4	6																																																																					0
+item -> added mod 5	1	1			100	16	366	840		2	helm	or3						useitem			100	corrupt	100		45	45	corruptnum	100		1001	1001	nofreeze	100		1	1																																																																					0
+item -> added mod 6	1	1			100	16	366	860		2	helm	or3						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		3	4																																																																					0
+item -> added mod 7	1	1			100	16	366	880		2	helm	or3						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		3	4																																																																					0
+item -> added mod 8	1	1			100	16	366	900		2	helm	or3						useitem			100	corrupt	100		59	59	corruptnum	100		1001	1001	att	100		150	250	light	100		2	4																																																																0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	912		2	helm	or3						useitem			100	corrupt	100		49	49	corruptnum	100		1001	1001	hp%	100		10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	925		2	helm	or3						useitem			100	corrupt	100		50	50	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
+item -> added mod 3	1	1			100	16	366	937		2	helm	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		15	20																																																																					0
+item -> added mod 4	1	1			100	16	366	950		2	helm	or3						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		4	6																																																																					0
+item -> added mod 5	1	1			100	16	366	962		2	helm	or3						useitem			100	corrupt	100		53	53	corruptnum	100		1001	1001	res-fire-max	100		4	5	res-fire	100		15	15																																																																0
+item -> added mod 6	1	1			100	16	366	975		2	helm	or3						useitem			100	corrupt	100		54	54	corruptnum	100		1001	1001	res-cold-max	100		4	5	res-cold	100		15	15																																																																0
+item -> added mod 7	1	1			100	16	366	987		2	helm	or3						useitem			100	corrupt	100		55	55	corruptnum	100		1001	1001	res-ltng-max	100		4	5	res-ltng	100		15	15																																																																0
+item -> added mod 8	1	1			100	16	366	1000		2	helm	or3						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		4	5	res-pois	100		15	15																																																																0
+BOOTS -----------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	295		2	boot	or3						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
+item -> added mod 2	1	1			100	16	366	340		2	boot	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
+item -> added mod 3	1	1			100	16	366	385		2	boot	or3						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
+item -> added mod 4	1	1			100	16	366	430		2	boot	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		15	20																																																																					0
+item -> added mod 5	1	1			100	16	366	475		2	boot	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		15	20																																																																					0
+item -> added mod 6	1	1			100	16	366	520		2	boot	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		15	20																																																																					0
+item -> added mod 7	1	1			100	16	366	565		2	boot	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		15	20																																																																					0
+item -> added mod 8	1	1			100	16	366	610		2	boot	or3						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		10	15																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	640		2	boot	or3						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block2			10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	670		2	boot	or3						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 3	1	1			100	16	366	700		2	boot	or3						useitem			100	corrupt	100		48	48	corruptnum	100		1001	1001	indestruct	100		1	1	ac%	100		50	80																																																																0
+item -> added mod 4	1	1			100	16	366	730		2	boot	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
+item -> added mod 5	1	1			100	16	366	760		2	boot	or3						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	25																																																																					0
+item -> added mod 6	1	1			100	16	366	790		2	boot	or3						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
+item -> added mod 7	1	1			100	16	366	820		2	boot	or3						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
+item -> added mod 8	1	1			100	16	366	850		2	boot	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		10	10																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	869		2	boot	or3						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	888		2	boot	or3						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
+item -> added mod 3	1	1			100	16	366	907		2	boot	or3						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	nofreeze	100		1	1																																																																					0
+item -> added mod 4	1	1			100	16	366	925		2	boot	or3						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	3																																																																					0
+item -> added mod 5	1	1			100	16	366	944		2	boot	or3						useitem			100	corrupt	100		53	53	corruptnum	100		1001	1001	res-fire-max	100		2	3	res-fire	100		10	10																																																																0
+item -> added mod 6	1	1			100	16	366	963		2	boot	or3						useitem			100	corrupt	100		54	54	corruptnum	100		1001	1001	res-cold-max	100		2	3	res-cold	100		10	10																																																																0
+item -> added mod 7	1	1			100	16	366	982		2	boot	or3						useitem			100	corrupt	100		55	55	corruptnum	100		1001	1001	res-ltng-max	100		2	3	res-ltng	100		10	10																																																																0
+item -> added mod 8	1	1			100	16	366	1000		2	boot	or3						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		2	3	res-pois	100		10	10																																																																0
+GLOVES -------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	295		2	glov	or3						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
+item -> added mod 2	1	1			100	16	366	340		2	glov	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
+item -> added mod 3	1	1			100	16	366	385		2	glov	or3						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
+item -> added mod 4	1	1			100	16	366	430		2	glov	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
+item -> added mod 5	1	1			100	16	366	475		2	glov	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
+item -> added mod 6	1	1			100	16	366	520		2	glov	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
+item -> added mod 7	1	1			100	16	366	565		2	glov	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
+item -> added mod 8	1	1			100	16	366	610		2	glov	or3						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		10	15																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	640		2	glov	or3						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
+item -> added mod 2	1	1			100	16	366	670		2	glov	or3						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 3	1	1			100	16	366	700		2	glov	or3						useitem			100	corrupt	100		63	63	corruptnum	100		1001	1001	pierce	100		10	15																																																																					0
+item -> added mod 4	1	1			100	16	366	730		2	glov	or3						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block1	100		10	20																																																																					0
+item -> added mod 5	1	1			100	16	366	760		2	glov	or3						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	20																																																																					0
+item -> added mod 6	1	1			100	16	366	790		2	glov	or3						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		2	3																																																																					0
+item -> added mod 7	1	1			100	16	366	820		2	glov	or3						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		2	3																																																																					0
+item -> added mod 8	1	1			100	16	366	850		2	glov	or3						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		3	6																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	869		2	glov	or3						useitem			100	corrupt	100		19	19	corruptnum	100		1001	1001	deadly	100		10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	888		2	glov	or3						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	4																																																																					0
+item -> added mod 3	1	1			100	16	366	907		2	glov	or3						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 4	1	1			100	16	366	925		2	glov	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
+item -> added mod 5	1	1			100	16	366	944		2	glov	or3						useitem			100	corrupt	100		20	20	corruptnum	100		1001	1001	swing1	100		10	10																																																																					0
+item -> added mod 6	1	1			100	16	366	963		2	glov	or3						useitem			100	corrupt	100		66	66	corruptnum	100		1001	1001	reduce-ac	100		15	25																																																																					0
+item -> added mod 7	1	1			100	16	366	982		2	glov	or3						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
+item -> added mod 8	1	1			100	16	366	1000		2	glov	or3						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		30	40																																																																					0
+BELTS -----------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	295		2	belt	or3						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		5	10																																																																					0
+item -> added mod 2	1	1			100	16	366	340		2	belt	or3						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		5	10																																																																					0
+item -> added mod 3	1	1			100	16	366	385		2	belt	or3						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		5	10																																																																					0
+item -> added mod 4	1	1			100	16	366	430		2	belt	or3						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		5	10																																																																					0
+item -> added mod 5	1	1			100	16	366	475		2	belt	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
+item -> added mod 6	1	1			100	16	366	520		2	belt	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
+item -> added mod 7	1	1			100	16	366	565		2	belt	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
+item -> added mod 8	1	1			100	16	366	610		2	belt	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	640		2	belt	or3						useitem			100	corrupt	100		41	41	corruptnum	100		1001	1001	thorns/lvl	100		16	32																																																																					0
+item -> added mod 2	1	1			100	16	366	670		2	belt	or3						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		3	6																																																																					0
+item -> added mod 3	1	1			100	16	366	700		2	belt	or3						useitem			100	corrupt	100		63	63	corruptnum	100		1001	1001	pierce	100		10	15																																																																					0
+item -> added mod 4	1	1			100	16	366	730		2	belt	or3						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
+item -> added mod 5	1	1			100	16	366	760		2	belt	or3						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	20																																																																					0
+item -> added mod 6	1	1			100	16	366	790		2	belt	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		20	30																																																																					0
+item -> added mod 7	1	1			100	16	366	820		2	belt	or3						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		60	100																																																																					0
+item -> added mod 8	1	1			100	16	366	850		2	belt	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		10	10																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	869		2	belt	or3						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	888		2	belt	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
+item -> added mod 3	1	1			100	16	366	907		2	belt	or3						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	nofreeze	100		1	1																																																																					0
+item -> added mod 4	1	1			100	16	366	925		2	belt	or3						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	4																																																																					0
+item -> added mod 5	1	1			100	16	366	944		2	belt	or3						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 6	1	1			100	16	366	963		2	belt	or3						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
+item -> added mod 7	1	1			100	16	366	982		2	belt	or3						useitem			100	corrupt	100		20	20	corruptnum	100		1001	1001	swing1	100		10	10																																																																					0
+item -> added mod 8	1	1			100	16	366	1000		2	belt	or3						useitem			100	corrupt	100		72	72	corruptnum	100		1001	1001	res-all-max	100		1	2																																																																					0
+QUIVERS -----------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	295		2	misl	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance2	100		20	20																																																																					0
+item -> added mod 2	1	1			100	16	366	340		2	misl	or3						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 3	1	1			100	16	366	385		2	misl	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
+item -> added mod 4	1	1			100	16	366	430		2	misl	or3						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
+item -> added mod 5	1	1			100	16	366	475		2	misl	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	20																																																																					0
+item -> added mod 6	1	1			100	16	366	520		2	misl	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	20																																																																					0
+item -> added mod 7	1	1			100	16	366	565		2	misl	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	20																																																																					0
+item -> added mod 8	1	1			100	16	366	610		2	misl	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	20																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	640		2	misl	or3						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		50	100																																																																					0
+item -> added mod 2	1	1			100	16	366	670		2	misl	or3						useitem			100	corrupt	100		66	66	corruptnum	100		1001	1001	reduce-ac	100		10	20																																																																					0
+item -> added mod 3	1	1			100	16	366	700		2	misl	or3						useitem			100	corrupt	100		63	63	corruptnum	100		1001	1001	pierce	100		10	15																																																																					0
+item -> added mod 4	1	1			100	16	366	730		2	misl	or3						useitem			100	corrupt	100		12	12	corruptnum	100		1001	1001	pierce-fire	100		5	10																																																																					0
+item -> added mod 5	1	1			100	16	366	760		2	misl	or3						useitem			100	corrupt	100		14	14	corruptnum	100		1001	1001	pierce-cold	100		5	10																																																																					0
+item -> added mod 6	1	1			100	16	366	790		2	misl	or3						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		2	4																																																																					0
+item -> added mod 7	1	1			100	16	366	820		2	misl	or3						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		2	4																																																																					0
+item -> added mod 8	1	1			100	16	366	850		2	misl	or3						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	869		2	misl	or3						useitem			100	corrupt	100		74	74	corruptnum	100		1001	1001	dmg-min	100		10	15																																																																					0
+item -> added mod 2	1	1			100	16	366	888		2	misl	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	10																																																																					0
+item -> added mod 3	1	1			100	16	366	907		2	misl	or3						useitem			100	corrupt	100		49	49	corruptnum	100		1001	1001	hp%	100		5	5																																																																					0
+item -> added mod 4	1	1			100	16	366	925		2	misl	or3						useitem			100	corrupt	100		75	75	corruptnum	100		1001	1001	dmg-max	100		10	15																																																																					0
+item -> added mod 5	1	1			100	16	366	944		2	misl	or3						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		30	40																																																																					0
+item -> added mod 6	1	1			100	16	366	963		2	misl	or3						useitem			100	corrupt	100		76	76	corruptnum	100		1001	1001	ignore-ac	100		1	1																																																																					0
+item -> added mod 7	1	1			100	16	366	982		2	misl	or3						useitem			100	corrupt	100		20	20	corruptnum	100		1001	1001	swing1	100		10	10																																																																					0
+item -> added mod 8	1	1			100	16	366	1000		2	misl	or3						useitem			100	corrupt	100		50	50	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
+SHIELDS ------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	530		2	shld	or3						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block2	100		20	20																																																																					0
+item -> added mod 2	1	1			100	16	366	560		2	shld	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		20	30																																																																					0
+item -> added mod 3	1	1			100	16	366	590		2	shld	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		20	30																																																																					0
+item -> added mod 4	1	1			100	16	366	620		2	shld	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		35	40																																																																					0
+item -> added mod 5	1	1			100	16	366	650		2	shld	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		35	40																																																																					0
+item -> added mod 6	1	1			100	16	366	680		2	shld	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		35	40																																																																					0
+item -> added mod 7	1	1			100	16	366	710		2	shld	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		35	40																																																																					0
+item -> added mod 8	1	1			100	16	366	740		2	shld	or3						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		15	25																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	760		2	shld	or3						useitem			100	corrupt	100		41	41	corruptnum	100		1001	1001	thorns/lvl	100		32	48																																																																					0
+item -> added mod 2	1	1			100	16	366	780		2	shld	or3						useitem			100	corrupt	100		43	43	corruptnum	100		1001	1001	hp%	100		4	6																																																																					0
+item -> added mod 3	1	1			100	16	366	800		2	shld	or3						useitem			100	corrupt	100		73	73	corruptnum	100		1001	1001	block	100		10	20	block1	100		10	10																																																																0
+item -> added mod 4	1	1			100	16	366	820		2	shld	or3						useitem			100	corrupt	100		48	48	corruptnum	100		1001	1001	indestruct	100		1	1	ac%	100		50	80																																																																0
+item -> added mod 5	1	1			100	16	366	840		2	shld	or3						useitem			100	corrupt	100		45	45	corruptnum	100		1001	1001	nofreeze	100		1	1																																																																					0
+item -> added mod 6	1	1			100	16	366	860		2	shld	or3						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		6	10																																																																					0
+item -> added mod 7	1	1			100	16	366	880		2	shld	or3						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		6	10																																																																					0
+item -> added mod 8	1	1			100	16	366	900		2	shld	or3						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	912		2	shld	or3						useitem			100	corrupt	100		49	49	corruptnum	100		1001	1001	hp%	100		5	5																																																																					0
+item -> added mod 2	1	1			100	16	366	925		2	shld	or3						useitem			100	corrupt	100		50	50	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
+item -> added mod 3	1	1			100	16	366	937		2	shld	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		22	30																																																																					0
+item -> added mod 4	1	1			100	16	366	950		2	shld	or3						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		6	6																																																																					0
+item -> added mod 5	1	1			100	16	366	962		2	shld	or3						useitem			100	corrupt	100		53	53	corruptnum	100		1001	1001	res-fire-max	100		4	5	res-fire	100		15	20																																																																0
+item -> added mod 6	1	1			100	16	366	975		2	shld	or3						useitem			100	corrupt	100		54	54	corruptnum	100		1001	1001	res-cold-max	100		4	5	res-cold	100		15	20																																																																0
+item -> added mod 7	1	1			100	16	366	987		2	shld	or3						useitem			100	corrupt	100		55	55	corruptnum	100		1001	1001	res-ltng-max	100		4	5	res-ltng	100		15	20																																																																0
+item -> added mod 8	1	1			100	16	366	1000		2	shld	or3						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		4	5	res-pois	100		15	20																																																																0
+RINGS ------------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	295		2	ring	or3						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		5	10																																																																					0
+item -> added mod 2	1	1			100	16	366	340		2	ring	or3						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		5	10																																																																					0
+item -> added mod 3	1	1			100	16	366	385		2	ring	or3						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		5	10																																																																					0
+item -> added mod 4	1	1			100	16	366	430		2	ring	or3						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		5	10																																																																					0
+item -> added mod 5	1	1			100	16	366	475		2	ring	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
+item -> added mod 6	1	1			100	16	366	520		2	ring	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
+item -> added mod 7	1	1			100	16	366	565		2	ring	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
+item -> added mod 8	1	1			100	16	366	610		2	ring	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	640		2	ring	or3						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 2	1	1			100	16	366	670		2	ring	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		15	20																																																																					0
+item -> added mod 3	1	1			100	16	366	700		2	ring	or3						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		40	80																																																																					0
+item -> added mod 4	1	1			100	16	366	730		2	ring	or3						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		4	6																																																																					0
+item -> added mod 5	1	1			100	16	366	760		2	ring	or3						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		4	6																																																																					0
+item -> added mod 6	1	1			100	16	366	790		2	ring	or3						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
+item -> added mod 7	1	1			100	16	366	820		2	ring	or3						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
+item -> added mod 8	1	1			100	16	366	850		2	ring	or3						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	869		2	ring	or3						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	888		2	ring	or3						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	3																																																																					0
+item -> added mod 3	1	1			100	16	366	907		2	ring	or3						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	hp%	100		10	10																																																																					0
+item -> added mod 4	1	1			100	16	366	925		2	ring	or3						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		3	4																																																																					0
+item -> added mod 5	1	1			100	16	366	944		2	ring	or3						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		3	4																																																																					0
+item -> added mod 6	1	1			100	16	366	963		2	ring	or3						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 7	1	1			100	16	366	982		2	ring	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		4	6																																																																					0
+item -> added mod 8	1	1			100	16	366	1000		2	ring	or3						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		4	6																																																																					0
+AMULETS --------------------------------	0																																																																																																								0
+Tier 1	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	295		2	amul	or3						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		6	12																																																																					0
+item -> added mod 2	1	1			100	16	366	340		2	amul	or3						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		6	12																																																																					0
+item -> added mod 3	1	1			100	16	366	385		2	amul	or3						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		6	12																																																																					0
+item -> added mod 4	1	1			100	16	366	430		2	amul	or3						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		6	12																																																																					0
+item -> added mod 5	1	1			100	16	366	475		2	amul	or3						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		15	20																																																																					0
+item -> added mod 6	1	1			100	16	366	520		2	amul	or3						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		15	20																																																																					0
+item -> added mod 7	1	1			100	16	366	565		2	amul	or3						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		15	20																																																																					0
+item -> added mod 8	1	1			100	16	366	610		2	amul	or3						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		15	20																																																																					0
+Tier 2	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	640		2	amul	or3						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		5	8																																																																					0
+item -> added mod 2	1	1			100	16	366	670		2	amul	or3						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		20	30																																																																					0
+item -> added mod 3	1	1			100	16	366	700		2	amul	or3						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		60	100																																																																					0
+item -> added mod 4	1	1			100	16	366	730		2	amul	or3						useitem			100	corrupt	100		63	63	corruptnum	100		1001	1001	pierce	100		10	20																																																																					0
+item -> added mod 5	1	1			100	16	366	760		2	amul	or3						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	25																																																																					0
+item -> added mod 6	1	1			100	16	366	790		2	amul	or3						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
+item -> added mod 7	1	1			100	16	366	820		2	amul	or3						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
+item -> added mod 8	1	1			100	16	366	850		2	amul	or3						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		10	10																																																																					0
+Tier 3	0																																																																																																								0
+item -> added mod 1	1	1			100	16	366	869		2	amul	or3						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1			100	16	366	888		2	amul	or3						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		30	40																																																																					0
+item -> added mod 3	1	1			100	16	366	907		2	amul	or3						useitem			100	corrupt	100		50	50	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
+item -> added mod 4	1	1			100	16	366	925		2	amul	or3						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
+item -> added mod 5	1	1			100	16	366	944		2	amul	or3						useitem			100	corrupt	100		72	72	corruptnum	100		1001	1001	res-all-max	100		1	2																																																																					0
+item -> added mod 6	1	1			100	16	366	963		2	amul	or3						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 7	1	1			100	16	366	982		2	amul	or3						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	10																																																																					0
+item -> added mod 8	1	1			100	16	366	1000		2	amul	or3						useitem			100	corrupt	100		45	45	corruptnum	100		1001	1001	nofreeze	100		1	1																																																																					0

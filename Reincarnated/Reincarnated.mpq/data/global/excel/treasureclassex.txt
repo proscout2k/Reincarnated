@@ -1,15 +1,15 @@
 Treasure Class	group	level	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	Item2	Prob2	Item3	Prob3	Item4	Prob4	Item5	Prob5	Item6	Prob6	Item7	Prob7	Item8	Prob8	Item9	Prob9	Item10	Prob10	*ItemProbSum	*ItemProbTotal	*TreasureClassDropChance	firstLadderSeason	lastLadderSeason	noAlwaysSpawn	*eol
 Gold			1						gld	0																									0
 Organs			1						hrt	1	brz	1	jaw	1	eyz	1	hrn	1	tal	1	flg	1	fng	1	qll	1	spe	1							0
-Jewelry A			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2															0
-Jewelry B			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2															0
-Jewelry C			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2															0
+Ammo			1						aqv	1	cqv	1																							0
+Jewelry A			1						rin	8	Ammo	6	amu	4	jew	2	cm3	2	cm2	2	cm1	2													0
+Jewelry B			1						rin	8	Ammo	6	amu	4	jew	2	cm3	2	cm2	2	cm1	2													0
+Jewelry C			1						rin	8	Ammo	6	amu	4	jew	2	cm3	2	cm2	2	cm1	2													0
 Chipped Gem			1						zcv	3	zcy	3	zcb	3	zcg	3	zcr	3	zcw	3	zkc	2													0
 Flawed Gem			1						zfv	3	zfy	3	zfb	3	zfg	3	zfr	3	zfw	3	zkf	2													0
 Normal Gem			1						zsv	3	zsy	3	zsb	3	zsg	3	zsr	3	zsw	3	zku	2													0
 Flawless Gem			1						zzv	3	zly	3	qlb	3	zlg	3	zlr	3	zlw	3	zkl	2													0
 Perfect Gem			1						zpv	3	zpy	3	zpb	3	zpg	3	zpr	3	zpw	3	zkz	2													0
-Ammo			1						aqv	1	cqv	1																							0
 Runes 1			1						s01	3	s02	2																							0
 Runes 2			1						s03	3	s04	2	Runes 1	2																					0
 Runes 3			1						s05	3	s06	2	Runes 2	5																					0
@@ -107,57 +107,57 @@ Act 4 (H) Melee B	2	80	1						weap72	2	armo72	1	weap75	6	armo75	3	weap78	14	armo
 Act 5 (H) Melee A	2	81	1						weap75	2	armo75	1	weap78	6	armo78	3	weap81	14	armo81	7	weap84	2	armo84	1	Act 4 (H) Melee B	1530			36	1566	0.977				0
 Act 5 (H) Melee B	2	83	1						weap78	2	armo78	1	weap81	6	armo81	3	weap84	14	armo84	7	weap87	2	armo87	1	Act 5 (H) Melee A	1530			36	1566	0.977				0
 Act 5 (H) Melee C	2	85	1						weap81	2	armo81	1	weap84	6	armo84	3	weap87	14	armo87	7	weap87	1	armo87	1	Act 5 (H) Melee B	1530			35	1565	0.9776				0
-Act 1 Bow A	3	0	1						bow3	36																									0
+Act 1 Bow A	3	0	1						bow3	24	Ammo	12																							0
 Act 1 Bow B	3	5	1						bow3	20	bow6	16																							0
 Act 1 Bow C	3	9	1						bow3	10	bow6	16	bow9	10																					0
-Act 2 Bow A	3	12	1						bow3	3	bow6	15	bow9	15	bow12	3																			0
+Act 2 Bow A	3	12	1						bow3	3	bow6	15	bow9	15	bow12	3	Ammo																		0
 Act 2 Bow B	3	15	1						bow3	1	bow6	7	bow9	20	bow12	7	bow15	1																	0
 Act 2 Bow C	3	18	1						bow3	1	bow6	3	bow9	14	bow12	14	bow15	3	bow18	1															0
 Act 3 Bow A	3	20	1						bow3	1	bow6	3	bow9	6	bow12	12	bow15	6	bow18	3	bow21	1													0
 Act 3 Bow B	3	22	1						bow3	1	bow6	3	bow9	6	bow12	8	bow15	8	bow18	6	bow21	3	bow24	1											0
 Act 3 Bow C	3	24	1						bow3	1	bow6	2	bow9	5	bow12	7	bow15	8	bow18	7	bow21	4	bow24	2											0
-Act 4 Bow A	3	26	1						bow6	1	bow9	3	bow12	6	bow15	8	bow18	8	bow21	6	bow24	3	bow27	1	Act 3 Bow C	110			36	146	0.7534				0
-Act 4 Bow B	3	29	1						bow6	1	bow9	2	bow12	5	bow15	7	bow18	8	bow21	7	bow24	4	bow27	2	Act 4 Bow A	180			36	216	0.8333				0
-Act 5 Bow A	3	32	1						bow9	1	bow12	3	bow15	6	bow18	8	bow21	8	bow24	6	bow27	3	bow30	1	Act 4 Bow B	270			36	306	0.8824				0
-Act 5 Bow B	3	34	1						bow9	1	bow12	2	bow15	5	bow18	7	bow21	8	bow24	7	bow27	4	bow30	2	Act 5 Bow A	380			36	416	0.9135				0
-Act 5 Bow C	3	36	1						bow9	1	bow12	2	bow15	5	bow18	7	bow21	8	bow24	7	bow27	4	bow30	2	Act 5 Bow B	500			36	536	0.9328				0
-Act 1 (N) Bow A	3	38	1						bow12	1	bow15	2	bow18	5	bow21	7	bow24	8	bow27	7	bow30	4	bow33	2	Act 5 Bow C	630			36	666	0.9459				0
-Act 1 (N) Bow B	3	40	1						bow15	1	bow18	2	bow21	5	bow24	7	bow27	8	bow30	7	bow33	4	bow36	2	Act 1 (N) Bow A	770			36	806	0.9553				0
-Act 2 (N) Bow A	3	42	1						bow18	1	bow21	2	bow24	5	bow27	7	bow30	8	bow33	7	bow36	4	bow39	2	Act 1 (N) Bow B	920			36	956	0.9623				0
-Act 2 (N) Bow B	3	44	1						bow21	1	bow24	2	bow27	5	bow30	7	bow33	8	bow36	7	bow39	4	bow42	2	Act 2 (N) Bow A	1070			36	1106	0.9675				0
-Act 3 (N) Bow A	3	46	1						bow24	1	bow27	2	bow30	5	bow33	7	bow36	8	bow39	7	bow42	4	bow45	2	Act 2 (N) Bow B	1220			36	1256	0.9713				0
-Act 3 (N) Bow B	3	48	1						bow27	1	bow30	2	bow33	5	bow36	7	bow39	8	bow42	7	bow45	4	bow48	2	Act 3 (N) Bow A	1370			36	1406	0.9744				0
-Act 4 (N) Bow A	3	51	1						bow30	1	bow33	2	bow36	5	bow39	7	bow42	8	bow45	7	bow48	4	bow51	2	Act 3 (N) Bow B	1520			36	1556	0.9769				0
-Act 4 (N) Bow B	3	54	1						bow33	1	bow36	2	bow39	5	bow42	7	bow45	8	bow48	7	bow51	4	bow54	2	Act 4 (N) Bow A	1670			36	1706	0.9789				0
-Act 5 (N) Bow A	3	57	1						bow36	1	bow39	2	bow42	5	bow45	7	bow48	8	bow51	7	bow54	4	bow57	2	Act 4 (N) Bow B	1820			36	1856	0.9806				0
-Act 5 (N) Bow B	3	60	1						bow39	1	bow42	2	bow45	5	bow48	7	bow51	8	bow54	7	bow57	4	bow60	2	Act 5 (N) Bow A	1970			36	2006	0.9821				0
-Act 5 (N) Bow C	3	63	1						bow42	1	bow45	2	bow48	5	bow51	7	bow54	8	bow57	7	bow60	4	bow63	2	Act 5 (N) Bow B	2120			36	2156	0.9833				0
-Act 1 (H) Bow A	3	66	1						bow45	1	bow48	2	bow51	5	bow54	7	bow57	8	bow60	7	bow63	4	bow66	2	Act 5 (N) Bow C	2270			36	2306	0.9844				0
-Act 1 (H) Bow B	3	69	1						bow48	1	bow51	2	bow54	5	bow57	7	bow60	8	bow63	7	bow66	4	bow69	2	Act 1 (H) Bow A	2270			36	2306	0.9844				0
-Act 2 (H) Bow A	3	71	1						bow51	1	bow54	2	bow57	5	bow60	7	bow63	8	bow66	7	bow69	4	bow72	2	Act 1 (H) Bow B	2270			36	2306	0.9844				0
-Act 2 (H) Bow B	3	73	1						bow54	1	bow57	2	bow60	5	bow63	7	bow66	8	bow69	7	bow72	4	bow75	2	Act 2 (H) Bow A	2270			36	2306	0.9844				0
-Act 3 (H) Bow A	3	75	1						bow57	1	bow60	2	bow63	5	bow66	7	bow69	8	bow72	7	bow75	4	bow78	2	Act 2 (H) Bow B	2270			36	2306	0.9844				0
-Act 3 (H) Bow B	3	77	1						bow60	1	bow63	2	bow66	5	bow69	7	bow72	8	bow75	7	bow78	4	bow81	2	Act 3 (H) Bow A	2270			36	2306	0.9844				0
-Act 4 (H) Bow A	3	79	1						bow63	1	bow66	2	bow69	5	bow72	7	bow75	8	bow78	7	bow81	4	bow84	2	Act 3 (H) Bow B	2270			36	2306	0.9844				0
-Act 4 (H) Bow B	3	80	1						bow66	1	bow69	2	bow72	5	bow75	7	bow78	8	bow81	7	bow84	2	bow84	1	Act 4 (H) Bow A	2080			33	2113	0.9844				0
-Act 5 (H) Bow A	3	82	1						bow69	1	bow72	2	bow75	5	bow78	7	bow81	8	bow84	7	bow87	2	bow87	1	Act 4 (H) Bow B	2080			33	2113	0.9844				0
-Act 5 (H) Bow B	3	83	1						bow72	1	bow75	2	bow78	5	bow81	7	bow84	8	bow87	7	bow87	2	bow87	1	Act 5 (H) Bow A	2080			33	2113	0.9844				0
-Act 5 (H) Bow C	3	85	1						bow75	1	bow78	2	bow81	5	bow84	7	bow87	8	bow87	1	bow87	1	bow87	1	Act 5 (H) Bow B	1655			26	1681	0.9845				0
-Act 1 Good	5	0	1						Jewelry A	5	Chipped Gem	5	organs	25																					0
-Act 2 Good	5	12	1						Jewelry B	20	Chipped Gem	12	Flawed Gem	4	Runes 1	3	Runes 2	3	organs	25															0
-Act 3 Good	5	18	1						Jewelry C	20	Chipped Gem	8	Flawed Gem	8	Runes 3	3	Runes 4	3	organs	25															0
-Act 4 Good	5	26	1						Jewelry C	50	Chipped Gem	14	Flawed Gem	28	Normal Gem	42	Runes 5	14	Runes 6	7	organs	25													0
-Act 5 Good	5	32	1						Jewelry C	50	Chipped Gem	6	Flawed Gem	8	Normal Gem	24	Flawless Gem	4	Runes 7	10	organs	25													0
-Act 1 (N) Good	5	38	1						Jewelry C	60	Chipped Gem	6	Flawed Gem	8	Normal Gem	28	Flawless Gem	14	Runes 8	14	organs	25													0
-Act 2 (N) Good	5	42	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 9	14	organs	25													0
-Act 3 (N) Good	5	46	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 10	14	organs	25													0
-Act 4 (N) Good	5	51	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 11	14	organs	25													0
-Act 5 (N) Good	5	57	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 12	14	organs	25													0
-Act 1 (H) Good	5	66	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 13	14	organs	25													0
-Act 2 (H) Good	5	72	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 14	14	organs	25													0
-Act 3 (H) Good	5	78	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 15	14	organs	25													0
-Act 4 (H) Good	5	82	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 16	14	organs	25													0
-Act 5 (H) Good	5	85	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 17	14	organs	25													0
+Act 4 Bow A	3	26	1						bow6	1	bow9	3	bow12	6	bow15	8	bow18	8	bow21	6	bow24	3	bow27	1			Act 3 Bow C	110	36	146	0.7534				0
+Act 4 Bow B	3	29	1						bow6	1	bow9	2	bow12	5	bow15	7	bow18	8	bow21	7	bow24	4	bow27	2			Act 4 Bow A	180	36	216	0.8333				0
+Act 5 Bow A	3	32	1						bow9	1	bow12	3	bow15	6	bow18	8	bow21	8	bow24	6	bow27	3	bow30	1			Act 4 Bow B	270	36	306	0.8824				0
+Act 5 Bow B	3	34	1						bow9	1	bow12	2	bow15	5	bow18	7	bow21	8	bow24	7	bow27	4	bow30	2			Act 5 Bow A	380	36	416	0.9135				0
+Act 5 Bow C	3	36	1						bow9	1	bow12	2	bow15	5	bow18	7	bow21	8	bow24	7	bow27	4	bow30	2			Act 5 Bow B	500	36	536	0.9328				0
+Act 1 (N) Bow A	3	38	1						bow12	1	bow15	2	bow18	5	bow21	7	bow24	8	bow27	7	bow30	4	bow33	2			Act 5 Bow C	630	36	666	0.9459				0
+Act 1 (N) Bow B	3	40	1						bow15	1	bow18	2	bow21	5	bow24	7	bow27	8	bow30	7	bow33	4	bow36	2			Act 1 (N) Bow A	770	36	806	0.9553				0
+Act 2 (N) Bow A	3	42	1						bow18	1	bow21	2	bow24	5	bow27	7	bow30	8	bow33	7	bow36	4	bow39	2			Act 1 (N) Bow B	920	36	956	0.9623				0
+Act 2 (N) Bow B	3	44	1						bow21	1	bow24	2	bow27	5	bow30	7	bow33	8	bow36	7	bow39	4	bow42	2			Act 2 (N) Bow A	1070	36	1106	0.9675				0
+Act 3 (N) Bow A	3	46	1						bow24	1	bow27	2	bow30	5	bow33	7	bow36	8	bow39	7	bow42	4	bow45	2			Act 2 (N) Bow B	1220	36	1256	0.9713				0
+Act 3 (N) Bow B	3	48	1						bow27	1	bow30	2	bow33	5	bow36	7	bow39	8	bow42	7	bow45	4	bow48	2			Act 3 (N) Bow A	1370	36	1406	0.9744				0
+Act 4 (N) Bow A	3	51	1						bow30	1	bow33	2	bow36	5	bow39	7	bow42	8	bow45	7	bow48	4	bow51	2			Act 3 (N) Bow B	1520	36	1556	0.9769				0
+Act 4 (N) Bow B	3	54	1						bow33	1	bow36	2	bow39	5	bow42	7	bow45	8	bow48	7	bow51	4	bow54	2			Act 4 (N) Bow A	1670	36	1706	0.9789				0
+Act 5 (N) Bow A	3	57	1						bow36	1	bow39	2	bow42	5	bow45	7	bow48	8	bow51	7	bow54	4	bow57	2			Act 4 (N) Bow B	1820	36	1856	0.9806				0
+Act 5 (N) Bow B	3	60	1						bow39	1	bow42	2	bow45	5	bow48	7	bow51	8	bow54	7	bow57	4	bow60	2			Act 5 (N) Bow A	1970	36	2006	0.9821				0
+Act 5 (N) Bow C	3	63	1						bow42	1	bow45	2	bow48	5	bow51	7	bow54	8	bow57	7	bow60	4	bow63	2			Act 5 (N) Bow B	2120	36	2156	0.9833				0
+Act 1 (H) Bow A	3	66	1						bow45	1	bow48	2	bow51	5	bow54	7	bow57	8	bow60	7	bow63	4	bow66	2			Act 5 (N) Bow C	2270	36	2306	0.9844				0
+Act 1 (H) Bow B	3	69	1						bow48	1	bow51	2	bow54	5	bow57	7	bow60	8	bow63	7	bow66	4	bow69	2			Act 1 (H) Bow A	2270	36	2306	0.9844				0
+Act 2 (H) Bow A	3	71	1						bow51	1	bow54	2	bow57	5	bow60	7	bow63	8	bow66	7	bow69	4	bow72	2			Act 1 (H) Bow B	2270	36	2306	0.9844				0
+Act 2 (H) Bow B	3	73	1						bow54	1	bow57	2	bow60	5	bow63	7	bow66	8	bow69	7	bow72	4	bow75	2			Act 2 (H) Bow A	2270	36	2306	0.9844				0
+Act 3 (H) Bow A	3	75	1						bow57	1	bow60	2	bow63	5	bow66	7	bow69	8	bow72	7	bow75	4	bow78	2			Act 2 (H) Bow B	2270	36	2306	0.9844				0
+Act 3 (H) Bow B	3	77	1						bow60	1	bow63	2	bow66	5	bow69	7	bow72	8	bow75	7	bow78	4	bow81	2			Act 3 (H) Bow A	2270	36	2306	0.9844				0
+Act 4 (H) Bow A	3	79	1						bow63	1	bow66	2	bow69	5	bow72	7	bow75	8	bow78	7	bow81	4	bow84	2			Act 3 (H) Bow B	2270	36	2306	0.9844				0
+Act 4 (H) Bow B	3	80	1						bow66	1	bow69	2	bow72	5	bow75	7	bow78	8	bow81	7	bow84	2	bow84	1			Act 4 (H) Bow A	2080	33	2113	0.9844				0
+Act 5 (H) Bow A	3	82	1						bow69	1	bow72	2	bow75	5	bow78	7	bow81	8	bow84	7	bow87	2	bow87	1			Act 4 (H) Bow B	2080	33	2113	0.9844				0
+Act 5 (H) Bow B	3	83	1						bow72	1	bow75	2	bow78	5	bow81	7	bow84	8	bow87	7	bow87	2	bow87	1			Act 5 (H) Bow A	2080	33	2113	0.9844				0
+Act 5 (H) Bow C	3	85	1						bow75	1	bow78	2	bow81	5	bow84	7	bow87	8	bow87	1	bow87	1	bow87	1			Act 5 (H) Bow B	1655	26	1681	0.9845				0
+Act 1 Good	5	0	1						Jewelry A	5	Chipped Gem	5																							0
+Act 2 Good	5	12	1						Jewelry B	20	Chipped Gem	12	Flawed Gem	4	Runes 1	3	Runes 2	3																	0
+Act 3 Good	5	18	1						Jewelry C	20	Chipped Gem	8	Flawed Gem	8	Runes 3	3	Runes 4	3	organs	3															0
+Act 4 Good	5	26	1						Jewelry C	50	Chipped Gem	14	Flawed Gem	28	Normal Gem	42	Runes 5	14	Runes 6	7	organs	7													0
+Act 5 Good	5	32	1						Jewelry C	50	Chipped Gem	6	Flawed Gem	8	Normal Gem	24	Flawless Gem	4	Runes 7	10	organs	7													0
+Act 1 (N) Good	5	38	1						Jewelry C	60	Chipped Gem	6	Flawed Gem	8	Normal Gem	28	Flawless Gem	14	Runes 8	14	organs	7													0
+Act 2 (N) Good	5	42	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 9	14	organs	7													0
+Act 3 (N) Good	5	46	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 10	14	organs	7													0
+Act 4 (N) Good	5	51	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 11	14	organs	7													0
+Act 5 (N) Good	5	57	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 12	14	organs	7													0
+Act 1 (H) Good	5	66	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 13	14	organs	7													0
+Act 2 (H) Good	5	72	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 14	14	organs	7													0
+Act 3 (H) Good	5	78	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 15	14	organs	7													0
+Act 4 (H) Good	5	82	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 16	14	organs	7													0
+Act 5 (H) Good	5	85	1						Jewelry C	60	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 17	14	organs	7													0
 Act 1 Chest A	6	0	4					144	gld	15	Act 1 Equip A	10	Act 1 Good	2																					0
 Act 1 Chest B	6	5	4					144	gld	15	Act 1 Equip B	10	Act 1 Good	2																					0
 Act 1 Chest C	6	9	4					144	gld	15	Act 1 Equip C	15	Act 1 Good	2																					0

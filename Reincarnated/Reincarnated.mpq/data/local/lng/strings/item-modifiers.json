@@ -5999,5 +5999,39 @@
         "ptBR": "",
         "ruRU": "",
         "zhCN": ""
+    },
+    {
+        "id": 27390,
+        "Key": "modCorrupted",
+        "enUS": "ÿc1Corruptedÿc3\n",
+        "zhTW": "",
+        "deDE": "",
+        "esES": "",
+        "frFR": "",
+        "itIT": "",
+        "koKR": "",
+        "plPL": "",
+        "esMX": "",
+        "jaJP": "",
+        "ptBR": "",
+        "ruRU": "",
+        "zhCN": ""
+    },
+    {
+        "id": 27391,
+        "Key": "demoValue",
+        "enUS": "ÿc8Corrupt number %d",
+        "zhTW": "",
+        "deDE": "",
+        "esES": "",
+        "frFR": "",
+        "itIT": "",
+        "koKR": "",
+        "plPL": "",
+        "esMX": "",
+        "jaJP": "",
+        "ptBR": "",
+        "ruRU": "",
+        "zhCN": ""
     }
 ]
