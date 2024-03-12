@@ -485,6 +485,7 @@ Armor	1				100	16	366	250		2	armo,nos	or3						usetype,rar			100	corruptnum			10
 Missiles	1				100	16	366	250		2	misl,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
 Amulet	1				100	16	366	250		2	amul,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
 Ring	1				100	16	366	250		2	ring,nos	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
+CORRUPT - SOCKETING IF NO SOCKET	0																																																																																																								0
 WEAPONS	0																																																																																																								0
 weapon -> + 1 sockets  (6%)	1				100	16	366	310		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			1	1	corruptnum			1001	1001																																																																					0
 weapon -> + 2 sockets  (5.5%)	1				100	16	366	365		2	weap,nos	or3						useitem			100	corrupt			1	1	sock			2	2	corruptnum			1001	1001																																																																					0
@@ -513,10 +514,10 @@ Armor	1				100	16	366	500		2	armo,sock	or3						usetype,rar			100	corruptnum			1
 Missiles	1				100	16	366	500		2	misl,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
 Amulet	1				100	16	366	500		2	amul,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
 Ring	1				100	16	366	500		2	ring,sock	or3						usetype,rar			100	corruptnum			1001	1001	corrupt			1	1																																																																										0
-ADD SPECIAL CORRUPT MOD 	0																																																																																																								0
-WEAPONS (global) ------------------------	0																																																																																																								0
+CORRUPT - ADD BONUS	0																																																																																																								0
+WEAPONS	0																																																																																																								0
 Tier 1	0																																																																																																								0
-item -> added mod 1	1				100	16	366	525		2	weap	or3						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		40	80																																																																					0
+Weapon 1 	1				100	16	366	525		2	weap	or3						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		40	80																																																																					0
 item -> added mod 2	1				100	16	366	550		2	weap	or3						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	250																																																																					0
 item -> added mod 3	1				100	16	366	575		2	weap	or3						useitem			100	corrupt	100		4	4	corruptnum	100		1001	1001	heal-hit	100		3	6																																																																					0
 item -> added mod 4	1				100	16	366	600		2	weap	or3						useitem			100	corrupt	100		5	5	corruptnum	100		1001	1001	att-demon	100		200	200	dmg-demon	100		100	150																																																																0

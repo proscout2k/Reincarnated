@@ -279,5 +279,5 @@ charge-noconsume	1	1	item_charge_noconsume																											+#% chance 
 dmg-meleearea	1	11	item_meleeareadamage																											#% Chance of Melee Area Damage	Skill	% Chance (If 0, then default to 5)	Skill Level		0
 dmg%-melee-min	1	15	melee_mindamage_percent																											+#% Enhanced Minimum Melee Damage		Min %	Max %		0
 dmg%-melee-max	1	16	melee_maxdamage_percent																											+#% Enhanced Maximum Melee Damage		Min %	Max %		0
-corrupt	1	1	corrupted																											+#% to Fire Skill Damage		Min %	Max %		0
-corruptnum	1	1	corruptor																											+#% to Fire Skill Damage		Min %	Max %		0
+corrupt	1	1	corrupted																											Corrupted					0
+corruptnum	1	1	corruptor																											Corruptor Modifier		Min #	Max #		0
