@@ -14877,7 +14877,7 @@
   {
     "id": 4881,
     "Key": "skillname127",
-    "enUS": "Blade Mastery",
+    "enUS": "General Mastery",
     "zhTW": "利刃專精",
     "deDE": "Klingenbeherrschung",
     "esES": "Dominio de los filos",
@@ -14894,7 +14894,7 @@
   {
     "id": 4882,
     "Key": "skillsd127",
-    "enUS": "passive - improves swords and daggers fighting skill",
+    "enUS": "passive - improves melee fighting skill",
     "zhTW": "被動 - 提高你使用刀劍與匕首的戰鬥技巧",
     "deDE": "Passiv - Verbessert den Umgang mit Schwertern und Dolchen.",
     "esES": "Pasiva: Mejora la destreza de lucha con espadas y dagas.",
@@ -14911,7 +14911,7 @@
   {
     "id": 4883,
     "Key": "skillld127",
-    "enUS": "passive - improves swords and daggers fighting skill",
+    "enUS": "passive - improves melee fighting skill",
     "zhTW": "被動 - 提高你使用刀劍與匕首的戰鬥技巧",
     "deDE": "Passiv - Verbessert den Umgang mit Schwertern und Dolchen.",
     "esES": "Pasiva: Mejora la destreza de lucha con espadas y dagas.",
@@ -14928,7 +14928,7 @@
   {
     "id": 4884,
     "Key": "skillan127",
-    "enUS": "Blade Mastery",
+    "enUS": "General Mastery",
     "zhTW": "利刃專精",
     "deDE": "Klingenbeherrschung",
     "esES": "Dominio de los filos",

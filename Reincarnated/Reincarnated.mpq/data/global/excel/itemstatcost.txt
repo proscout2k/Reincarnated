@@ -365,4 +365,4 @@ melee_maxdamage_percent	362		1	22											45	20		18	512	18	512			11								1		
 melee_mindamage_percent	363		1	22											45	20		18	512	18	512			11								1																			0
 charm_count	364		1	9							1							7	32	8	32																														0
 corrupted	365		17	9														7	0	11	0																999	3		modCorrupted	modCorrupted										0
-corruptor	366		17	9														7	0	11	0																998	3	2	demoValue	demoValue										0
+corruptor	366		17	9														7	0	11	0																														0
