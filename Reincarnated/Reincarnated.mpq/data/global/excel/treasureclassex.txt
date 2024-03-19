@@ -45,8 +45,8 @@ Runes 17			1						s33	1	Runes 16	5170																							0
 Orbies 1			1						or1	1																									0
 Orbies 2			1						Orbies 1	3	or2	1																							0
 Orbies 3			1						Orbies 2	5	or3	1																							0
-Organs or Orbs A			1						Orbies 2	1	Organs	1																							0
-Organs or Orbs B			1						Orbies 3	1	Organs	1																							0
+OrbsOrgans 1			1						Orbies 2	1	Organs	1																							0
+OrbsOrgans 2			1						Orbies 3	1	Organs	1																							0
 Act 1 Junk			1						Potion 1	8	Misc 0	4	Ammo	4																					0
 Act 2 Junk			1						Act 1 Junk	2	Potion 2	8	Misc 0	4	Ammo	4																			0
 Act 3 Junk			1						Act 2 Junk	2	Potion 3	8	Misc 1	4	Ammo	4																			0
@@ -216,19 +216,19 @@ Act 5 (H) Magic B	4	83	1					100																											0
 Act 5 (H) Magic C	4	85	1					100																											0
 Act 1 Good	5	0	1						Jewelry A	5	Chipped Gem	5																							0
 Act 2 Good	5	12	1						Jewelry B	20	Chipped Gem	12	Flawed Gem	4	Runes 1	3	Runes 2	3																	0
-Act 3 Good	5	18	1						Jewelry C	19	Chipped Gem	8	Flawed Gem	8	Runes 3	3	Runes 4	3	Organs or Orbs A	1															0
-Act 4 Good	5	26	1						Jewelry C	47	Chipped Gem	14	Flawed Gem	28	Normal Gem	36	Runes 5	14	Runes 6	7	Organs or Orbs A	3													0
-Act 5 Good	5	32	1						Jewelry C	45	Chipped Gem	6	Flawed Gem	8	Normal Gem	24	Flawless Gem	1	Runes 7	10	Organs or Orbs A	5													0
-Act 1 (N) Good	5	38	1						Jewelry C	53	Chipped Gem	6	Flawed Gem	8	Normal Gem	28	Flawless Gem	14	Runes 8	14	Organs or Orbs A	7													0
-Act 2 (N) Good	5	42	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 9	14	Organs or Orbs A	7													0
-Act 3 (N) Good	5	46	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 10	14	Organs or Orbs A	7													0
-Act 4 (N) Good	5	51	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 11	14	Organs or Orbs B	7													0
-Act 5 (N) Good	5	57	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 12	14	Organs or Orbs B	7													0
-Act 1 (H) Good	5	66	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 13	14	Organs or Orbs B	7													0
-Act 2 (H) Good	5	72	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 14	14	Organs or Orbs B	7													0
-Act 3 (H) Good	5	78	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 15	14	Organs or Orbs B	7													0
-Act 4 (H) Good	5	82	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 16	14	Organs or Orbs B	7													0
-Act 5 (H) Good	5	85	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 17	14	Organs or Orbs B	7													0
+Act 3 Good	5	18	1						Jewelry C	19	Chipped Gem	8	Flawed Gem	8	Runes 3	3	Runes 4	3	OrbsOrgans 1	1															0
+Act 4 Good	5	26	1						Jewelry C	47	Chipped Gem	14	Flawed Gem	28	Normal Gem	36	Runes 5	14	Runes 6	7	OrbsOrgans 1	3													0
+Act 5 Good	5	32	1						Jewelry C	45	Chipped Gem	6	Flawed Gem	8	Normal Gem	24	Flawless Gem	1	Runes 7	10	OrbsOrgans 1	5													0
+Act 1 (N) Good	5	38	1						Jewelry C	53	Chipped Gem	6	Flawed Gem	8	Normal Gem	28	Flawless Gem	14	Runes 8	14	OrbsOrgans 1	7													0
+Act 2 (N) Good	5	42	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 9	14	OrbsOrgans 1	7													0
+Act 3 (N) Good	5	46	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 10	14	OrbsOrgans 1	7													0
+Act 4 (N) Good	5	51	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 11	14	OrbsOrgans 2	7													0
+Act 5 (N) Good	5	57	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 12	14	OrbsOrgans 2	7													0
+Act 1 (H) Good	5	66	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 13	14	OrbsOrgans 2	7													0
+Act 2 (H) Good	5	72	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 14	14	OrbsOrgans 2	7													0
+Act 3 (H) Good	5	78	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 15	14	OrbsOrgans 2	7													0
+Act 4 (H) Good	5	82	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 16	14	OrbsOrgans 2	7													0
+Act 5 (H) Good	5	85	1						Jewelry C	53	Chipped Gem	4	Flawed Gem	10	Normal Gem	14	Flawless Gem	25	Runes 17	14	OrbsOrgans 2	7													0
 Act 1 Chest A	6	0	4					100	gld	15	Act 1 Junk	15	Act 1 Equip A	10	Act 1 Good	2																			0
 Act 1 Chest B	6	5	4					100	gld	15	Act 1 Junk	15	Act 1 Equip B	10	Act 1 Good	2																			0
 Act 1 Chest C	6	9	4					100	gld	15	Act 1 Junk	12	Act 2 Junk	3	Act 1 Equip C	15	Act 1 Good	2																	0
@@ -484,48 +484,48 @@ Act 4 (H) Citem B	11	80	1	800	800	800	1024	0	"gld,mul=1280"	60	Act 4 (H) Equip B
 Act 5 (H) Citem A	11	81	1	800	800	800	1024	0	"gld,mul=1280"	60	Act 5 (H) Equip A	37	Act 5 (H) Good	3																					0
 Act 5 (H) Citem B	11	83	1	800	800	800	1024	0	"gld,mul=1280"	60	Act 5 (H) Equip B	37	Act 5 (H) Good	3																					0
 Act 5 (H) Citem C	11	85	1	800	800	800	1024	0	"gld,mul=1280"	60	Act 5 (H) Equip C	37	Act 5 (H) Good	3																					0
-Act 1 Cpot A	12	0	2					0	Hpotion 1	1																									0
-Act 1 Cpot B	12	5	2					0	Hpotion 1	1																									0
-Act 1 Cpot C	12	9	2					0	Hpotion 1	1																									0
-Act 2 Cpot A	12	12	2					0	Hpotion 2	1																									0
-Act 2 Cpot B	12	15	2					0	Hpotion 2	1																									0
-Act 2 Cpot C	12	18	2					0	Hpotion 2	1																									0
-Act 3 Cpot A	12	20	2					0	Hpotion 3	1																									0
-Act 3 Cpot B	12	22	2					0	Hpotion 3	1																									0
-Act 3 Cpot C	12	24	2					0	Hpotion 3	1																									0
-Act 4 Cpot A	12	26	2					0	Hpotion 3	1	Hpotion 4	2																							0
-Act 4 Cpot B	12	29	2					0	Hpotion 3	1	Hpotion 4	2																							0
-Act 5 Cpot A	12	32	2					0	Hpotion 4	1	Hpotion 5	2																							0
-Act 5 Cpot B	12	34	2					0	Hpotion 4	1	Hpotion 5	2																							0
-Act 5 Cpot C	12	36	2					0	Hpotion 4	1	Hpotion 5	2																							0
-Act 1 (N) Cpot A	12	38	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4																					0
-Act 1 (N) Cpot B	12	40	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
-Act 1 (N) Cpot C	12	41	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
-Act 2 (N) Cpot A	12	42	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
-Act 2 (N) Cpot B	12	44	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
-Act 2 (N) Cpot C	12	45	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
-Act 3 (N) Cpot A	12	46	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 3 (N) Cpot B	12	48	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 3 (N) Cpot C	12	50	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 4 (N) Cpot A	12	51	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 4 (N) Cpot B	12	54	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 5 (N) Cpot A	12	57	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 5 (N) Cpot B	12	60	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 5 (N) Cpot C	12	62	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 1 (H) Cpot A	12	63	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 1 (H) Cpot B	12	66	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 1 (H) Cpot C	12	68	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 2 (H) Cpot A	12	69	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 2 (H) Cpot B	12	71	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 2 (H) Cpot C	12	72	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 3 (H) Cpot A	12	74	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 3 (H) Cpot B	12	75	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 3 (H) Cpot C	12	77	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 4 (H) Cpot A	12	78	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 4 (H) Cpot B	12	80	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 5 (H) Cpot A	12	81	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 5 (H) Cpot B	12	83	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
-Act 5 (H) Cpot C	12	85	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 1 Cpot A	12	0	1					0	Hpotion 1	1																									0
+Act 1 Cpot B	12	5	1					0	Hpotion 1	1																									0
+Act 1 Cpot C	12	9	1					0	Hpotion 1	1																									0
+Act 2 Cpot A	12	12	1					0	Hpotion 2	1																									0
+Act 2 Cpot B	12	15	1					0	Hpotion 2	1																									0
+Act 2 Cpot C	12	18	1					0	Hpotion 2	1																									0
+Act 3 Cpot A	12	20	1					0	Hpotion 3	1																									0
+Act 3 Cpot B	12	22	1					0	Hpotion 3	1																									0
+Act 3 Cpot C	12	24	1					0	Hpotion 3	1																									0
+Act 4 Cpot A	12	26	1					0	Hpotion 3	1	Hpotion 4	2																							0
+Act 4 Cpot B	12	29	1					0	Hpotion 3	1	Hpotion 4	2																							0
+Act 5 Cpot A	12	32	1					0	Hpotion 4	1	Hpotion 5	2																							0
+Act 5 Cpot B	12	34	1					0	Hpotion 4	1	Hpotion 5	2																							0
+Act 5 Cpot C	12	36	1					0	Hpotion 4	1	Hpotion 5	2																							0
+Act 1 (N) Cpot A	12	38	1					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4																					0
+Act 1 (N) Cpot B	12	40	1					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
+Act 1 (N) Cpot C	12	41	1					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
+Act 2 (N) Cpot A	12	42	1					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
+Act 2 (N) Cpot B	12	44	1					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
+Act 2 (N) Cpot C	12	45	1					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7															0
+Act 3 (N) Cpot A	12	46	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 3 (N) Cpot B	12	48	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 3 (N) Cpot C	12	50	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 4 (N) Cpot A	12	51	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 4 (N) Cpot B	12	54	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 5 (N) Cpot A	12	57	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 5 (N) Cpot B	12	60	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 5 (N) Cpot C	12	62	1					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 1 (H) Cpot A	12	63	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 1 (H) Cpot B	12	66	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 1 (H) Cpot C	12	68	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 2 (H) Cpot A	12	69	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 2 (H) Cpot B	12	71	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 2 (H) Cpot C	12	72	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 3 (H) Cpot A	12	74	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 3 (H) Cpot B	12	75	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 3 (H) Cpot C	12	77	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 4 (H) Cpot A	12	78	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 4 (H) Cpot B	12	80	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 5 (H) Cpot A	12	81	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 5 (H) Cpot B	12	83	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
+Act 5 (H) Cpot C	12	85	1					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7															0
 Act 1 Champ A	13	0	-2					0	Act 1 Citem A	1	Act 1 Cpot A	2																							0
 Act 1 Champ B	13	5	-2					0	Act 1 Citem B	1	Act 1 Cpot B	1																							0
 Act 1 Champ C	13	9	-2					0	Act 1 Citem C	1	Act 1 Cpot C	1																							0
