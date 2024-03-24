@@ -1,0 +1,8 @@
+## 0.02a
+	new crafting,	
+	fixes for amazon skills cold, fire, magic arrow
+	fixes for corrupting system
+	decrease density on all maps
+	-35% all res on normal difficulty
+	remove light radius & stamina heal from magic and rare items
+	magic orb can reroll charms
