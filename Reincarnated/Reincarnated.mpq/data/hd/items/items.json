@@ -3668,5 +3668,115 @@
         "or3": {
             "asset": "..\\reincarnated/misc/orbs/corrupted_orb"
         }
+    },
+    {
+        "c01": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c02": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c03": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c04": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c05": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c06": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c07": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c08": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c09": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c10": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c11": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c12": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c13": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c14": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c15": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c16": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c17": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c18": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c19": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c20": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c21": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
+    },
+    {
+        "c22": {
+            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        }
     }
 ]

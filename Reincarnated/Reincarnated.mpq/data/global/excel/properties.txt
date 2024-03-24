@@ -281,3 +281,5 @@ dmg%-melee-min	1	15	melee_mindamage_percent																											+#% Enhanc
 dmg%-melee-max	1	16	melee_maxdamage_percent																											+#% Enhanced Maximum Melee Damage		Min %	Max %		0
 corrupt	1	1	corrupted																											Corrupted					0
 corruptnum	1	1	corruptor																											Corruptor Modifier		Min #	Max #		0
+crafting-potential	1	1	crafting_potential																											Crafting Potential		Min #	Max #		0
+curse-res	1	1	curse_resistance																																0

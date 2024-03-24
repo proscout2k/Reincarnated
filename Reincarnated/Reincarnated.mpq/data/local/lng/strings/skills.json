@@ -35800,22 +35800,5 @@
     "ptBR": "\n%s\n%s\nMarca do Lobo:\nAtaques de Lobisomem concedem Marca por %s",
     "ruRU": "\n%s\n%s\nЗнак волка:\nатаки в облике волка накладывают метку на %s",
     "zhCN": "\n%s\n%s\n恶狼印记:\n狼人攻击时会获得印记，持续 %s"
-  },
-  {
-    "id": 80001,
-    "Key": "Charm Limit",
-    "enUS": "ÿc8Charm Limitÿc2",
-    "zhTW": "",
-    "deDE": "",
-    "esES": "",
-    "frFR": "",
-    "itIT": "",
-    "koKR": "",
-    "plPL": "",
-    "esMX": "",
-    "jaJP": "",
-    "ptBR": "",
-    "ruRU": "",
-    "zhCN": ""
-}
+  }
 ]

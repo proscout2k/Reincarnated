@@ -364,5 +364,6 @@ item_meleeareadamage	361		1	7	16						1							21	0	7	0	16										1	domeleedama
 melee_maxdamage_percent	362		1	22														18	512	18	512			11								1																			0
 melee_mindamage_percent	363		1	22														18	512	18	512			11								1																			0
 charm_count	364		1	9							1							7	32	8	32																														0
-corrupted	365		17	9														7	0	11	0																999	3		modCorrupted	modCorrupted										0
+corrupted	365		17	9														7	0	11	0																998	3		modCorrupted	modCorrupted										0
 corruptor	366		17	9														7	0	11	0																														0
+crafting_potential	367			9							1	1	0					7	32	8	32		1														999	19		modCraftingPotential	modCraftingPotentialZero										0

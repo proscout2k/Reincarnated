@@ -17066,22 +17066,5 @@
         "ptBR": "Berserker",
         "ruRU": "[ms]лютый[fs]лютая[ns]лютое[pl]лютые",
         "zhCN": "狂战士"
-    },
-    {
-        "id": 27540,
-        "Key": "of Melee Area Damage",
-        "enUS": "of Melee Area Damage",
-        "zhTW": "近战范围伤害",
-        "deDE": "des Nahkampfbereichsschadens",
-        "esES": "de daño en el área cuerpo a cuerpo",
-        "frFR": "de dégâts de zone de mêlée",
-        "itIT": "del danno ad area da mischia",
-        "koKR": "근접 지역 피해",
-        "plPL": "uszkodzenie obszaru walki wręcz",
-        "esMX": "de daño en el área cuerpo a cuerpo",
-        "jaJP": "近接エリアのダメージ",
-        "ptBR": "de dano de área corpo a corpo",
-        "ruRU": "ближнего боя по области",
-        "zhCN": "近战范围伤害"
     }
 ]

@@ -110,4 +110,5 @@ Stack items	stac	misc		0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
 Gem Stack	sgem	stac	ques	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
 Rune Stack	runs	stac	ques	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
 Key Stack	skey	stac	ques	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0								0
-Orbs	orbs	stac		0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0
+Orbs	orbs			0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0
+Crafting Scrolls	craf			0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0

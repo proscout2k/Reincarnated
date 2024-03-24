@@ -23,8 +23,8 @@ Vulpine	0	1	1	9		6				0	107	dmg-to-mana	0	10	10									cblu	shld	amul										
 																																					0	0
 																																					0	0
 																																					0	0
-Tireless	0	1	1	14		10				0	109	regen-stam	0	50	50										boot												0	0
-Rugged	0	1	1	14		10				0	110	stam	0	5	10										boot	glov	belt	ring	amul								0	0
+Tireless	0	0	1	14		10				0	109	regen-stam	0	50	50										boot												0	0
+Rugged	0	0	1	14		10				0	110	stam	0	5	10										boot	glov	belt	ring	amul								0	0
 Bronze	0	1	1	1		1				0	111	att	0	10	20										weap	ring	glov	amul	misl								0	0
 Iron	0	1	1	4		3				0	111	att	0	21	40										weap	ring	misl										0	0
 Steel	0	1	1	8		6				0	111	att	0	41	60										weap	ring	misl										0	0
@@ -47,8 +47,8 @@ Fortuitous	0	1	1	5		3				0	114	mag%	0	10	15										ring	amul											0	0
 																																					0	0
 																																					0	0
 																																					0	0
-Glimmering	0	1	1	1		1				0	116	light	0	1	1										armo	wand	staf	ring	amul								0	0
-Glowing	0	1	1	6		4				0	116	light	0	2	2									lyel	armo	wand	staf	ring	amul								0	0
+Glimmering	0	0	1	1		1				0	116	light	0	1	1										armo	wand	staf	ring	amul								0	0
+Glowing	0	0	1	6		4				0	116	light	0	2	2									lyel	armo	wand	staf	ring	amul								0	0
 																																					0	0
 																																					0	0
 Lizard's	0	1	1	3		2				0	118	mana	0	1	5										armo	ring	amul	rod				boot	glov				0	0
@@ -200,23 +200,23 @@ Realgar	100	1	1	45		37				4	105	dmg%		21	30									dred	jewl												0	0
 Ruby	100	1		66		58				4	105	dmg%		31	40									dred	jewl												0	0
 Vulpine	1	1	1	9		6				3	107	dmg-to-mana		7	12									cblu	shld	amul	orb	staf									0	0
 Dun	100	1	1	7		5				3	107	dmg-to-mana		7	12										jewl												0	0
-Tireless	1	1	1	6		4				4	108	regen-stam		25	25										boot												0	0
-Tireless	100	1	1	14		10				4	108	regen-stam		50	50										boot												0	0
-Brown	100	1	1	39		31				4	108	regen-stam		10	15										jewl												0	0
-Rugged	100	1	1	1		1				4	109	stam		12	24										lcha												0	0
-Rugged	100	1	1	7		5				4	109	stam		25	36										lcha												0	0
-Rugged	100	1	1	21		15				4	109	stam		37	50										lcha												0	0
-Rugged	100	1	1	1						4	109	stam		8	16										mcha													
-Rugged	100	1	1	7		5				4	109	stam		17	25										mcha												0	0
-Rugged	100	1	1	21		15				4	109	stam		26	32										mcha												0	0
-Rugged	100	1	1	1						4	109	stam		4	8										scha													
-Rugged	100	1	1	21		15				4	109	stam		9	16										scha												0	0
-Rugged	1	1	1	1		1				4	109	stam		5	10										boot	glov	belt	ring	amul	circ							0	0
-Rugged	1	1	1	8		6				4	109	stam		11	20										boot	belt											0	0
-Rugged	1	1	1	8		6				4	109	stam		11	20										ring	amul	circ										0	0
-Vigorous	100	1	1	16		12				4	109	stam		21	30										boot	belt											0	0
-Chestnut	100	1	1	1		1				4	109	stam		10	15										jewl												0	0
-Maroon	100	1	1	17		12				4	109	stam		16	25										jewl												0	0
+Tireless	1	0	1	6		4				4	108	regen-stam		25	25										boot												0	0
+Tireless	100	0	1	14		10				4	108	regen-stam		50	50										boot												0	0
+Brown	100	0	1	39		31				4	108	regen-stam		10	15										jewl												0	0
+Rugged	100	0	1	1		1				4	109	stam		12	24										lcha												0	0
+Rugged	100	0	1	7		5				4	109	stam		25	36										lcha												0	0
+Rugged	100	0	1	21		15				4	109	stam		37	50										lcha												0	0
+Rugged	100	0	1	1						4	109	stam		8	16										mcha													
+Rugged	100	0	1	7		5				4	109	stam		17	25										mcha												0	0
+Rugged	100	0	1	21		15				4	109	stam		26	32										mcha												0	0
+Rugged	100	0	1	1						4	109	stam		4	8										scha													
+Rugged	100	0	1	21		15				4	109	stam		9	16										scha												0	0
+Rugged	1	0	1	1		1				4	109	stam		5	10										boot	glov	belt	ring	amul	circ							0	0
+Rugged	1	0	1	8		6				4	109	stam		11	20										boot	belt											0	0
+Rugged	1	0	1	8		6				4	109	stam		11	20										ring	amul	circ										0	0
+Vigorous	100	0	1	16		12				4	109	stam		21	30										boot	belt											0	0
+Chestnut	100	0	1	1		1				4	109	stam		10	15										jewl												0	0
+Maroon	100	0	1	17		12				4	109	stam		16	25										jewl												0	0
 Bronze	100	1	1	1		1				4	110	att		6	12										lcha												0	0
 Bronze	100	1	1	7		5				4	110	att		13	27										lcha												0	0
 Bronze	100	1	1	13		9				4	110	att		28	42										lcha												0	0
@@ -265,9 +265,9 @@ Lord's	1	1	1	47		39				6	111	att		101	120	dmg%		66	80					dgld	weap	misl						st
 King's	1	1	1	56		48				5	111	att		121	150	dmg%		81	100					dgld	weap	misl						staf	wand	orb			0	0
 Master's	100	1	1	56		48				5	111	att		151	250	dmg%		101	150					dgld	weap	misl						staf	wand	orb			0	0
 Grandmaster's	100	1		69		61				4	111	att		251	300	dmg%		151	200					dgld	weap	misl						staf	wand	orb			0	0
-Glimmering	1	1	1	1		1				1	112	light		1	1										armo	wand	staf	ring	amul	orb							0	0
-Glowing	1	1	1	6		4				1	112	light		2	2									lyel	armo	wand	staf	ring	amul	orb							0	0
-Bright	100	1	1	1		1				1	112	light		1	1	att		10	10						jewl												0	0
+Glimmering	1	0	1	1		1				1	112	light		1	1										armo	wand	staf	ring	amul	orb							0	0
+Glowing	1	0	1	6		4				1	112	light		2	2									lyel	armo	wand	staf	ring	amul	orb							0	0
+Bright	100	0	1	1		1				1	112	light		1	1	att		10	10						jewl												0	0
 Screaming	100	1	1	10		7				3	113	howl		32	32									oran	weap							miss	swor	axe	pole	spea	0	0
 Howling	1	1	1	16		12				3	113	howl		64	64									oran	weap							miss	swor	axe	pole	spea	0	0
 Wailing	100	1	1	20		13				3	113	howl		128	128									oran	weap							miss	swor	axe	pole	spea	0	0
@@ -661,7 +661,7 @@ Septic	100	1	1	18		13				2	140	dmg-pois	75	52	52										scha												0	0
 Envenomed	100	1	1	39		31				1	140	dmg-pois	100	128	128										scha												0	0
 Toxic	100	1	1	63		55				1	140	dmg-pois	125	205	205									dgrn	scha												0	0
 Pestilent	100	1		88		80				1	140	dmg-pois	150	299	299									dgrn	scha												0	0
-Tireless	1	1	1	1	5	1				4	108	regen-stam		10	10										boot												0	0
+Tireless	1	0	1	1	5	1				4	108	regen-stam		10	10										boot												0	0
 Lizard's	1	1	1	1	2	1				4	115	mana		1	2										armo	ring	amul	rod	orb			boot	glov				0	0
 Azure	1	1	1	1	4	1				3	117	res-cold		5	5										armo	ring	amul	orb	circ								0	0
 Crimson	1	1	1	1	4	1				3	118	res-fire		5	5										armo	ring	amul	orb	circ								0	0
