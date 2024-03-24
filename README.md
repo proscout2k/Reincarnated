@@ -3,14 +3,14 @@ for Diablo II Resurrected
 
 ## Zmiany
 
-### Nowości:
+1. Nowości:
     - Corrupting Itemów [Corrupted Orb]
     - Reroll bonusów [Magic Orb, Rare Orb]
     - Splash Damage
     - Stackowanie Run, gemów, uber kluczy
     - Rare Arrows, Belts i Charms
     
-### Zmiany QoL:
+2. Zmiany QoL:
     - Każdy movement skill może być użyty w mieście
     - Unikaty dropią więcej niż raz w jednej grze
     - Zwiększony stacksize do 100
@@ -44,7 +44,7 @@ for Diablo II Resurrected
         
         + Kolor HP potwora jest zalezny aktualnej ilości (Fioletowy 100% HP, Żołty 50% HP, Czerwony 25% HP)    
 
-### Zmiany w rozgrywce:
+3. Zmiany w rozgrywce:
 
     - Zmiany w poziomach trudnosci
         + -50 / -100 / -150 odpornosci [normal, nightmare, hell]
@@ -79,7 +79,7 @@ for Diablo II Resurrected
     
     - Zmniejszono Stamina Per Level/Per Vitality i Bazowy Light radius
 
-### Zmiany w postaciach, skille, synergie:
+4. Zmiany w postaciach, skille, synergie:
 
     - Amazonka
 
