@@ -469,11 +469,11 @@ Magic Orb + Item -> Reroll Magic Item	1				100					2	"amul,mag"	or1						"usetyp
 Magic Orb + Item -> Reroll Magic Item	1				100					2	"ring,mag"	or1						"usetype,mag"			100																																																																																				0
 Magic Orb + Item -> Reroll Magic Item	1				100					2	"misl,mag"	or1						"usetype,mag"			100																																																																																				0
 Magic Orb + Item -> Reroll Magic Item	1				100					2	"char,mag"	or1						"usetype,mag"			100																																																																																				0
-Rare Orb + Item -> Reroll Rare Item	1				100					2	"weap,rar"	or2						"usetype,rar"			100																										or2																																																										0
-Rare Orb + Item -> Reroll Rare Item	1				100					2	"armo,rar"	or2						"usetype,rar"			100																										or2																																																										0
-Rare Orb + Item -> Reroll Rare Item	1				100					2	"amul,rar"	or2						"usetype,rar"			100																										or2																																																										0
-Rare Orb + Item -> Reroll Rare Item	1				100					2	"ring,rar"	or2						"usetype,rar"			100																										or2																																																										0
-Rare Orb + Item -> Reroll Rare Item	1				100					2	"misl,rar"	or2						"usetype,rar"			100																										or2																																																										0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"weap,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"armo,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"amul,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"ring,rar"	or2						"usetype,rar"			100																																																																																				0
+Rare Orb + Item -> Reroll Rare Item	1				100					2	"misl,rar"	or2						"usetype,rar"			100																																																																																				0
 START CORRUPTING	0																																																																																																								0
 Weapon	1				100	18	366	0		2	weap	or3						useitem			100	corruptnum			1	1000	crafting-potential			-50	-50																or3																																																										0
 Armor	1				100	18	366	0		2	armo	or3						useitem			100	corruptnum			1	1000	crafting-potential			-50	-50																or3																																																										0
@@ -807,12 +807,12 @@ Crafting Scroll T1 Enhanced Damage	1				100	15	367	1		2	weap	c01						useitem			
 Crafting Scroll T1 Enhanced Damage	1				100	15	367	1		2	glov	c01						useitem			100	dmg%			1	10	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Enhanced Damage	1				100	15	367	1		2	misl	c01						useitem			100	dmg%			1	10	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Increased Attack Speed	1				100	15	367	1		2	weap	c02						useitem			100	swing3			1	3	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Increased Attack Speed	1				100	15	367	1		2	Ring	c02						useitem			100	swing3			1	3	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Increased Attack Speed	1				100	15	367	1		2	ring	c02						useitem			100	swing3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Increased Attack Speed	1				100	15	367	1		2	amul	c02						useitem			100	swing3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Increased Attack Speed	1				100	15	367	1		2	glov	c02						useitem			100	swing3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Increased Attack Speed	1				100	15	367	1		2	misl	c02						useitem			100	swing3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Cast Rate	1				100	15	367	1		2	weap	c03						useitem			100	cast3			1	3	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Faster Cast Rate	1				100	15	367	1		2	Ring	c03						useitem			100	cast3			1	3	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Faster Cast Rate	1				100	15	367	1		2	ring	c03						useitem			100	cast3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Cast Rate	1				100	15	367	1		2	amul	c03						useitem			100	cast3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Cast Rate	1				100	15	367	1		2	glov	c03						useitem			100	cast3			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life Leech	1				100	15	367	1		2	weap	c04						useitem			100	lifesteal			1	2	crafting-potential			-1	-25																																																																										0
@@ -839,26 +839,26 @@ Crafting Scroll T1 Enhanced Defense	1				100	15	367	1		2	tors	c10						useitem		
 Crafting Scroll T1 Enhanced Defense	1				100	15	367	1		2	belt	c10						useitem			100	ac%			1	10	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Enhanced Defense	1				100	15	367	1		2	boot	c10						useitem			100	ac%			1	10	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Enhanced Defense	1				100	15	367	1		2	glov	c10						useitem			100	ac%			1	10	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Enhanced Defense	1				100	15	367	1		2	shie	c10						useitem			100	ac%			1	10	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Enhanced Defense	1				100	15	367	1		2	shld	c10						useitem			100	ac%			1	10	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Hit Recovery	1				100	15	367	1		2	helm	c11						useitem			100	balance3			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Hit Recovery	1				100	15	367	1		2	tors	c11						useitem			100	balance3			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Hit Recovery	1				100	15	367	1		2	belt	c11						useitem			100	balance3			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Faster Hit Recovery	1				100	15	367	1		2	boot	c11						useitem			100	balance3			1	2	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Faster Hit Recovery	1				100	15	367	1		2	shie	c11						useitem			100	balance3			1	2	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Faster Hit Recovery	1				100	15	367	1		2	shld	c11						useitem			100	balance3			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life	1				100	15	367	1		2	helm	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life	1				100	15	367	1		2	tors	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life	1				100	15	367	1		2	belt	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life	1				100	15	367	1		2	boot	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life	1				100	15	367	1		2	ring	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Life	1				100	15	367	1		2	amul	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Life	1				100	15	367	1		2	shie	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Life	1				100	15	367	1		2	shld	c12						useitem			100	hp			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Mana	1				100	15	367	1		2	helm	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Mana	1				100	15	367	1		2	tors	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Mana	1				100	15	367	1		2	belt	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Mana	1				100	15	367	1		2	boot	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Mana	1				100	15	367	1		2	ring	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Mana	1				100	15	367	1		2	amul	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Mana	1				100	15	367	1		2	shie	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Mana	1				100	15	367	1		2	shld	c13						useitem			100	mana			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	helm	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	tors	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	belt	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
@@ -866,7 +866,7 @@ Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	boot	c14						useitem			
 Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	ring	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	amul	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	glov	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	shie	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Fire Resistance	1				100	15	367	1		2	shld	c14						useitem			100	res-fire			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	helm	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	tors	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	belt	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
@@ -874,7 +874,7 @@ Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	boot	c15						useitem			
 Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	ring	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	amul	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	glov	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	shie	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Cold Resistance	1				100	15	367	1		2	shld	c15						useitem			100	res-cold			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	helm	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	tors	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	belt	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
@@ -882,7 +882,7 @@ Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	boot	c16						useit
 Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	ring	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	amul	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	glov	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	shie	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Lightning Resistance	1				100	15	367	1		2	shld	c16						useitem			100	res-ltng			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	helm	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	tors	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	belt	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
@@ -890,7 +890,7 @@ Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	boot	c17						useitem	
 Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	ring	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	amul	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	glov	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	shie	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Poison Resistance	1				100	15	367	1		2	shld	c17						useitem			100	res-pois			1	2	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Regenerate Mana	1				100	15	367	1		2	helm	c18						useitem			100	regen-mana			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Regenerate Mana	1				100	15	367	1		2	belt	c18						useitem			100	regen-mana			1	3	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 Regenerate Mana	1				100	15	367	1		2	ring	c18						useitem			100	regen-mana			1	3	crafting-potential			-1	-25																																																																										0
@@ -902,5 +902,5 @@ Crafting Scroll T1 Replenish Life	1				100	15	367	1		2	ring	c19						useitem			1
 Crafting Scroll T1 Replenish Life	1				100	15	367	1		2	amul	c19						useitem			100	regen			2	5	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 faster Run Walk	1				100	15	367	1		2	boot	c20						useitem			100	move3			1	4	crafting-potential			-1	-25																																																																										0
 Crafting Scroll T1 faster Run Walk	1				100	15	367	1		2	misl	c20						useitem			100	move3			1	4	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Damage to Mana	1				100	15	367	1		2	shie	c21						useitem			100	dmg-to-mana			2	4	crafting-potential			-1	-25																																																																										0
-Crafting Scroll T1 Faster Block Rate	1				100	15	367	1		2	shie	c22						useitem			100	block3			2	5	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Damage to Mana	1				100	15	367	1		2	shld	c21						useitem			100	dmg-to-mana			2	4	crafting-potential			-1	-25																																																																										0
+Crafting Scroll T1 Faster Block Rate	1				100	15	367	1		2	shld	c22						useitem			100	block3			2	5	crafting-potential			-1	-25																																																																										0

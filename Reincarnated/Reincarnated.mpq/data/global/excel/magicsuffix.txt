@@ -1,118 +1,4 @@
 Name	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	multiply	add
-of Health	0	1	1	7		5					1	red-dmg		1	1										tors	helm	shld	ring	amul								0	0
-of Protection	0	1	1	18		13					1	red-dmg		2	2										ring	amul											0	0
-of Absorption	0	1	1	26		19					1	red-dmg		3	3										amul												0	0
-of Life	0	1	1	35		26					1	red-dmg		4	4									dblu	amul												0	0
-		1																																			0	0
-of Warding	0	1	1	7		5					2	red-mag		1	1										tors	helm	shld	ring	amul								0	0
-of the Sentinel	0	1	1	18		13					2	red-mag		2	2										ring	amul											0	0
-of Guarding	0	1	1	26		19					2	red-mag		3	3										amul												0	0
-of Negation	0	1	1	35		26					2	red-mag		4	4										amul												0	0
-																																					0	0
-of Piercing	0	1	1	25		18					3	ignore-ac		1	1										rod												0	0
-of Bashing	0	1	1	16		12					4	dmg-ac		-25	-40										mele							wand	staf				0	0
-of Puncturing	0	1	1	6		4					4	dmg-ac		-10	-20										mele							wand	staf				0	0
-of Thorns	0	1	1	14		10					5	thorns		1	3										tors	helm	shld	belt									0	0
-of Spikes	0	1	1	21		15					5	thorns		2	6									oran	tors	helm	shld	belt									0	0
-of Readiness	0	1	1	1		1					6	swing1		10	10										weap	glov	misl										0	0
-of Alacrity	0	1	1	8		6					6	swing2		20	20										weap	misl											0	0
-of Swiftness	0	1	1	19		14					6	swing2		30	30										mele							wand	staf				0	0
-of Quickness	0	1	1	25		18					6	swing3		40	40									dyel	mele							wand	staf				0	0
-of Blocking	0	1	1	1		1					7	block		10	10										shld												0	0
-of Deflecting	0	1	1	11		8					7	block		20	20										shld												0	0
-of the Apprentice	0	1	1	5		3					8	cast1		10	10										rod	ring	amul										0	0
-of the Magus	0	1	1	17		12					8	cast3		20	20										rod												0	0
-of Frost	0	1	1	4		3					9	cold-min		1	1	cold-max		1	4	cold-len		125	125		weap	misl											0	0
-of the Glacier	0	1	1	18		13					9	cold-min		4	4	cold-max		4	12	cold-len		150	150		mele												0	0
-of Frost	0	1	1	55		41					9	cold-min		1	1	cold-max		1	4	cold-len		125	125		belt	amul											0	0
-of Warmth	0	1	1	10		7					10	half-freeze		1	1										shld	boot	glov	ring	amul								0	0
-of Flame	0	1	1	4		3					11	fire-min		1	1	fire-max		2	6						weap	misl											0	0
-of Fire	0	1	1	15		11					11	fire-min		2	2	fire-max		6	11						weap	misl											0	0
-of Burning	0	1	1	25		18					11	fire-min		10	10	fire-max		10	20					dred	weap	misl											0	0
-of Flame	0	1	1	40		30					11	fire-min		1	1	fire-max		2	6						glov	ring	amul										0	0
-of Shock	0	1	1	4		3					12	ltng-min		1	1	ltng-max		8	8						weap	misl											0	0
-of Lightning	0	1	1	15		11					12	ltng-min		1	1	ltng-max		16	16						weap	misl											0	0
-of Thunder	0	1	1	25		18					12	ltng-min		1	1	ltng-max		32	32					dyel	weap	misl											0	0
-of Shock	0	1	1	50		37					12	ltng-min		1	1	ltng-max		8	8						boot	ring	amul	weap				miss	rod				0	0
-of Craftsmanship	0	1	1	1		1					13	dmg-max		1	2										weap	ring	amul	misl									0	0
-of Quality	0	1	1	4		3					13	dmg-max		2	2										weap	misl											0	0
-of Maiming	0	1	1	7		5					13	dmg-max		3	4										weap	misl											0	0
-of Slaying	0	1	1	11		8					13	dmg-max		5	7										weap	misl											0	0
-of Gore	0	1	1	14		10					13	dmg-max		8	10										weap	misl											0	0
-of Carnage	0	1	1	19		14					13	dmg-max		11	14									blac	weap	misl						wand	staf				0	0
-of Slaughter	0	1	1	25		18					13	dmg-max		15	20									blac	weap	misl						wand	staf				0	0
-of Maiming	0	1	1	42		31					13	dmg-max		3	4										shld	ring	amul										0	0
-of Worth	0	1	1	2		1					14	dmg-min		1	1										weap	misl						rod					0	0
-of Measure	0	1	1	6		4					14	dmg-min		2	2										weap	misl											0	0
-of Excellence	0	1	1	12		9					14	dmg-min		3	3										weap	ring	amul	misl									0	0
-of Performance	0	1	1	18		13					14	dmg-min		4	5									blac	weap	misl											0	0
-of Measure	0	1	1	37		27					14	dmg-min		2	2										tors	helm	ring	amul									0	0
-of Blight	0	1	1	5		3					15	pois-min		8	8	pois-max		24	24	pois-len		75	75		weap	misl						scep					0	0
-of Venom	0	1	1	15		11					15	pois-min		16	16	pois-max		48	48	pois-len		75	75		weap	misl						scep					0	0
-of Pestilence	0	1	1	25		18					15	pois-min		32	32	pois-max		72	72	pois-len		100	100	dgrn	weap	misl						scep					0	0
-of Blight	0	1	1	45		33					15	pois-min		8	8	pois-max		24	24	pois-len		75	75		ring	amul											0	0
-of Dexterity	0	1	1	4		3					16	dex		1	1										ring	amul											0	0
-of Dexterity	0	1	1	5		3					16	dex		1	3										scep	miss	boot	glov	ring	amul	misl						0	0
-of Skill	0	1	1	10		7					16	dex		4	6										scep	miss	boot	glov	ring	amul	misl						0	0
-of Skill	0	1	1	45		33					16	dex		4	6										armo							boot	glov				0	0
-of Accuracy	0	1	1	18		13					16	dex		7	10										scep	miss	boot	glov	ring	amul	misl						0	0
-of Precision	0	1	1	22		16					16	dex		11	15										scep	miss	amul	misl									0	0
-of Precision	0	1	1	60		45					16	dex		11	15										armo	ring											0	0
-of Perfection	0	1	1	30		22					16	dex		16	20									dgld	miss	glov	amul	misl									0	0
-of Balance	0	1	1	5		3					17	balance1		10	10										armo							glov					0	0
-of Stability	0	1	1	9		6					17	balance3		20	20									dyel	armo							glov					0	0
-																																					0	0
-of Regeneration	0	1	1	10		7					19	regen		3	3										scep	belt	ring	amul									0	0
-of Regeneration	0	1	1	40		30					19	regen		3	3										shld	glov											0	0
-of Regeneration	0	1	1	70		52					19	regen		3	3										tors	helm	weap	boot	misl			scep					0	0
-of Regrowth	0	1	1	17		12					19	regen		5	5									cred	scep	amul											0	0
-of Regrowth	0	1	1	55		41					19	regen		5	5									cred	belt	ring											0	0
-of Vileness	0	1	1	9		6					20	noheal		1	1										mele							scep					0	0
-																																					0	0
-of Greed	0	1	1	2		1					22	gold%		40	60										ring	amul											0	0
-of Wealth	0	1	1	17		12					22	gold%		80	120									lgld	boot	glov	belt	amul									0	0
-of Chance	0	1	1	12		9					23	mag%		10	19										ring	amul											0	0
-of Fortune	0	1	1	16		12					23	mag%		20	35									lgld	boot	glov	amul										0	0
-of Energy	0	1	1	4		3					24	mana		1	1										ring	amul											0	0
-of Energy	0	1	1	5		3					24	mana		1	5										rod	ring	amul										0	0
-of the Mind	0	1	1	10		7					24	mana		6	10										rod	ring	amul										0	0
-of Brilliance	0	1	1	18		13					24	mana		11	15										rod	ring	amul										0	0
-of Sorcery	0	1	1	22		16					24	mana		16	20									dgld	rod	amul											0	0
-of Wizardry	0	1	1	30		22					24	mana		21	30									dgld	rod	ring	amul										0	0
-of the Bear	0	1	1	8		6					25	knock		1	1										mele												0	0
-of Light	0	0	1	6		4					26	light		1	1										armo	rod	miss	ring	amul	misl							0	0
-of Radiance	0	0	1	15		11					26	light		3	3										rod	miss	ring	amul	misl								0	0
-of the Sun	0	0	1	17		12					26	light		5	5										rod	miss	glov	ring	amul	misl							0	0
-of Life	0	1	1	23		17					27	hp		5	5										tors	helm	shld	belt	amul								0	0
-of the Jackal	0	1	1	3		2					27	hp		1	5										armo	rod	ring	amul									0	0
-of the Fox	0	1	1	6		4					27	hp		5	10										armo	rod	ring	amul									0	0
-of the Wolf	0	1	1	14		10					27	hp		11	20										armo	rod	ring	amul									0	0
-of the Wolf	0	1	1	45		33					27	hp		11	20										weap	misl						rod					0	0
-of the Tiger	0	1	1	20		15					27	hp		21	30										armo	ring	amul										0	0
-of the Mammoth	0	1	1	24		18					27	hp		31	40									cred	tors	helm	shld	ring	amul								0	0
-of the Mammoth	0	1	1	60		45					27	hp		31	40									cred	mele	glov	belt					rod					0	0
-of the Colosuss	0	1	1	30		22					27	hp		41	60									cred	tors	helm	shld	belt	amul								0	0
-of the Leech	0	1	1	6		4					28	lifesteal		4	7										weap	ring	amul	misl									0	0
-of the Locust	0	1	1	20		15					28	lifesteal		8	10									cred	mele												0	0
-of the Bat	0	1	1	6		4					29	manasteal		4	8										weap	ring	amul	misl									0	0
-of the Vampire	0	1	1	20		15					29	manasteal		9	12									cblu	mele												0	0
-of Defiance	0	1	1	25		18					30	res-pois-len		75	75									dred	tors	helm	shld	amul									0	0
-of Amelioration	0	1	1	18		13					30	res-pois-len		50	50										tors	helm	shld	amul									0	0
-of Remedy	0	1	1	7		5					30	res-pois-len		25	25										armo	ring	amul										0	0
-																																					0	0
-of Simplicity	0	1	1	25		18					32	ease		-40	-40										tors	helm	weap	shld	misl			rod					0	0
-of Ease	0	1	1	15		11					32	ease		-20	-20										tors	helm	weap	shld	misl			rod					0	0
-																																					0	0
-of Strength	0	1	1	5		3					34	str		1	3										belt	ring	amul										0	0
-of Might	0	1	1	10		7					34	str		4	6										mele	shld	ring	amul				wand	staf				0	0
-of the Ox	0	1	1	18		13					34	str		7	10										mele	belt	ring	amul				wand	staf				0	0
-of the Ox	0	1	1	47		35					34	str		7	10										shld	boot	glov										0	0
-of the Giant	0	1	1	22		16					34	str		11	15									dgld	mele	belt	amul					wand	staf				0	0
-of the Giant	0	1	1	62		46					34	str		11	15									dgld	boot	glov	ring	shld									0	0
-of the Titan	0	1	1	30		22					34	str		16	20									dgld	boot	belt	amul										0	0
-of Pacing	0	1	1	2		1					35	move1		10	10										boot												0	0
-of Haste	0	1	1	12		9					35	move2		20	20										boot												0	0
-of Speed	0	1	1	22		16					35	move3		30	30										boot												0	0
 Expansion																																						
 of Health	1	1	1	7		5				4	1	red-dmg		1	1										tors	shld	ring	amul	circ								0	0
 of Protection	1	1	1	18		13				4	1	red-dmg		2	2										ring	amul	circ										0	0
@@ -309,9 +195,9 @@ of Brilliance	1	1	1	16		12				3	23	enr		7	10										helm	scep											0	0
 of Sorcery	100	1		26		21				3	23	enr		11	15									dgld	helm	scep											0	0
 of Knowledge	100	1	1	9		6				3	23	enr		1	5										jewl												0	0
 of the Bear	1	1	1	8		6				3	24	knock		1	1										mele												0	0
-of Light	0	0	1	6		4				1	25	light		1	1	att		15	15						armo	rod	ring	amul									0	0
-of Radiance	0	0	1	15		11				1	25	light		3	3	att		30	30						rod	miss	ring	amul	helm	misl							0	0
-of the Sun	0	0	1	17		12				1	25	light		5	5	att%		5	5						rod	miss	glov	ring	amul	helm	misl						0	0
+of Light	0	1	1	6		4				1	25	light		1	1	att		15	15						armo	rod	ring	amul									0	0
+of Radiance	0	1	1	15		11				1	25	light		3	3	att		30	30						rod	miss	ring	amul	helm	misl							0	0
+of the Sun	0	1	1	17		12				1	25	light		5	5	att%		5	5						rod	miss	glov	ring	amul	helm	misl						0	0
 of the Jackal	1	1	1	1		1				3	26	hp		1	5										tors	belt	amul	phlm	circ								0	0
 of the Fox	1	1	1	7		5				3	26	hp		6	10										tors	belt	amul	phlm	circ								0	0
 of the Wolf	1	1	1	15		11				3	26	hp		11	20										tors	belt	amul	phlm	circ								0	0
@@ -740,7 +626,7 @@ of Blight	1	1	1	1	4	1				4	16	dmg-pois	50	8	8										weap	misl						scep	staf	
 of Shock	1	1	1	1	3	1				4	13	dmg-ltng		1	3										weap	misl						staf	wand	orb			0	0
 of Regeneration	1	1	1	1	9	1				3	19	regen		2	2										amul	circ											0	0
 of Energy	1	1	1	1	4	1				4	23	enr		1	1										amul	orb	circ	wand	staf	helm	ring						0	0
-of Light	1	0	1	1	5	1				4	25	light		1	1	att		10	10						ring	amul											0	0
+of Light	1	1	1	1	5	1				4	25	light		1	1	att		10	10						ring	amul											0	0
 of the Leech	100	1	1	24		20				2	27	lifesteal		2	3										amul												0	0
 of the Locust	100	1	1	57		45				2	27	lifesteal		4	5										amul												0	0
 of the Lamprey	100	1	1	85		73				2	27	lifesteal		6	6									cred	amul												0	0

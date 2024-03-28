@@ -283,3 +283,5 @@ corrupt	1	1	corrupted																											Corrupted					0
 corruptnum	1	1	corruptor																											Corruptor Modifier		Min #	Max #		0
 crafting-potential	1	1	crafting_potential																											Crafting Potential		Min #	Max #		0
 curse-res	1	1	curse_resistance																																0
+extra-mag	1	1	passive_mag_mastery																											+#% to Magic Skill Damage		Min %	Max %		0
+pierce-mag	1	1	passive_mag_pierce																											-#% to Enemy Magic Resistance		Min %	Max %		0
