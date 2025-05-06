@@ -91,12 +91,12 @@ item_doubleherbduration	88		1	2														1	0	1	0																												
 item_lightradius	89		1	5							1				15	51		4	4	4	4																6	19		ModStr3f	ModStr3f									2	0
 item_lightcolor	90		1	24							1				155	0		5	0	24	0																														0
 item_req_percent	91		1	8											26	-34		8	100	8	100																2	19		ModStr3h	ModStr3h										0
-item_levelreq	92																	6	20	7																															0
+item_levelreq	92																	6	20	7	6																														0
 item_fasterattackrate	93	1	1	9											1042	156		7	20	7	20											1					145	19		ModStr4m	ModStr4m									2	0
 item_levelreqpct	94																	7	20	7	64			13			item_levelreq																								0
 lastblockframe	95																	6	20																																0
 item_fastermovevelocity	96	1	1	9											4083	156		7	20	7	20																148	19		ModStr4s	ModStr4s									2	0
-item_nonclassskill	97		1	15	9						1			1	181	327		7	20	6	0	9															81	28		ItemModifierNonClassSkill	ItemModifierNonClassSkill										0
+item_nonclassskill	97		1	15	9						1			1	181	327		7	20	6	0	9																													0
 state	98	1		1	8						1				415	64		6	20	1		8																													0
 item_fastergethitrate	99	1	1	9											1065	72		7	20	7	20																139	19		ModStr4p	ModStr4p									2	0
 monster_playercount	100																	7	20																																0
@@ -193,7 +193,7 @@ item_pierce_light_immunity	190			10											1432	513				10																	100
 item_pierce_poison_immunity	191			10											1432	513				10																	100	19		ModItemMonPoisonSunder	ModItemMonPoisonSunder									2	0
 item_pierce_damage_immunity	192			10											1432	513				10																	100	19		ModItemMonPhysicalSunder	ModItemMonPhysicalSunder									2	0
 item_pierce_magic_immunity	193			10											1432	513				10																	100	19		ModItemMonMagicSunder	ModItemMonMagicSunder									2	0
-item_numsockets	194		1	4											38	170		4	0	4	0																														0
+item_numsockets	194		1	4											38	170		4	0	4	0																1	19		Socketable	Socketable										0
 item_skillonattack	195		1	7	16						1			2	190	256		21	0	7	0	16										1	domeleeattack	20	domissileattack	20	160	15		ItemExpansiveChancX	ItemExpansiveChancX									2	0
 item_skillonkill	196		1	7	16						1			2	85	19		21	0	7	0	16										1	kill	20			160	15		ModitemskonKill	ModitemskonKill									2	0
 item_skillondeath	197		1	7	16						1			2	11	9		21	0	7	0	16											killed	30			160	15		Moditemskondeath	Moditemskondeath									2	0
@@ -337,9 +337,9 @@ passive_ltng_pierce	334		1	9												2493		8	0	8	0																88	19		Modi
 passive_cold_pierce	335		1	9												1984		8	0	8	0																88	19		Moditemenrescoldsk	Moditemenrescoldsk									2	0
 passive_pois_pierce	336		1	9												2345		8	0	8	0																88	19		Moditemenrespoissk	Moditemenrespoissk									2	0
 passive_critical_strike	337		1	9														8	0	8	0																														0
-passive_dodge	338		1	9														7	0	7	0																														0
-passive_avoid	339		1	9														7	0	7	0																														0
-passive_evade	340		1	9														7	0	7	0																														0
+passive_dodge	338		1	9														7	0	7	0																90	19		StrItemDodgeMelee	StrItemDodgeMelee		3	19		StrItemDodge	StrItemDodge			2	0
+passive_avoid	339		1	9														7	0	7	0																90	19		StrItemDodgeMissile	StrItemDodgeMissile		3	19		StrItemDodge	StrItemDodge			2	0
+passive_evade	340		1	9														7	0	7	0																90	19		StrItemDodgeRun	StrItemDodgeRun		3	19		StrItemDodge	StrItemDodge			2	0
 passive_warmth	341		1	9														8	0	8	0																														0
 passive_mastery_melee_th	342		1	11	16													8	0	8	0																														0
 passive_mastery_melee_dmg	343		1	11	16													8	0	8	0																														0
@@ -348,7 +348,7 @@ passive_mastery_throw_th	345		1	11	16													8	0	8	0																							
 passive_mastery_throw_dmg	346		1	11	16													8	0	8	0																														0
 passive_mastery_throw_crit	347		1	9	16													8	0	8	0																														0
 passive_weaponblock	348		1	9	16													8	0	8	0																														0
-passive_summon_resist	349		1	9														8	0	8	0																														0
+passive_summon_resist	349		1	9														8	0	8	0																90	19		StrItemDodgeRun	StrItemDodgeRun										0
 modifierlist_skill	350			9																																															0
 modifierlist_level	351			8																																															0
 last_sent_hp_pct	352		1	8																																															0
@@ -361,9 +361,35 @@ passive_mag_pierce	358		1	9												2812		8	0	8	0																88	19		Modit
 skill_cooldown	359																																																		0
 skill_missile_damage_scale	360			32	16																																														0
 item_meleeareadamage	361		1	7	16						1							21	0	7	0	16										1	domeleedamage	20			200	19		MeleeAreaDamage	MeleeAreaDamage										0
-melee_maxdamage_percent	362		1	22														18	512	18	512			11								1																			0
-melee_mindamage_percent	363		1	22														18	512	18	512			11								1																			0
-charm_count	364		1	9							1							7	32	8	32																														0
-corrupted	365		17	9														7	0	11	0																998	3		modCorrupted	modCorrupted										0
-corruptor	366		17	9														7	0	11	0																														0
-crafting_potential	367			9							1	1	0					7	32	8	32		1														999	19		modCraftingPotential	modCraftingPotentialZero										0
+melee_maxdamage_percent	362		1	22														18	512	18	512			11			mindamage					1																			0
+melee_mindamage_percent	363		1	22														18	512	18	512			11			maxdamage					1																			0
+charm_count	364		1	9		1					1							7	32	8	32																998	19		modCharmWeight	modCharmWeight										0
+corrupted	365		1	9														7	0	11	0																999	3		modCorrupted	modCorrupted										0
+corruptor	366		1	9														7	0	11	0																														0
+crafting_potential	367		1	9							1	1	0					7	32	8	32		1														999	19		modCraftingPotential	modCraftingPotentialZero										0
+missile_speed	368		1	9							1	1	0					7	32	8	32		1														88	19		modMissileSpeed	modMissileSpeed										0
+missile_damage	369		1	9							1	1	0					7	32	8	32		1														88	19		modMissileDamage	modMissileDamage										0
+mana_hidden	370		1	16														6	10	6	10			11			maxmana																								0
+hp_hidden	371		1	16														6	10	6	10			11			maxhp																								0
+item_nonclassskill_visual	372		1	16	9						1							7	20	7	0	9															81	28		ItemModifierNonClassSkill	ItemModifierNonClassSkill										0
+maximum_charm	373		1	9		1					1							7	32	8	32																998	19		modMaxCharmWeight	modMaxCharmWeight										0
+charm_bonus	374		1	9		1					1							7	32	8	32																998	19		modCharmBonus	modCharmBonus										0
+charm_bonus_percent	375		1	9		1					1							7	32	8	32			11			charm_bonus										998	19		modCharmBonus	modCharmBonus										0
+armorclass_charm	376		1	6											43	42		6	0	6	0			2	7	charm_bonus	armorclass										72	19		ModStr1i	ModStr1i										0
+tohit_charm	377		1	6											53	20		6	0	6	0			2	7	charm_bonus	tohit					1					114	19		ModStr1h	ModStr1h										0
+item_magicbonus_charm	378		1	6											814	1024		6	0	6	0			2	7	charm_bonus	item_magicbonus										7	19		ModStr1x	ModStr1x									2	0
+maxmana_charm	379		1	6											90	128	8	6	0	6	0			2	7	charm_bonus	maxmana										53	19		ModStr1e	ModStr1e										0
+coldresist_charm	380		1	6											101	128		6	0	6	0			2	7	charm_bonus	coldresist										39	19		ModStr1k	ModStr1k										0
+fireresist_charm	381		1	6											101	128		6	0	6	0			2	7	charm_bonus	fireresist										35	19		ModStr1j	ModStr1j										0
+lightresist_charm	382		1	6											101	128		6	0	6	0			2	7	charm_bonus	lightresist										37	19		ModStr1l	ModStr1l										0
+poisonresist_charm	383		1	6											101	128		6	0	6	0			2	7	charm_bonus	poisonresist										33	19		ModStr1n	ModStr1n										0
+dexterity_charm	384		1	6											132	128		6	0	6	0			2	7	charm_bonus	dexterity										64	19		ModStr1b	ModStr1b										0
+item_fastergethitrate_charm	385	1	1	9											1065	72		7	20	7	20			2	7	charm_bonus	item_fastergethitrate										139	19		ModStr4p	ModStr4p									2	0
+item_goldbonus_charm	386		1	6											42	256		6	0	6	0			2	7	charm_bonus	item_goldbonus										9	19		ModStr1w	ModStr1w									2	0
+maxhp_charm	387		1	6											92	64	8	6	0	6	0			2	7	charm_bonus	maxhp										57	19		ModStr1u	ModStr1u										0
+strength_charm	388		1	6											132	128		6	0	6	0			2	7	charm_bonus	strength										66	19		ModStr1a	ModStr1a										0
+item_fastermovevelocity_charm	389	1	1	9											4083	156		7	20	7	20			2	7	charm_bonus	item_fastermovevelocity										148	19		ModStr4s	ModStr4s									2	0
+item_strength_percent	390		1	6											132	128		6	0	6	0			11			strength										66	19		ModStr1a	ModStr1a	increaseswithplaylevelX									0
+item_dexterity_percent	391		1	6											132	128		6	0	6	0			11			dexterity										64	19		ModStr1b	ModStr1b	increaseswithplaylevelX									0
+item_chancemod	392		1	9														7	0	11	0																998	19		modCharmBonus	modCharmBonus										0
+item_numsockets_visual	393		1	4														4	0	4	0																0	19		Socketable	Socketable										0

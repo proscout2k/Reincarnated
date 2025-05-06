@@ -2686,5 +2686,12 @@
       "uber": "charm/charm_large",
       "ultra": "charm/charm_large"
     }
+  },
+  {
+    "mcm": {
+      "normal": "..\\reincarnated/misc/currency/horadric_mirror",
+      "uber": "..\\reincarnated/misc/currency/horadric_mirror",
+      "ultra": "..\\reincarnated/misc/currency/horadric_mirror"
+    }
   }
 ]

@@ -3236,17 +3236,17 @@
     },
     {
         "pk1": {
-            "asset": "key/terror_key"
+            "asset": "key/dark_red_key"
         }
     },
     {
         "pk2": {
-            "asset": "key/hate_key"
+            "asset": "key/light_yellow_key"
         }
     },
     {
         "pk3": {
-            "asset": "key/destruction_key"
+            "asset": "key/light_purple_key"
         }
     },
     {
@@ -3656,127 +3656,382 @@
     },
     {
         "or1": {
-            "asset": "..\\reincarnated/misc/orbs/magic_orb"
+            "asset": "..\\reincarnated/misc/currency/magic_orb"
         }
     },
     {
         "or2": {
-            "asset": "..\\reincarnated/misc/orbs/rare_orb"
+            "asset": "..\\reincarnated/misc/currency/rare_orb"
+        }
+    },
+    {
+        "wss": {
+            "asset": "..\\reincarnated/misc/currency/worldstone_shard"
+        }
+    },
+    {
+        "chs": {
+            "asset": "..\\reincarnated/misc/chest"
         }
     },
     {
         "or3": {
-            "asset": "..\\reincarnated/misc/orbs/corrupted_orb"
+            "asset": "..\\reincarnated/misc/currency/hammer_malus"
+        }
+    },
+    {
+        "or4": {
+            "asset": "..\\reincarnated/misc/currency/hammer_malus"
+        }
+    },
+    {
+        "or5": {
+            "asset": "..\\reincarnated/misc/currency/hellforge_tongs"
+        }
+    },
+    {
+        "or6": {
+            "asset": "..\\reincarnated/misc/currency/etheral_core"
+        }
+    },
+    {
+        "or7": {
+            "asset": "..\\reincarnated/misc/currency/voidstone_relic"
+        }    
+    },
+    {
+        "or8": {
+            "asset": "..\\reincarnated/misc/currency/horadric_mirror"
+        }
+    },
+    {
+        "mcm": {
+            "asset": "..\\reincarnated/misc/currency/horadric_mirror"
+        }
+    },
+    {
+        "ct1": {
+            "asset": "..\\reincarnated/misc/currency/crafting/hitpower_token"
+        }
+    },
+    {
+        "ct2": {
+            "asset": "..\\reincarnated/misc/currency/crafting/blood_token"
+        }
+    },
+    {
+        "ct3": {
+            "asset": "..\\reincarnated/misc/currency/crafting/cast_token"
+        }
+    },
+    {
+        "ct4": {
+            "asset": "..\\reincarnated/misc/currency/crafting/safety_token"
+        }
+    },
+    {
+        "ct5": {
+            "asset": "..\\reincarnated/misc/currency/crafting/speed_token"
+        }
+    },
+    {
+        "ct6": {
+            "asset": "..\\reincarnated/misc/currency/crafting/treasure_token"
+        }
+    },
+    {
+        "ct7": {
+            "asset": "..\\reincarnated/misc/currency/crafting/shadow_token"
+        }
+    },
+    {
+        "b01": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b02": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b03": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b04": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b05": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b06": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b07": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b08": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b09": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b10": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b11": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b12": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "b13": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier3"
+        }
+    },
+    {
+        "a01": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a02": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a03": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a04": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a05": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a06": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a07": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a08": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a09": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a10": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a11": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a12": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a13": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a14": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a15": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a16": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a17": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a18": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a19": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a20": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a21": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a22": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a23": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a24": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a25": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
+        }
+    },
+    {
+        "a26": {
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier2"
         }
     },
     {
         "c01": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c02": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c03": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c04": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c05": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c06": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c07": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c08": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c09": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c10": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c11": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c12": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c13": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c14": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c15": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c16": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c17": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
         "c18": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+            "asset": "..\\reincarnated/misc/scroll/scroll_tier1"
         }
     },
     {
-        "c19": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
-        }
-    },
-    {
-        "c20": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
-        }
-    },
-    {
-        "c21": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
-        }
-    },
-    {
-        "c22": {
-            "asset": "..\\reincarnated/misc/scroll/crafting_scroll_t1"
+        "cms": {
+            "asset": "..\\reincarnated/nadin_widelec"
         }
     }
 ]

@@ -81,3 +81,7 @@ Act 5 - Baal 1	130	9	9	9	16	16	500
 Act 5 - Baal 1	132	9	9	9	16	16	500
 Act 5 - Pandemonium Run 1	133	12	24	36	8	8	500
 Act 5 - Pandemonium Run 3	135	3	3	3	24	24	500
+Rift - Cave	138	4	4	4	24	24	500
+Rift - Crypt	141	12	24	36	8	8	500
+Rift - Jail	143	12	12	12	12	12	500
+Rift - Catacombs	146	12	12	12	12	12	500

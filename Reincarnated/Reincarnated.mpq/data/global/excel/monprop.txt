@@ -12,7 +12,10 @@ quillrat6																															thorns			15	20																										
 quillrat7																															thorns			15	20																										thorns			30	40																										0
 quillrat8																															thorns			15	20																										thorns			30	40																										0
 druidhawk	stupidity			-1	-1																										stupidity			-1	-1																										stupidity			-1	-1																										0
-goblin1	death-skill		375	20	1	state		184	1	1	state		192	1	1	gethit-skill		382	20	1											death-skill		375	20	1	state		184	1	1	state		192	1	1	gethit-skill		387	20	1											death-skill		375	20	1	state		184	1	1	state		192	1	1	gethit-skill		387	20	1											0
+goblin1	death-skill		375	20	1	state		184	1	1	state		192	1	1	gethit-skill		387	20	1											death-skill		375	20	1	state		184	1	1	state		192	1	1	gethit-skill		387	20	1											death-skill		375	20	1	state		184	1	1	state		192	1	1	gethit-skill		387	20	1											0
 gildedbaron	death-skill		374	20	1	death-skill		379	20	1	state		184	1	1	gethit-skill		376	20	1	state		192	1	1						death-skill		374	100	1	death-skill		379	100	1	state		184	1	1	gethit-skill		376	100	1	state		193	1	1	state		192	1	1	death-skill		374	100	1	death-skill		379	100	1	state		184	1	1	gethit-skill		376	100	1	state		193	1	1	state		192	1	1	0
 gelatinoussire1	death-skill		380	20	1	state		184	1	1	gethit-skill		376	20	1	state		192	1	1											death-skill		380	100	1	state		184	1	1	gethit-skill		376	100	1	state		192	1	1											death-skill		380	100	1	state		184	1	1	gethit-skill		376	100	1	state		192	1	1											0
 gelatinoussire2	death-skill		381	20	1	state		184	1	1	gethit-skill		376	20	1	state		192	1	1											death-skill		381	100	1	state		184	1	1	gethit-skill		376	100	1	state		192	1	1											death-skill		381	100	1	state		184	1	1	gethit-skill		376	100	1	state		192	1	1											0
+gemhoarder1	death-skill		383	100	1	state		184	1	1	gethit-skill		382	100	1																																																																												0
+runehoarder1	death-skill		385	100	1	state		184	1	1	gethit-skill		384	33	1																																																																												0
+runehoarderspawn1	death-skill		386	1	1																																																																																						0

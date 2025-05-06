@@ -4439,14 +4439,14 @@
   {
     "id": 4261,
     "Key": "StrSkill9",
-    "enUS": "%d arrows",
+    "enUS": "%d missiles",
     "zhTW": "%d 箭",
     "deDE": "%d Pfeile",
     "esES": "%d flechas",
     "frFR": "%d flèches",
     "itIT": "%d frecce",
     "koKR": "화살 %d개",
-    "plPL": "Liczba strzał: %d",
+    "plPL": "Liczba pocisków: %d",
     "esMX": "%d flechas",
     "jaJP": "矢の本数: %d",
     "ptBR": "%d flechas",
@@ -7788,7 +7788,7 @@
   {
     "id": 4462,
     "Key": "skillsd22",
-    "enUS": "enchants arrows to seek enemies",
+    "enUS": "arrows splits on hitting an enemy",
     "zhTW": "箭矢會追蹤敵人",
     "deDE": "Verzaubert Pfeile, sodass sie Gegner verfolgen.",
     "esES": "Encanta las flechas para que busquen a los enemigos.",
@@ -7805,7 +7805,7 @@
   {
     "id": 4463,
     "Key": "skillld22",
-    "enUS": "enhances your arrows and bolts\nto track your target\nor seek one of its own",
+    "enUS": "enhances your arrows and bolts\nto split on hitting an enemy",
     "zhTW": "強化你的箭矢或弩箭，使其追蹤你的目標或自行尋找敵人",
     "deDE": "Verzaubert Eure Pfeile und Bolzen,\nsodass sie Euer Ziel verfolgen\noder sich selbst eins suchen.",
     "esES": "Mejora tus flechas o saetas\npara que sigan a tu objetivo\no busquen a uno por su cuenta.",
@@ -14877,7 +14877,7 @@
   {
     "id": 4881,
     "Key": "skillname127",
-    "enUS": "General Mastery",
+    "enUS": "Sword Mastery",
     "zhTW": "利刃專精",
     "deDE": "Klingenbeherrschung",
     "esES": "Dominio de los filos",
@@ -14894,7 +14894,7 @@
   {
     "id": 4882,
     "Key": "skillsd127",
-    "enUS": "passive - improves melee fighting skill",
+    "enUS": "passive - improves sword fighting skill",
     "zhTW": "被動 - 提高你使用刀劍與匕首的戰鬥技巧",
     "deDE": "Passiv - Verbessert den Umgang mit Schwertern und Dolchen.",
     "esES": "Pasiva: Mejora la destreza de lucha con espadas y dagas.",
@@ -14911,7 +14911,7 @@
   {
     "id": 4883,
     "Key": "skillld127",
-    "enUS": "passive - improves melee fighting skill",
+    "enUS": "passive - improves sword fighting skill",
     "zhTW": "被動 - 提高你使用刀劍與匕首的戰鬥技巧",
     "deDE": "Passiv - Verbessert den Umgang mit Schwertern und Dolchen.",
     "esES": "Pasiva: Mejora la destreza de lucha con espadas y dagas.",
@@ -14928,7 +14928,7 @@
   {
     "id": 4884,
     "Key": "skillan127",
-    "enUS": "General Mastery",
+    "enUS": "Sword Mastery",
     "zhTW": "利刃專精",
     "deDE": "Klingenbeherrschung",
     "esES": "Dominio de los filos",
@@ -28289,7 +28289,7 @@
   },
   {
     "id": 10962,
-    "Key": "Convphy2magalt",
+    "Key": "Convphy2elemalt",
     "enUS": "Converts %d%% Physical Damage to Elemental Damage",
     "zhTW": "將 %d%% 物理傷害轉換為元素傷害",
     "deDE": "Verwandelt %d%% physischen Schaden in Elementarschaden",
@@ -28306,7 +28306,7 @@
   },
   {
     "id": 10963,
-    "Key": "Convphy2elemalt",
+    "Key": "Convphy2magalt",
     "enUS": "Converts %d%% Physical Damage to Magic Damage",
     "zhTW": "將 %d%% 物理傷害轉換為魔法傷害",
     "deDE": "Verwandelt %d%% physischen Schaden in Magieschaden",
@@ -35800,5 +35800,39 @@
     "ptBR": "\n%s\n%s\nMarca do Lobo:\nAtaques de Lobisomem concedem Marca por %s",
     "ruRU": "\n%s\n%s\nЗнак волка:\nатаки в облике волка накладывают метку на %s",
     "zhCN": "\n%s\n%s\n恶狼印记:\n狼人攻击时会获得印记，持续 %s"
-  }
+  },
+  {
+    "id": 27439,
+    "Key": "modCharmLimit",
+    "enUS": "Charm System",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
+},
+{
+  "id": 27440,
+  "Key": "modCharmLimitd",
+  "enUS": "Charm System",
+  "zhTW": "",
+  "deDE": "",
+  "esES": "",
+  "frFR": "",
+  "itIT": "",
+  "koKR": "",
+  "plPL": "",
+  "esMX": "",
+  "jaJP": "",
+  "ptBR": "",
+  "ruRU": "",
+  "zhCN": ""
+}
 ]

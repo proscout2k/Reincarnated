@@ -1,7 +1,7 @@
 state	*ID	group	remhit	nosend	transform	aura	curable	curse	active	restrict	disguise	attblue	damblue	armblue	rfblue	rlblue	rcblue	stambarblue	rpblue	attred	damred	armred	rfred	rlred	rcred	rpred	exp	plrstaydeath	monstaydeath	bossstaydeath	hide	hidedead	shatter	udead	life	green	pgsv	nooverlays	noclear	bossinv	meleeonly	notondead	overlay1	overlay2	overlay3	overlay4	pgsvoverlay	castoverlay	removerlay	stat	setfunc	remfunc	missile	skill	itemtype	itemtrans	colorpri	colorshift	light-r	light-g	light-b	onsound	offsound	gfxtype	gfxclass	cltevent	clteventfunc	cltactivefunc	srvactivefunc	canstack	sunderfull	sunder-res-reduce	*eol
 none	0																																																																								0
 freeze	1						1																						1		1		1	1																							100	108	150	215	255	impact_bluemotize_1											0
-poison	2						1																												1	1												poisonhit									95	104	128	255	128	impact_poison_1											0
+poison	2						1																												1	1												poisonhit									95	104	128	255	128	impact_poison_1								1			0
 resistfire	3					1									1																												aura_resistfire					cast_resistfire		fireresist												paladin_aura_resistfire											0
 resistcold	4					1											1																										aura_resistcold					cast_resistcold		coldresist												paladin_aura_resistcold											0
 resistlight	5					1										1																											aura_resistlight					cast_resistlight		lightresist												paladin_aura_resistlightning											0
@@ -193,3 +193,5 @@ markbear	190	4																																					1				bloodlust_state									
 markwolf	191	5										1																											1				impregnated																														0
 goblinaura	192																																						1				aura_fanatic																			goblin_laugh											0
 gold	193																										1																														125	102	150	215	255												0
+startpassive1	195																																																																								0
+ironskintest	196																																																																								0

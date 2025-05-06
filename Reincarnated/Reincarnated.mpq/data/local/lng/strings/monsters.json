@@ -8993,7 +8993,7 @@
     "zhCN": "%s残骸"
   },
   {
-    "id": 50000,
+    "id": 27548,
     "Key": "TreasureGoblin1",
     "enUS": "Treasure Goblin",
     "zhTW": "",
@@ -9010,7 +9010,7 @@
     "zhCN": ""
   },
   {
-    "id": 50001,
+    "id": 27549,
     "Key": "RuneHoarder1",
     "enUS": "Rune Hoarder",
     "zhTW": "",
@@ -9027,7 +9027,7 @@
     "zhCN": ""
   },
   {
-    "id": 50002,
+    "id": 27550,
     "Key": "glidedbaron1",
     "enUS": "Glided Baron",
     "zhTW": "",
@@ -9044,7 +9044,7 @@
     "zhCN": ""
   },
   {
-    "id": 50003,
+    "id": 27551,
     "Key": "GelatinousSireBig1",
     "enUS": "Gelatinous Sire",
     "zhTW": "",
@@ -9061,7 +9061,7 @@
     "zhCN": ""
   },
   {
-    "id": 50004,
+    "id": 27552,
     "Key": "GelatinousSireSpawn1",
     "enUS": "Small Gelatinous Sire",
     "zhTW": "",
@@ -9078,7 +9078,7 @@
     "zhCN": ""
   },
   {
-    "id": 50005,
+    "id": 27553,
     "Key": "GemHoarder1",
     "enUS": "Gem Hoarder",
     "zhTW": "",

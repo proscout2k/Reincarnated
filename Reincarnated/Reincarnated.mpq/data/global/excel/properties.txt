@@ -124,11 +124,11 @@ Expansion																																			0
 dru	1	21	item_addclassskills		5																									+# to Druid Skill Levels		Min #	Max #		0
 ass	1	21	item_addclassskills		6																									+# to Assassin Skill Levels		Min #	Max #		0
 skill	1	22	item_singleskill																											+# to [Skill] ([Class] only)	Skill	Min #	Max #		0
-skilltab	1	10	item_addskill_tab																											+# to [Class Skill Tab] Skills	Class Skill Tab ID	Min #	Max #	"[Class Skill Tab ID] = (Amazon = 0-2, Sorceress = 3-5, Necromancer = 6-8, Paladin = 9-11, Barbarian = 12-14, Druid = 15-17,  Assassin = 18-20)"	0
+skilltab	1	10	item_addskill_tab																											+# to [Class Skill Tab] Skills	Class Skill Tab ID	Min #	Max #	"""[Class Skill Tab ID] = (Amazon = 0-2, Sorceress = 3-5, Necromancer = 6-8, Paladin = 9-11, Barbarian = 12-14, Druid = 15-17,  Assassin = 18-20)"""	0
 aura	1	22	item_aura																											Level # [Skill] Aura When Equipped	Skill	Min #	Max #		0
-att-skill	1	11	item_skillonattack																											#% Chance to cast level # [Skill] on attack	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
-hit-skill	1	11	item_skillonhit																											#% Chance to cast level # [Skill] on striking	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
-gethit-skill	1	11	item_skillongethit																											#% Chance to cast level # [Skill] when struck	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
+att-skill	1	11	item_skillonattack																											#% Chance to cast level # [Skill] on attack	Skill	"""% Chance (If 0, then default to 5)"""	Skill Level		0
+hit-skill	1	11	item_skillonhit																											#% Chance to cast level # [Skill] on striking	Skill	"""% Chance (If 0, then default to 5)"""	Skill Level		0
+gethit-skill	1	11	item_skillongethit																											#% Chance to cast level # [Skill] when struck	Skill	"""% Chance (If 0, then default to 5)"""	Skill Level		0
 gembonus																																			0
 regen-dur																																			0
 fire-fx																																			0
@@ -195,42 +195,42 @@ abs-thrust																																			0
 abs-slash%																																			0
 abs-crush%																																			0
 abs-thrust%																																			0
-ac/time	1	18	item_armor_bytime																											+# Defense (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-ac%/time	1	18	item_armorpercent_bytime																											+#% Enhanced Defense (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-hp/time	1	18	item_hp_bytime																											+# to Life (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-mana/time	1	18	item_mana_bytime																											+# to Mana (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg/time	1	18	item_maxdamage_bytime																											+# to Maximum Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg%/time	1	18	item_maxdamage_percent_bytime																											+#% Enhanced Maximum Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-str/time	1	18	item_strength_bytime																											+# to Strength (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dex/time	1	18	item_dexterity_bytime																											+# to Dexterity (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-enr/time	1	18	item_energy_bytime																											+# to Energy (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-vit/time	1	18	item_vitality_bytime																											+# to Vitality (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-att/time	1	18	item_tohit_bytime																											+# to Attack Rating (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-att%/time	1	18	item_tohitpercent_bytime																											#% Bonus to Attack Rating (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg-cold/time	1	18	item_cold_damagemax_bytime																											+# to Maximum Cold Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg-fire/time	1	18	item_fire_damagemax_bytime																											+# to Maximum Fire Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg-ltng/time	1	18	item_ltng_damagemax_bytime																											+# to Maximum Lightning Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg-pois/time	1	18	item_pois_damagemax_bytime																											+# to Maximum Poison Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-res-cold/time	1	18	item_resist_cold_bytime																											Cold Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-res-fire/time	1	18	item_resist_fire_bytime																											Fire Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-res-ltng/time	1	18	item_resist_ltng_bytime																											Lightning Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-res-pois/time	1	18	item_resist_pois_bytime																											Poison Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-abs-cold/time	1	18	item_absorb_cold_bytime																											Absorbs Cold Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-abs-fire/time	1	18	item_absorb_fire_bytime																											Absorbs Fire Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-abs-ltng/time	1	18	item_absorb_ltng_bytime																											Absorbs Lightning Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-abs-pois/time	1	18	item_absorb_pois_bytime																											Absorbs Poison Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-gold%/time	1	18	item_find_gold_bytime																											#% Extra Gold from Monsters (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-mag%/time	1	18	item_find_magic_bytime																											#% Better Chance of Getting Magic Items (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-regen-stam/time	1	18	item_regenstamina_bytime																											Heal Stamina Plus #% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-stam/time	1	18	item_stamina_bytime																											+# Maximum Stamina (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg-dem/time	1	18	item_damage_demon_bytime																											+#% Damage to Demons (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-dmg-und/time	1	18	item_damage_undead_bytime																											+#% Damage to Undead (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-att-dem/time	1	18	item_tohit_demon_bytime																											+# to Attack Rating against Demons (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-att-und/time	1	18	item_tohit_undead_bytime																											+# to Attack Rating against Undead (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-crush/time	1	18	item_crushingblow_bytime																											#% Chance of Crushing Blow (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-wounds/time	1	18	item_openwounds_bytime																											#% Chance of Open Wounds (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-kick/time	1	18	item_kick_damage_bytime																											+# Kick Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
-deadly/time	1	18	item_deadlystrike_bytime																											#% Deadly Strike (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"	0
+ac/time	1	18	item_armor_bytime																											+# Defense (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+ac%/time	1	18	item_armorpercent_bytime																											+#% Enhanced Defense (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+hp/time	1	18	item_hp_bytime																											+# to Life (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+mana/time	1	18	item_mana_bytime																											+# to Mana (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg/time	1	18	item_maxdamage_bytime																											+# to Maximum Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg%/time	1	18	item_maxdamage_percent_bytime																											+#% Enhanced Maximum Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+str/time	1	18	item_strength_bytime																											+# to Strength (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dex/time	1	18	item_dexterity_bytime																											+# to Dexterity (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+enr/time	1	18	item_energy_bytime																											+# to Energy (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+vit/time	1	18	item_vitality_bytime																											+# to Vitality (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+att/time	1	18	item_tohit_bytime																											+# to Attack Rating (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+att%/time	1	18	item_tohitpercent_bytime																											#% Bonus to Attack Rating (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg-cold/time	1	18	item_cold_damagemax_bytime																											+# to Maximum Cold Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg-fire/time	1	18	item_fire_damagemax_bytime																											+# to Maximum Fire Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg-ltng/time	1	18	item_ltng_damagemax_bytime																											+# to Maximum Lightning Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg-pois/time	1	18	item_pois_damagemax_bytime																											+# to Maximum Poison Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+res-cold/time	1	18	item_resist_cold_bytime																											Cold Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+res-fire/time	1	18	item_resist_fire_bytime																											Fire Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+res-ltng/time	1	18	item_resist_ltng_bytime																											Lightning Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+res-pois/time	1	18	item_resist_pois_bytime																											Poison Resist +#% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+abs-cold/time	1	18	item_absorb_cold_bytime																											Absorbs Cold Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+abs-fire/time	1	18	item_absorb_fire_bytime																											Absorbs Fire Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+abs-ltng/time	1	18	item_absorb_ltng_bytime																											Absorbs Lightning Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+abs-pois/time	1	18	item_absorb_pois_bytime																											Absorbs Poison Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+gold%/time	1	18	item_find_gold_bytime																											#% Extra Gold from Monsters (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+mag%/time	1	18	item_find_magic_bytime																											#% Better Chance of Getting Magic Items (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+regen-stam/time	1	18	item_regenstamina_bytime																											Heal Stamina Plus #% (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+stam/time	1	18	item_stamina_bytime																											+# Maximum Stamina (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg-dem/time	1	18	item_damage_demon_bytime																											+#% Damage to Demons (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+dmg-und/time	1	18	item_damage_undead_bytime																											+#% Damage to Undead (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+att-dem/time	1	18	item_tohit_demon_bytime																											+# to Attack Rating against Demons (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+att-und/time	1	18	item_tohit_undead_bytime																											+# to Attack Rating against Undead (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+crush/time	1	18	item_crushingblow_bytime																											#% Chance of Crushing Blow (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+wounds/time	1	18	item_openwounds_bytime																											#% Chance of Open Wounds (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+kick/time	1	18	item_kick_damage_bytime																											+# Kick Damage (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min #	Max #	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
+deadly/time	1	18	item_deadlystrike_bytime																											#% Deadly Strike (Increases near [Day/Dusk/Night/Dawn])	Time Period for Max value	Min %	Max %	"""(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used"""	0
 gems%/time																																			0
 pierce-fire	1	1	passive_fire_pierce																											-#% to Enemy Fire Resistance		Min %	Max %		0
 pierce-ltng	1	1	passive_ltng_pierce																											-#% to Enemy Lightning Resistance		Min %	Max %		0
@@ -258,14 +258,14 @@ cheap	1	1	item_reducedprices																											Reduces all Vendor Prices
 rip	1	1	item_restinpeace																											Slain Monsters Rest in Peace		1	1		0
 att-mon%	1	24	attack_vs_montype																											#% to Attack Rating versus [Monster Type]	monstats.txt MonType	Min #	Max #	Currently Not Used	0
 dmg-mon%	1	24	damage_vs_montype																											#% to Damage versus [Monster Type]	monstats.txt MonType	Min #	Max #	Currently Not Used	0
-kill-skill	1	11	item_skillonkill																											#% Chance to cast level # [Skill] when you Kill an Enemy	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
-death-skill	1	11	item_skillondeath																											#% Chance to cast level # [Skill] when you Die	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
-levelup-skill	1	11	item_skillonlevelup																											#% Chance to cast level # [Skill] when you Level-Up	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
+kill-skill	1	11	item_skillonkill																											#% Chance to cast level # [Skill] when you Kill an Enemy	Skill	"""% Chance (If 0, then default to 5)"""	Skill Level		0
+death-skill	1	11	item_skillondeath																											#% Chance to cast level # [Skill] when you Die	Skill	"""% Chance (If 0, then default to 5)"""	Skill Level		0
+levelup-skill	1	11	item_skillonlevelup																											#% Chance to cast level # [Skill] when you Level-Up	Skill	"""% Chance (If 0, then default to 5)"""	Skill Level		0
 skill-rand	1	12	item_singleskill																											+# to [Skill] ([Class] only)	Skill Level	Min Skill ID	Max Skill ID		0
 fade	1	17	fade																													Min #	Max #	Visuals Only	0
 levelreq	1	1	item_levelreq																											Required Level: #		Min #	Max #		0
 ethereal	1	23																												Ethereal		1	1		0
-oskill	1	22	item_nonclassskill																											+# to [Skill]	Skill	Min #	Max #		0
+oskill	1	22	item_nonclassskill			22	item_nonclassskill_visual																							+# to [Skill]	Skill	Min #	Max #		0
 state	1	24	state																												State	1	1	Applies a State on the unit	0
 randclassskill	1	36	item_addclassskills		3																									+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
 noconsume		1	item_noconsume																											+# to not Consume Quantity		Min %	Max %		0
@@ -276,12 +276,41 @@ pierce-immunity-poison	1	1	item_pierce_poison_immunity																										
 pierce-immunity-damage	1	1	item_pierce_damage_immunity																											Monster Physical Immunity is Sundered		Min %	Max %		0
 pierce-immunity-magic	1	1	item_pierce_magic_immunity																											Monster Magic Immunity is Sundered		Min %	Max %		0
 charge-noconsume	1	1	item_charge_noconsume																											+#% chance for finishing moves to not consume charges		Min %	Max %		0
-dmg-meleearea	1	11	item_meleeareadamage																											#% Chance of Melee Area Damage	Skill	% Chance (If 0, then default to 5)	Skill Level		0
+dmg-meleearea	1	11	item_meleeareadamage			36	melee_mindamage_percent	1	-50	36	melee_maxdamage_percent	1	-50																	#% Chance of Melee Area Damage	Skill	% Chance (If 0, then default to 5)	Skill Level		0
 dmg%-melee-min	1	15	melee_mindamage_percent																											+#% Enhanced Minimum Melee Damage		Min %	Max %		0
 dmg%-melee-max	1	16	melee_maxdamage_percent																											+#% Enhanced Maximum Melee Damage		Min %	Max %		0
 corrupt	1	1	corrupted																											Corrupted					0
 corruptnum	1	1	corruptor																											Corruptor Modifier		Min #	Max #		0
-crafting-potential	1	1	crafting_potential																											Crafting Potential		Min #	Max #		0
+tempering-potential	1	1	crafting_potential																											Crafting Potential		Min #	Max #		0
 curse-res	1	1	curse_resistance																																0
-extra-mag	1	1	passive_mag_mastery																											+#% to Magic Skill Damage		Min %	Max %		0
-pierce-mag	1	1	passive_mag_pierce																											-#% to Enemy Magic Resistance		Min %	Max %		0
+extra-magi	1	1	passive_mag_mastery																											+#% to Magic Skill Damage		Min %	Max %		0
+pierce-magi	1	1	passive_mag_pierce																											-#% to Enemy Magic Resistance		Min %	Max %		0
+missilespeed	1	1	missile_speed																											Missile Speed		Min #	Max #		0
+missiledamage	1	1	missile_damage																											Missile Damage		Min #	Max #		0
+charm-count	1	1	charm_count																																0
+oskill-hidden	1	22	item_nonclassskill																											+# to [Skill]	Skill	Min #	Max #		0
+maximum-charm	1	1	maximum_charm																																0
+charm-bonus	1	1	charm_bonus																																0
+charm-bonus%	1	1	charm_bonus_percent																																0
+ac-charm	1	1	armorclass_charm																											+# Defense		Min #	Max #		0
+att-charm	1	1	tohit_charm																											+# to Attack Rating		Min #	Max #		0
+mag%-charm	1	1	item_magicbonus_charm																											#% Better Chance of Getting Magic Items		Min %	Max %		0
+mana-charm	1	1	maxmana_charm																											+# to Mana		Min #	Max #		0
+res-all-charm	1	1	fireresist_charm			3	lightresist_charm			3	coldresist_charm			3	poisonresist_charm															All Resistances +#		Min %	Max %		0
+res-cold-charm	1	1	coldresist_charm																											Cold Resist +#%		Min %	Max %		0
+res-fire-charm	1	1	fireresist_charm																											Fire Resist +#%		Min %	Max %		0
+res-ltng-charm	1	1	lightresist_charm																											Lightning Resist +#%		Min %	Max %		0
+res-pois-charm	1	1	poisonresist_charm																											Poison Resist +#%		Min %	Max %		0
+dex-charm	1	1	dexterity_charm																											+# to Dexterity		Min #	Max #		0
+balance1-charm	1	8	item_fastergethitrate_charm																											+#% Faster Hit Recovery		Min %	Max %		0
+gold%-charm	1	1	item_goldbonus_charm																											#% Extra Gold from Monsters		Min %	Max %		0
+hp-charm	1	1	maxhp_charm																											+# to Life		Min #	Max #		0
+str-charm	1	1	strength_charm																											+# to Strength		Min #	Max #		0
+move1-charm	1	8	item_fastermovevelocity_charm																											+#% Faster Run/Walk		Min %	Max %		0
+indestructn	1	1	item_indesctructible																											+#% Faster Run/Walk		Min %	Max %		0
+dodge-all	1	1	passive_dodge			3	passive_avoid			3	passive_evade																			+#% Change to Dodge		Min %	Max %		0
+dodge	1	1	passive_dodge																											+#% Change to Dodge Melee Attacks		Min %	Max %		0
+avoid	1	1	passive_avoid																											+#% Change to Dodge Missiles		Min %	Max %		0
+evade	1	1	passive_evade																											+#% Change to Dodge while running		Min %	Max %		0
+test1	1	1	passive_summon_resist																																0
+sock2	1	14	item_numsockets			1	item_numsockets_visual																							Socketed (#)		Min #	Max #		0
