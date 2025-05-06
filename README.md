@@ -36,6 +36,8 @@
 - **Stackowanie** *(Run, gemów, uber kluczy)*
 - **Rare Arrows, Belts i Charms**
 - **Dodano nowe affixy do magic i rare itemów**
+- **Charm System** *Do używania statystyk z talizmanów musisz mieć ubrany Pas, maksymalnie połowa ekwipunku + statystyka Increased Maximum Charms*
+  > Dostępna statystyka Increased Charm Bonuses w pasie 
 
 ---
 
