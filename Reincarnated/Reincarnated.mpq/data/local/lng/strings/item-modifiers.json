@@ -1940,7 +1940,7 @@
     {
         "id": 3570,
         "Key": "ModStr4v",
-        "enUS": "%+d%% Faster Drunk Rate",
+        "enUS": "%+d%% Faster Cast Rate",
         "zhTW": "%+d%% 施法速度",
         "deDE": "%+d%% schnellere Zauberrate",
         "esES": "Velocidad de lanzamiento un %+d%% más rápida",

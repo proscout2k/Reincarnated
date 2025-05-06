@@ -187,13 +187,13 @@ Każdy bonus w przedmiocie może być ulepszony, ale by ulepszyć potrzebujesz *
 
 W dalszych planach będzie możliwy **Double Corrupt**!
 
-6. Uwagi
+### 6. Uwagi
 - Jak na razie nie ma wprowadzonych żadnych zmian w unikatach, setach, runewordach,
 - Jedynie zmiany nastąpiły w skillach Amazonki
 - Update moda może spowodować niekompatybilność saveów lub crash gry jeżeli są stare save przed update
 
 
-7. Do zrobienia
+### 7. Do zrobienia
 - Splash Damage bardziej zaawansowany(nowe statystyki np. Splash Radius, Splash Damage)
 - Double Corrupt
 - Rifty
