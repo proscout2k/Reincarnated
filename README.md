@@ -228,6 +228,7 @@ W dalszych planach będzie możliwy **Double Corrupt**!
 - Jak na razie nie ma wprowadzonych żadnych zmian w unikatach, setach, runewordach,
 - Jedynie zmiany nastąpiły w skillach Amazonki
 - Update moda może spowodować niekompatybilność saveów lub crash gry jeżeli są stare save przed update
+- W modzie istnieje, bug związany z goldem u Gheeda. Fajnie by było gdybyście go nie używali :)
 
 
 ### 8. Do zrobienia
