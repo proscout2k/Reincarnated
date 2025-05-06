@@ -1,7 +1,4 @@
 
 .vscode/settings.json
-filter.md
-mod.md
-todo.md
-test.txt
-todo.md
+.gitignore
+update.bat
