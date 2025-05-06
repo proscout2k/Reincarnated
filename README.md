@@ -98,11 +98,11 @@
 
 ### 4. Tempering Potential
 - **Przepisy**:
-  - Item + Jewel + Eld Rune -> Tempered Item with Tempering Potential
-  - Item + Jewel + Amn Rune -> Tempered Item with Tempering Potential
-  - Item + Jewel + Io Rune -> Tempered Item with Tempering Potential
-  - Item + Jewel + Ist Rune -> Tempered Item with Tempering Potential
-  - Item + Jewel + Fal Rune -> Tempered Item with Tempering Potential
+  - Item + Jewel + Eld Rune + 3 Organs (Any) -> Tempered Item with Tempering Potential
+  - Item + Jewel + Amn Rune + 3 Organs (Any) -> Tempered Item with Tempering Potential
+  - Item + Jewel + Io Rune + 3 Organs (Any) -> Tempered Item with Tempering Potential
+  - Item + Jewel + Ist Rune + 3 Organs (Any) -> Tempered Item with Tempering Potential
+  - Item + Jewel + Fal Rune + 3 Organs (Any) -> Tempered Item with Tempering Potential
 
 - **Tempering Potential** w przedziale od 3-15
 
