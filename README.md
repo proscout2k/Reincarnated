@@ -234,7 +234,7 @@ W dalszych planach będzie możliwy **Double Corrupt**!
 
 - **Poison Javelins**
   - Czas trwania trucizny to teraz 4 sekundy.
-  - Obrażenia od trucizny zwiększono o 20%.
+  - Obrażenia od trucizny zwiększono o 100%.
   - **Poison Javelin**: Multishot podobny do Elemental Arrows.
   - **Plague Javelin**: Poison Nova przy trafieniu.
 
