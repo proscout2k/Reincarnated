@@ -697,7 +697,7 @@
     "strafebolt": "x_bow_bolt",
     "recklessattacksmissile": "expansion_shockwave",
     "leapattack": "b_a_yell_shock_wave_01",
-    "meleeareadamage": "melee_area_damage",
+    "meleeareadamage": "null",
     "guidedarrowpost": "furylightning",
     "freezingnova": "frost_nova",
     "javelinnova": "electric_nova",

@@ -41,8 +41,8 @@ Runes 14			1						s27	3	s28	2	Runes 13	2170																					0
 Runes 15			1						s29	3	s30	2	Runes 14	2941																					0
 Runes 16			1						s31	3	s32	2	Runes 15	3957																					0
 Runes 17			1						s33	1	Runes 16	2585																							0
-Orbs 1			1					5	or1	1																									0
-Orbs 2			1						or2	1	Orbs 1	16																							0
+Orbs 1			1					8	or1	1																									0
+Orbs 2			1						or2	1	Orbs 1	12																							0
 Orbs 3			1						wss	3	or5	2	Orbs 2	321																					0
 Orbs 4			1						or7	2	Orbs 3	512																							0
 Orbs 5			1						or6	3	or8	2	Orbs 4	1151																					0
@@ -1170,10 +1170,27 @@ Act 4 (H) Super Cx Desecrated	39	87	-2					0	Sunder Charms	1	Act 4 (H) Super Cx	
 Act 5 (H) Super Ax Desecrated	39	90	-2					0	Sunder Charms	1	Act 5 (H) Super Ax	1																							0
 Act 5 (H) Super Bx Desecrated	39	93	-2					0	Sunder Charms	1	Act 5 (H) Super Bx	1																							0
 Act 5 (H) Super Cx Desecrated	39	96	-2					0	Sunder Charms	1	Act 5 (H) Super Cx	1																							0
-Treasure Goblin Act 1 A			6	960	960	972	1024	0	Act 1 Equip A	80	Act 1 Good	15																							0
-Glided Baron Act 1 A			6	740	740	740	1024	0	"gld,mul=6400"	80	"gld,mul=7400"	40	"gld,mul=8400"	20																					0
+Treasure Goblin Act 1 A			1	960	960	972	1024	0	Act 1 Equip A	80	Act 1 Good	15																							0
+Glided Baron Act 1 A			1	740	740	740	1024	0	"gld,mul=6400"	80	"gld,mul=7400"	40	"gld,mul=8400"	20																					0
 Gem Hoarder Rnd GetHit Gem			1					0	Chipped Gem	100																									0
-Gem Hoarder Act 1 A			6					0	Chipped Gem	80	Flawed Gem	30																							0
+Gem Hoarder Act 1 A			6					0	Perfect Gem	1	Flawed Gem	15	Normal Gem	5	Flawless Gem	3																			0
 Rune Hoarder Rnd GetHit Rune			1					0	Runes 1	100																									0
 Rune Hoarder Act 1 A			6					0	Runes 3	100																									0
 Rune Hoarder Act 1 A Extra			3					0	Runes 3	100																									0
+Goblin Orbs Full			6						Orbs 5	6																									0
+Goblin Scrolls Full			6						Tempering Scrolls	6																									0
+Goblin Crafting Tokens Full			6						Crafting Tokens	6																									0
+Goblin Runes Full			6						Runes 5	80	Runes 11	15	Runes 17	5																					0
+Goblin Gems Full			6					0	Perfect Gem	1	Flawed Gem	15	Normal Gem	5	Flawless Gem	3																			0
+Goblin Items Full			6	960	960	972	1024	0	Act 1 Equip A	80	Act 1 Good	15																							0
+Goblin Gold Full			6	740	740	740	1024	0	"gld,mul=6400"	80	"gld,mul=7400"	40	"gld,mul=8400"	20																					0
+Goblin Full			1						Goblin Orbs Full	1	Goblin Scrolls Full	1	Goblin Crafting Tokens Full	1	Goblin Runes Full	1	Goblin Gems Full	1	Goblin Items Full	1	Goblin Gold Full	1													0
+Goblin Orbs			1						Orbs 5	6																									0
+Goblin Scrolls			1						Tempering Scrolls	6																									0
+Goblin Crafting Tokens			1						Crafting Tokens	6																									0
+Goblin Runes			1						Runes 5	80	Runes 12	15																							0
+Goblin Gems			1					0	Perfect Gem	1	Flawed Gem	15	Normal Gem	5	Flawless Gem	3																			0
+Goblin Items			1	960	960	972	1024	0	Act 1 Equip A	80	Act 1 Good	15																							0
+Goblin Gold			1	740	740	740	1024	0	"gld,mul=6400"	80	"gld,mul=7400"	40	"gld,mul=8400"	20																					0
+Goblin Normal			6						Goblin Orbs	1	Goblin Scrolls	1	Goblin Crafting Tokens	1	Goblin Runes	1	Goblin Gems	1	Goblin Items	1	Goblin Gold	1													0
+Treasure Goblin 2			1					50	Goblin Normal	40	Goblin Full	10																							0

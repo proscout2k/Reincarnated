@@ -1111,65 +1111,65 @@ Checking Item for a Tempering Potential	1				100	16	367	0		2	any,tmp	b01						us
 	1				100	16	367	2		2	any,tmp	c17						useitem																													c17																																																										0
 	1				100	16	367	2		2	any,tmp	c18						useitem																													c18																																																										0
 B TIER SCROLLS	0																																																																																																								0
-Strength	1				100	15	0	1		2	any,tmp	b01						useitem				tempering-potential			-1	-1	str			1	2																																																																										0
-Dexterity	1				100	15	1	1		2	any,tmp	b02						useitem				tempering-potential			-1	-1	dex			1	2																																																																										0
-Vitality	1				100	15	2	1		2	any,tmp	b03						useitem				tempering-potential			-1	-1	vit			1	2																																																																										0
-Energy	1				100	15	3	1		2	any,tmp	b04						useitem				tempering-potential			-1	-1	enr			1	2																																																																										0
-Attack Rating	1				100	15	19	1		2	any,tmp	b05						useitem				tempering-potential			-1	-1	att			1	10																																																																										0
-Damage Taken Goes To Mana	1				100	15	114	1		2	any,tmp	b06						useitem				tempering-potential			-1	-1	dmg-to-mana			1	2																																																																										0
-Attacker Takes Damage	1				100	15	78	1		2	any,tmp	b07						useitem				tempering-potential			-1	-1	thorns			1	3																																																																										0
-Magic Damage Reduced	1				100	15	35	1		2	any,tmp	b08						useitem				tempering-potential			-1	-1	red-mag			1	2																																																																										0
-Damage Reduced	1				100	15	34	1		2	any,tmp	b09						useitem				tempering-potential			-1	-1	red-dmg			1	2																																																																										0
-Life	1				100	15	7	1		2	any,tmp	b10						useitem				tempering-potential			-1	-1	hp			1	5																																																																										0
-Mana	1				100	15	9	1		2	any,tmp	b11						useitem				tempering-potential			-1	-1	mana			1	5																																																																										0
-Life after each Kill	1				100	15	86	1		2	any,tmp	b12						useitem				tempering-potential			-1	-1	heal-kill			1	2																																																																										0
-Mana after each Kill	1				100	15	138	1		2	any,tmp	b13						useitem				tempering-potential			-1	-1	mana-kill			1	2																																																																										0
+Strength	1				100	15	0	1		2	any,tmp	b01						useitem				tempering-potential			-1	-1	str			1	2	str	25		2	2																																																																					0
+Dexterity	1				100	15	1	1		2	any,tmp	b02						useitem				tempering-potential			-1	-1	dex			1	2	dex	25		2	2																																																																					0
+Vitality	1				100	15	2	1		2	any,tmp	b03						useitem				tempering-potential			-1	-1	vit			1	2	vit	25		2	2																																																																					0
+Energy	1				100	15	3	1		2	any,tmp	b04						useitem				tempering-potential			-1	-1	enr			1	2	enr	25		2	2																																																																					0
+Attack Rating	1				100	15	19	1		2	any,tmp	b05						useitem				tempering-potential			-1	-1	att			1	10	att	25		10	10																																																																					0
+Damage Taken Goes To Mana	1				100	15	114	1		2	any,tmp	b06						useitem				tempering-potential			-1	-1	dmg-to-mana			1	2	dmg-to-mana	25		2	2																																																																					0
+Attacker Takes Damage	1				100	15	78	1		2	any,tmp	b07						useitem				tempering-potential			-1	-1	thorns			1	3	thorns	25		3	3																																																																					0
+Magic Damage Reduced	1				100	15	35	1		2	any,tmp	b08						useitem				tempering-potential			-1	-1	red-mag			1	2	red-mag	25		2	2																																																																					0
+Damage Reduced	1				100	15	34	1		2	any,tmp	b09						useitem				tempering-potential			-1	-1	red-dmg			1	2	red-dmg	25		2	2																																																																					0
+Life	1				100	15	7	1		2	any,tmp	b10						useitem				tempering-potential			-1	-1	hp			1	5	hp	25		5	5																																																																					0
+Mana	1				100	15	9	1		2	any,tmp	b11						useitem				tempering-potential			-1	-1	mana			1	5	mana	25		5	5																																																																					0
+Life after each Kill	1				100	15	86	1		2	any,tmp	b12						useitem				tempering-potential			-1	-1	heal-kill			1	2	heal-kill	25		2	2																																																																					0
+Mana after each Kill	1				100	15	138	1		2	any,tmp	b13						useitem				tempering-potential			-1	-1	mana-kill			1	2	mana-kill	25		2	2																																																																					0
 A TIER SCROLLS	0																																																																																																								0
-Fire Resist	1				100	15	39	1		2	any,tmp	a01						useitem				tempering-potential			-2	-2	res-fire			1	2																																																																										0
-Cold Resist	1				100	15	43	1		2	any,tmp	a02						useitem				tempering-potential			-2	-2	res-cold			1	2																																																																										0
-Lightning Resist	1				100	15	41	1		2	any,tmp	a03						useitem				tempering-potential			-2	-2	res-ltng			1	2																																																																										0
-Poison Resist	1				100	15	45	1		2	any,tmp	a04						useitem				tempering-potential			-2	-2	res-pois			1	2																																																																										0
-Magic Resist	1				100	15	37	1		2	any,tmp	a05						useitem				tempering-potential			-2	-2	res-mag			1	1																																																																										0
-Damage Resist	1				100	15	36	1		2	any,tmp	a06						useitem				tempering-potential			-2	-2	red-dmg%			1	1																																																																										0
-Absorb Fire	1				100	15	143	1		2	any,tmp	a07						useitem				tempering-potential			-2	-2	abs-fire			1	1																																																																										0
-Absorb Cold	1				100	15	149	1		2	any,tmp	a08						useitem				tempering-potential			-2	-2	abs-cold			1	1																																																																										0
-Absorb Lightning	1				100	15	145	1		2	any,tmp	a09						useitem				tempering-potential			-2	-2	abs-ltng			1	1																																																																										0
-Absorb Magic	1				100	15	147	1		2	any,tmp	a10						useitem				tempering-potential			-2	-2	abs-mag			1	1																																																																										0
-% Life Regen	1				100	15	74	1		2	any,tmp	a11						useitem				tempering-potential			-2	-2	regen			1	2																																																																										0
-% Mana Regen	1				100	15	27	1		2	any,tmp	a12						useitem				tempering-potential			-2	-2	regen-mana			1	2																																																																										0
-% Mana stolen per hit	1				100	15	62	1		2	any,tmp	a13						useitem				tempering-potential			-2	-2	manasteal			1	1																																																																										0
-% Life stolen per Hit	1				100	15	60	1		2	any,tmp	a14						useitem				tempering-potential			-2	-2	lifesteal			1	1																																																																										0
-% Magic Find	1				100	15	80	1		2	any,tmp	a15						useitem				tempering-potential			-2	-2	mag%			1	3																																																																										0
-% Gold Find	1				100	15	79	1		2	any,tmp	a16						useitem				tempering-potential			-2	-2	gold%			1	3																																																																										0
-Chance of Block	1				100	15	20	1		2	any,tmp	a17						useitem				tempering-potential			-2	-2	block			1	4																																																																										0
-Faster Block Rate	1				100	15	102	1		2	any,tmp	a18						useitem				tempering-potential			-2	-2	block1			1	4																																																																										0
-Faster Run/Walk	1				100	15	96	1		2	any,tmp	a19						useitem				tempering-potential			-2	-2	move1			1	4																																																																										0
-Faster Hit Recovery	1				100	15	99	1		2	any,tmp	a20						useitem				tempering-potential			-2	-2	balance1			1	4																																																																										0
-% Dodge Melee Attacks	1				100	15	338	1		2	any,tmp	a21						useitem				tempering-potential			-2	-2	dodge			1	2																																																																										0
-% Dodge Missiles	1				100	15	339	1		2	any,tmp	a22						useitem				tempering-potential			-2	-2	avoid			1	2																																																																										0
-% Dodge while running	1				100	15	340	1		2	any,tmp	a23						useitem				tempering-potential			-2	-2	evade			1	2																																																																										0
-% Attack Rating	1				100	15	119	1		2	any,tmp	a24						useitem				tempering-potential			-2	-2	att%			1	2																																																																										0
--% Target Defense	1				100	15	116	1		2	any,tmp	a25						useitem				tempering-potential			-2	-2	reduce-ac			1	3																																																																										0
-% Enhanced Defense	1				100	15	16	1		2	any,tmp	a26						useitem				tempering-potential			-2	-2	ac%			1	10																																																																										0
+Fire Resist	1				100	15	39	1		2	any,tmp	a01						useitem				tempering-potential			-2	-2	res-fire			1	2	res-fire	25		2	2																																																																					0
+Cold Resist	1				100	15	43	1		2	any,tmp	a02						useitem				tempering-potential			-2	-2	res-cold			1	2	res-cold	25		2	2																																																																					0
+Lightning Resist	1				100	15	41	1		2	any,tmp	a03						useitem				tempering-potential			-2	-2	res-ltng			1	2	res-ltng	25		2	2																																																																					0
+Poison Resist	1				100	15	45	1		2	any,tmp	a04						useitem				tempering-potential			-2	-2	res-pois			1	2	res-pois	25		2	2																																																																					0
+Magic Resist	1				100	15	37	1		2	any,tmp	a05						useitem				tempering-potential			-2	-2	res-mag			1	1	res-mag	25		1	1																																																																					0
+Damage Resist	1				100	15	36	1		2	any,tmp	a06						useitem				tempering-potential			-2	-2	red-dmg%			1	1	red-dmg%	25		1	1																																																																					0
+Absorb Fire	1				100	15	143	1		2	any,tmp	a07						useitem				tempering-potential			-2	-2	abs-fire			1	1	abs-fire	25		1	1																																																																					0
+Absorb Cold	1				100	15	149	1		2	any,tmp	a08						useitem				tempering-potential			-2	-2	abs-cold			1	1	abs-cold	25		1	1																																																																					0
+Absorb Lightning	1				100	15	145	1		2	any,tmp	a09						useitem				tempering-potential			-2	-2	abs-ltng			1	1	abs-ltng	25		1	1																																																																					0
+Absorb Magic	1				100	15	147	1		2	any,tmp	a10						useitem				tempering-potential			-2	-2	abs-mag			1	1	abs-mag	25		1	1																																																																					0
+% Life Regen	1				100	15	74	1		2	any,tmp	a11						useitem				tempering-potential			-2	-2	regen			1	2	regen	25		2	2																																																																					0
+% Mana Regen	1				100	15	27	1		2	any,tmp	a12						useitem				tempering-potential			-2	-2	regen-mana			1	2	regen-mana	25		2	2																																																																					0
+% Mana stolen per hit	1				100	15	62	1		2	any,tmp	a13						useitem				tempering-potential			-2	-2	manasteal			1	1	manasteal	25		1	1																																																																					0
+% Life stolen per Hit	1				100	15	60	1		2	any,tmp	a14						useitem				tempering-potential			-2	-2	lifesteal			1	1	lifesteal	25		1	1																																																																					0
+% Magic Find	1				100	15	80	1		2	any,tmp	a15						useitem				tempering-potential			-2	-2	mag%			1	3	mag%	25		3	3																																																																					0
+% Gold Find	1				100	15	79	1		2	any,tmp	a16						useitem				tempering-potential			-2	-2	gold%			1	3	gold%	25		3	3																																																																					0
+Chance of Block	1				100	15	20	1		2	any,tmp	a17						useitem				tempering-potential			-2	-2	block			1	4	block	25		4	4																																																																					0
+Faster Block Rate	1				100	15	102	1		2	any,tmp	a18						useitem				tempering-potential			-2	-2	block1			1	4	block1	25		4	4																																																																					0
+Faster Run/Walk	1				100	15	96	1		2	any,tmp	a19						useitem				tempering-potential			-2	-2	move1			1	4	move1	25		4	4																																																																					0
+Faster Hit Recovery	1				100	15	99	1		2	any,tmp	a20						useitem				tempering-potential			-2	-2	balance1			1	4	balance1	25		4	4																																																																					0
+% Dodge Melee Attacks	1				100	15	338	1		2	any,tmp	a21						useitem				tempering-potential			-2	-2	dodge			1	2	dodge	25		2	2																																																																					0
+% Dodge Missiles	1				100	15	339	1		2	any,tmp	a22						useitem				tempering-potential			-2	-2	avoid			1	2	avoid	25		2	2																																																																					0
+% Dodge while running	1				100	15	340	1		2	any,tmp	a23						useitem				tempering-potential			-2	-2	evade			1	2	evade	25		2	2																																																																					0
+% Attack Rating	1				100	15	119	1		2	any,tmp	a24						useitem				tempering-potential			-2	-2	att%			1	2	att%	25		2	2																																																																					0
+-% Target Defense	1				100	15	116	1		2	any,tmp	a25						useitem				tempering-potential			-2	-2	reduce-ac			1	3	reduce-ac	25		3	3																																																																					0
+% Enhanced Defense	1				100	15	16	1		2	any,tmp	a26						useitem				tempering-potential			-2	-2	ac%			1	10	ac%	25		10	10																																																																					0
 S-TIER SCROLLS	0																																																																																																								0
-Faster Cast Rate	1				100	15	105	1		2	any,tmp	c01						useitem				tempering-potential			-3	-3	cast1			1	3																																																																										0
-Increased Attack Speed	1				100	15	93	1		2	any,tmp	c02						useitem				tempering-potential			-3	-3	swing1			1	3																																																																										0
-% Enhanced Damage	1				100	15	25	1		2	any,tmp	c03						useitem				tempering-potential			-3	-3	dmg%			1	4																																																																										0
-% Fire Skill Damage	1				100	15	329	1		2	any,tmp	c04						useitem				tempering-potential			-3	-3	extra-fire			1	1																																																																										0
-% Lightning Skill Damage	1				100	15	330	1		2	any,tmp	c05						useitem				tempering-potential			-3	-3	extra-ltng			1	1																																																																										0
-% Cold Skill Damage	1				100	15	331	1		2	any,tmp	c06						useitem				tempering-potential			-3	-3	extra-cold			1	1																																																																										0
-% Poison Skill Damage	1				100	15	332	1		2	any,tmp	c07						useitem				tempering-potential			-3	-3	extra-pois			1	1																																																																										0
-% Magic Skill Damage	1				100	15	357	1		2	any,tmp	c08						useitem				tempering-potential			-3	-3	extra-magi			1	1																																																																										0
--% Enemy Fire Resistance	1				100	15	333	1		2	any,tmp	c09						useitem				tempering-potential			-3	-3	pierce-fire			1	1																																																																										0
--% Enemy Lightning Resistance	1				100	15	334	1		2	any,tmp	c10						useitem				tempering-potential			-3	-3	pierce-ltng			1	1																																																																										0
--% Enemy Cold Resistance	1				100	15	335	1		2	any,tmp	c11						useitem				tempering-potential			-3	-3	pierce-cold			1	1																																																																										0
--% Enemy Poison Resistance	1				100	15	336	1		2	any,tmp	c12						useitem				tempering-potential			-3	-3	pierce-pois			1	1																																																																										0
--% Enemy Magic Resistance	1				100	15	358	1		2	any,tmp	c13						useitem				tempering-potential			-3	-3	pierce-magi			1	1																																																																										0
-Crushing Blow	1				100	15	136	1		2	any,tmp	c14						useitem				tempering-potential			-3	-3	crush			1	2																																																																										0
-Open Wounds	1				100	15	135	1		2	any,tmp	c15						useitem				tempering-potential			-3	-3	openwounds			1	2																																																																										0
-Deadly Strike	1				100	15	141	1		2	any,tmp	c16						useitem				tempering-potential			-3	-3	deadly			1	2																																																																										0
-% Piercing Attack	1				100	15	156	1		2	any,tmp	c17						useitem				tempering-potential			-3	-3	pierce			1	3																																																																										0
-% Add Experience 	1				100	15	85	1		2	any,tmp	c18						useitem				tempering-potential			-3	-3	addxp			1	1																																																																										0
+Faster Cast Rate	1				100	15	105	1		2	any,tmp	c01						useitem				tempering-potential			-3	-3	cast1			1	3	cast1	25		3	3																																																																					0
+Increased Attack Speed	1				100	15	93	1		2	any,tmp	c02						useitem				tempering-potential			-3	-3	swing1			1	3	swing1	25		3	3																																																																					0
+% Enhanced Damage	1				100	15	25	1		2	any,tmp	c03						useitem				tempering-potential			-3	-3	dmg%			1	4	dmg%	25		4	4																																																																					0
+% Fire Skill Damage	1				100	15	329	1		2	any,tmp	c04						useitem				tempering-potential			-3	-3	extra-fire			1	1	extra-fire	25		1	1																																																																					0
+% Lightning Skill Damage	1				100	15	330	1		2	any,tmp	c05						useitem				tempering-potential			-3	-3	extra-ltng			1	1	extra-ltng	25		1	1																																																																					0
+% Cold Skill Damage	1				100	15	331	1		2	any,tmp	c06						useitem				tempering-potential			-3	-3	extra-cold			1	1	extra-cold	25		1	1																																																																					0
+% Poison Skill Damage	1				100	15	332	1		2	any,tmp	c07						useitem				tempering-potential			-3	-3	extra-pois			1	1	extra-pois	25		1	1																																																																					0
+% Magic Skill Damage	1				100	15	357	1		2	any,tmp	c08						useitem				tempering-potential			-3	-3	extra-magi			1	1	extra-magi	25		1	1																																																																					0
+-% Enemy Fire Resistance	1				100	15	333	1		2	any,tmp	c09						useitem				tempering-potential			-3	-3	pierce-fire			1	1	pierce-fire	25		1	1																																																																					0
+-% Enemy Lightning Resistance	1				100	15	334	1		2	any,tmp	c10						useitem				tempering-potential			-3	-3	pierce-ltng			1	1	pierce-ltng	25		1	1																																																																					0
+-% Enemy Cold Resistance	1				100	15	335	1		2	any,tmp	c11						useitem				tempering-potential			-3	-3	pierce-cold			1	1	pierce-cold	25		1	1																																																																					0
+-% Enemy Poison Resistance	1				100	15	336	1		2	any,tmp	c12						useitem				tempering-potential			-3	-3	pierce-pois			1	1	pierce-pois	25		1	1																																																																					0
+-% Enemy Magic Resistance	1				100	15	358	1		2	any,tmp	c13						useitem				tempering-potential			-3	-3	pierce-magi			1	1	pierce-magi	25		1	1																																																																					0
+Crushing Blow	1				100	15	136	1		2	any,tmp	c14						useitem				tempering-potential			-3	-3	crush			1	2	crush	25		2	2																																																																					0
+Open Wounds	1				100	15	135	1		2	any,tmp	c15						useitem				tempering-potential			-3	-3	openwounds			1	2	openwounds	25		2	2																																																																					0
+Deadly Strike	1				100	15	141	1		2	any,tmp	c16						useitem				tempering-potential			-3	-3	deadly			1	2	deadly	25		2	2																																																																					0
+% Piercing Attack	1				100	15	156	1		2	any,tmp	c17						useitem				tempering-potential			-3	-3	pierce			1	3	pierce	25		3	3																																																																					0
+% Add Experience 	1				100	15	85	1		2	any,tmp	c18						useitem				tempering-potential			-3	-3	addxp			1	1	addxp	25		1	1																																																																					0
 Mirroring into Charm - START	0																																																																																																								0
 Mirroring Magic into Charm	1				100					2	"any,mag"	or8						mcm,mod			100																																																																																				0
 Mirroring Rare into Charm	1				100					2	"any,rar"	or8						mcm,mod			100																																																																																				0

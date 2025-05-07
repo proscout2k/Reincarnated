@@ -17,7 +17,18 @@
 ### 1. Nowości
 - **Corrupting Itemów** *(Corrupted Orb)*
 - **Tempering Itemów** *(Tempered Scrolls)*
-- **Gobliny** *(Jak na razie w fazie testów, nie są dostępne)*
+- **Gobliny** 
+  - Dropią one:
+    - Currency
+    - Przedmioty
+    - Gold
+    - Tempering Scrolls
+    - Crafting Tokens
+    - Gems
+  - Szansa na jakikolwiek drop z goblina to 50%:
+    - 35% szans na drop pojedynczo z wymienionych
+    - 15% szans na drop "paczki" 6 przedmiotów np. 6 currency lub 6 crafting tokenów
+    - 50% szans na NoDrop
 - **Rifty** *(Także faza testów)*
 - **Ulepszony Crafting**:
   - **Corrupting**
@@ -111,67 +122,73 @@
 Każdy bonus w przedmiocie może być ulepszony, ale by ulepszyć potrzebujesz **Tempering Scroll** dla danej statystyki. Wszystko jest podzielone na **Tiery**. Każde ulepszenie usuwa **Tempering Potential** w zależności od Tieru statystyki, którą chcemy ulepszyć.
 
 #### 🟢 B TIER SCROLLS *(koszt: -1 Tempering Potential)*:
-- Strength
-- Dexterity
-- Vitality
-- Energy
-- Attack Rating
-- Damage Taken Goes To Mana
-- Attacker Takes Damage
-- Magic Damage Reduced
-- Damage Reduced
-- Life
-- Mana
-- Life after each Kill
-- Mana after each Kill
+- Strength: 1-2
+- Dexterity: 1-2
+- Vitality: 1-2
+- Energy: 1-2
+- Attack Rating: 1-10
+- Damage Taken Goes To Mana: 1-2
+- Attacker Takes Damage: 1-3
+- Magic Damage Reduced: 1-2
+- Damage Reduced: 1-2
+- Life: 1-5
+- Mana: 1-5
+- Life after each Kill: 1-2
+- Mana after each Kill: 1-2
 
 #### 🟡 A TIER SCROLLS *(koszt: -2 Tempering Potential)*:
-- Fire Resist
-- Cold Resist
-- Lightning Resist
-- Poison Resist
-- Magic Resist
-- Damage Resist
-- Absorb Fire
-- Absorb Cold
-- Absorb Lightning
-- Absorb Magic
-- % Life Regen
-- % Mana Regen
-- % Mana stolen per hit
-- % Life stolen per Hit
-- % Magic Find
-- % Gold Find
-- Chance of Block
-- Faster Block Rate
-- Faster Run/Walk
-- Faster Hit Recovery
-- % Dodge Melee Attacks
-- % Dodge Missiles
-- % Dodge while running
-- % Attack Rating
-- -% Target Defense
-- % Enhanced Defense
+- Fire Resist: 1-2
+- Cold Resist: 1-2
+- Lightning Resist: 1-2
+- Poison Resist: 1-2
+- Magic Resist: 1-1
+- Damage Resist: 1-1
+- Absorb Fire: 1-1
+- Absorb Cold: 1-1
+- Absorb Lightning: 1-1
+- Absorb Magic: 1-1
+- % Life Regen: 1-2
+- % Mana Regen: 1-2
+- % Mana stolen per hit: 1-1
+- % Life stolen per Hit: 1-1
+- % Magic Find: 1-3
+- % Gold Find: 1-3
+- Chance of Block: 1-4
+- Faster Block Rate: 1-4
+- Faster Run/Walk: 1-4
+- Faster Hit Recovery: 1-4
+- % Dodge Melee Attacks: 1-2
+- % Dodge Missiles: 1-2
+- % Dodge while running: 1-2
+- % Attack Rating: 1-2
+- -% Target Defense: 1-3
+- % Enhanced Defense: 1-10
 
 #### 🔴 S TIER SCROLLS *(koszt: -3 Tempering Potential)*:
-- Faster Cast Rate
-- Increased Attack Speed
-- % Enhanced Damage
-- % Fire Skill Damage
-- % Lightning Skill Damage
-- % Cold Skill Damage
-- % Poison Skill Damage
-- % Magic Skill Damage
-- -% Enemy Fire Resistance
-- -% Enemy Lightning Resistance
-- -% Enemy Cold Resistance
-- -% Enemy Poison Resistance
-- -% Enemy Magic Resistance
-- Crushing Blow
-- Open Wounds
-- Deadly Strike
-- % Piercing Attack
-- % Add Experience
+- Faster Cast Rate: 1-3
+- Increased Attack Speed: 1-3
+- % Enhanced Damage: 1-4
+- % Fire Skill Damage: 1-1
+- % Lightning Skill Damage: 1-1
+- % Cold Skill Damage: 1-1
+- % Poison Skill Damage: 1-1
+- % Magic Skill Damage: 1-1
+- -% Enemy Fire Resistance: 1-1
+- -% Enemy Lightning Resistance: 1-1
+- -% Enemy Cold Resistance: 1-1
+- -% Enemy Poison Resistance: 1-1
+- -% Enemy Magic Resistance: 1-1
+- Crushing Blow: 1-2
+- Open Wounds: 1-2
+- Deadly Strike: 1-2
+- % Piercing Attack: 1-3
+- % Add Experience: 1-1
+
+### Szansa na dodatkowy bonus
+Przy ulepszaniu statystyki istnieje 25% szans na dodanie kolejnego takiego samego bonusu wymaksowanego.
+
+**Przykład:**
+Jeśli dodajesz Attack Rating, otrzymujesz od 1 do 10 AR i masz 25% szans na dodanie dodatkowych 10 AR.
 
 ---
 
@@ -215,14 +232,36 @@ W dalszych planach będzie możliwy **Double Corrupt**!
 - **Freezing Arrow**
   - Wywołuje Frost Nova przy trafieniu.
 
-- **Poison Javelin**
-  - Dodatkowa strzała co 3 poziomy skilla.
-
-- **Plague Javelin**
-  - Wywołuje Poison Nova przy trafieniu.
+- **Poison Javelins**
+  - Czas trwania trucizny to teraz 4 sekundy.
+  - Obrażenia od trucizny zwiększono o 20%.
+  - **Poison Javelin**: Multishot podobny do Elemental Arrows.
+  - **Plague Javelin**: Poison Nova przy trafieniu.
 
 - **Lightning Bolt**
   - Wywołuje Nova przy trafieniu.
+
+- **Jab**
+  - +15% Attack Rating na poziom.
+  - Bazowe obrażenia wynoszą teraz 0%.
+  - +8% obrażeń na poziom.
+
+- **Impale**
+  - Usunięto utratę wytrzymałości.
+  - Szybsze ataki.
+
+- **Nowe Skille dla Amazonki**
+  - **Bow and Crossbow Mastery**:
+    - Enhanced Damage
+    - Increased Attack Speed
+    - Ignore Defense
+    - Attack Rating
+  
+  - **Spear and Javelin Mastery**:
+    - Replenish on crit
+    - Chance to no consume
+    - Enhanced Damage
+    - Attack Rating
 
 ### 7. Uwagi
 - Jak na razie nie ma wprowadzonych żadnych zmian w unikatach, setach, runewordach,
@@ -235,5 +274,4 @@ W dalszych planach będzie możliwy **Double Corrupt**!
 - Splash Damage bardziej zaawansowany(nowe statystyki np. Splash Radius, Splash Damage)
 - Double Corrupt
 - Rifty
-- Gobliny
 - Balans

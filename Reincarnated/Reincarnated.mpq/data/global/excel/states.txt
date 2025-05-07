@@ -195,3 +195,5 @@ goblinaura	192																																						1				aura_fanatic											
 gold	193																										1																														125	102	150	215	255												0
 startpassive1	195																																																																								0
 ironskintest	196																																																																								0
+spearjavmastery	197																																																																								0
+bowmastery	198																																																																								0
