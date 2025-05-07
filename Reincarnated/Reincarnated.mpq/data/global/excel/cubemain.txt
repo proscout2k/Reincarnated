@@ -1177,7 +1177,8 @@ Mirroring Crafted into Charm	1				100					2	"any,crf	or8						mcm,mod			100					
 Mirroring Unique into Charm	1				100					2	"any,uni"	or8						mcm,mod			100																																																																																				0
 Mirroring Set into Charm	1				100					2	"any,set"	or8						mcm,mod			100																																																																																				0
 Mirroring Tempered into Charm	1				100					2	"any,tmp"	or8						mcm,mod			100																																																																																				0
-Melee Weapon without Splash Damage	1				100	22	362	0		1	mele							useitem			100	dmg-meleearea		373	100	100																																																																															0
+Melee Weapon without Splash Damage	1				100	22	362	0		1	mele,uni							useitem			100	dmg-meleearea		373	100	100																																																																															0
+Melee Weapon without Splash Damage	1				100	22	362	0		1	mele,set							useitem			100	dmg-meleearea		373	100	100																																																																															0
 Test1	0				100					2	weap	tsc						cms			100	cast3			100	100	pierce-magi			100	100	extra-magi			100	100																																																																					0
 Test1	0				100					3	tsc,qty=3							c03																																																																																							0
 Test1	0				100					4	tsc,qty=4							c04																																																																																							0
