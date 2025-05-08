@@ -369,7 +369,7 @@ corruptor	366		1	9														7	0	11	0																														0
 crafting_potential	367		1	9							1	1	0					7	32	8	32		1														999	19		modCraftingPotential	modCraftingPotentialZero										0
 missile_speed	368		1	9							1	1	0					7	32	8	32		1														88	19		modMissileSpeed	modMissileSpeed										0
 missile_damage	369		1	9							1	1	0					7	32	8	32		1														88	19		modMissileDamage	modMissileDamage										0
-mana_hidden	370		1	16														6	10	6	10			11			maxmana																								0
+mana_hidden	370		1	16														6	10	6	10			11			maxmana																								0
 hp_hidden	371		1	16														6	10	6	10			11			maxhp																								0
 item_nonclassskill_visual	372		1	16	9						1							7	20	7	0	9															81	28		ItemModifierNonClassSkill	ItemModifierNonClassSkill										0
 maximum_charm	373		1	9		1					1							7	32	8	32																998	19		modMaxCharmWeight	modMaxCharmWeight										0
