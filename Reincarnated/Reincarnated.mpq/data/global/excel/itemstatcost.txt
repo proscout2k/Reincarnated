@@ -373,7 +373,7 @@ mana_hidden	370		1	16														6	10	6	10			11			maxmana																					
 hp_hidden	371		1	16														6	10	6	10			11			maxhp																								0
 item_nonclassskill_visual	372		1	16	9						1							7	20	7	0	9															81	28		ItemModifierNonClassSkill	ItemModifierNonClassSkill										0
 maximum_charm	373		1	9		1					1							7	32	8	32																998	19		modMaxCharmWeight	modMaxCharmWeight										0
-charm_bonus	374		1	9		1					1							7	32	8	32																998	19		modCharmBonus	modCharmBonus										0
+charm_bonus	374		1	9							1							7	32	8	32																998	19		modCharmBonus	modCharmBonus										0
 charm_bonus_percent	375		1	9		1					1							7	32	8	32			11			charm_bonus										998	19		modCharmBonus	modCharmBonus										0
 armorclass_charm	376		1	6											43	42		6	0	6	0			2	7	charm_bonus	armorclass										72	19		ModStr1i	ModStr1i										0
 tohit_charm	377		1	6											53	20		6	0	6	0			2	7	charm_bonus	tohit					1					114	19		ModStr1h	ModStr1h										0

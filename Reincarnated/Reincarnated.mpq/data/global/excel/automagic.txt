@@ -39,5 +39,5 @@ Infinite Arrows and Bolts	100	1	1	1		0				2	306	noconsume		100	100										misl
 Splashing	100	1	1	1		0				1	307	dmg-meleearea	373	100	100										armo	weap											0	0
 Small Charm	100	1	1	1		0				1	309	charm-count		1	1										scha												0	0
 Large Charm	100	1	1	1		0				1	310	charm-count		2	2										mcha												0	0
-Grand Charm	100	1	1	1		0				1	311	charm-count		3	3										lcha													
-Belt Bonuses	100	1	1	1		0				1	312	levelreq		-6	-6	oskill-hidden	388	1	1						belt													
+Grand Charm	100	1	1	1		0				1	311	charm-count		3	3										lcha												0	0
+Belt Bonuses	100	1	1	1		0				1	312	levelreq		-6	-6	oskill	388	1	1						belt												0	0

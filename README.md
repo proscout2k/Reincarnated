@@ -274,4 +274,5 @@ W dalszych planach będzie możliwy **Double Corrupt**!
 - Splash Damage bardziej zaawansowany(nowe statystyki np. Splash Radius, Splash Damage)
 - Double Corrupt
 - Rifty
+- Zmiany w loot filtrze i UI
 - Balans

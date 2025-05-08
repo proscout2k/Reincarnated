@@ -710,8 +710,6 @@ Inferno	100	1	1	42		42				2	201	extra-fire		3	4										mcha														0
 Inferno	100	1	1	42		42				2	201	pierce-fire		2	3										mcha														0
 Infectious	100	1	1	42		42				2	201	extra-pois		3	4										mcha														0
 Infectious	100	1	1	42		42				2	201	pierce-pois		2	3										mcha														0
-	100	0	0	42		37						extra-magi																											0
-	100	0	0	42		37						pierce-magi																											0
 Visceral	100	1	1	75		69				1	105	dmg%		301	400									blac	miss	amaz	knif	club	mace	tkni	taxe	aspe							0
 Divine	100	1	1	45		37				1	142	att-undead		326	450	dmg-undead		276	350					lgld	miss														0
 Celestial	100	1	1	55		41				1	123	att-demon		301	400	dmg-demon		201	300					dgld	miss														0
@@ -787,5 +785,3 @@ Inferno	100	1	1	42		37				3	201	extra-fire		11	15										amul														0
 Inferno	100	1	1	42		37				3	201	pierce-fire		6	10										amul														0
 Infectious	100	1	1	42		37				3	201	extra-pois		11	15										amul														0
 Infectious	100	1	1	42		37				3	201	pierce-pois		6	10										amul														0
-	100	0	0	42		37						extra-magi																											0
-	100	0	0	42		37						pierce-magi																											0
