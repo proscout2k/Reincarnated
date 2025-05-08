@@ -3296,17 +3296,17 @@
     },
     {
         "zcv": {
-            "asset": "gem/chipped_amethyst_stack"
+            "asset": "gem/chipped_amethyst"
         }
     },
     {
         "zfv": {
-            "asset": "gem/flawed_amethyst_stack"
+            "asset": "gem/flawed_amethyst"
         }
     },
     {
         "zsv": {
-            "asset": "gem/amethyst_stack"
+            "asset": "gem/amethyst"
         }
     },
     {
@@ -3321,17 +3321,17 @@
     },
     {
         "zcy": {
-            "asset": "gem/chipped_topaz_stack"
+            "asset": "gem/chipped_topaz"
         }
     },
     {
         "zfy": {
-            "asset": "gem/flawed_topaz_stack"
+            "asset": "gem/flawed_topaz"
         }
     },
     {
         "zsy": {
-            "asset": "gem/topaz_stack"
+            "asset": "gem/topaz"
         }
     },
     {
@@ -3346,17 +3346,17 @@
     },
     {
         "zcb": {
-            "asset": "gem/chipped_saphire_stack"
+            "asset": "gem/chipped_saphire"
         }
     },
     {
         "zfb": {
-            "asset": "gem/flawed_saphire_stack"
+            "asset": "gem/flawed_saphire"
         }
     },
     {
         "zsb": {
-            "asset": "gem/saphire_stack"
+            "asset": "gem/saphire"
         }
     },
     {
@@ -3371,17 +3371,17 @@
     },
     {
         "zcg": {
-            "asset": "gem/chipped_emerald_stack"
+            "asset": "gem/chipped_emerald"
         }
     },
     {
         "zfg": {
-            "asset": "gem/flawed_emerald_stack"
+            "asset": "gem/flawed_emerald"
         }
     },
     {
         "zsg": {
-            "asset": "gem/emerald_stack"
+            "asset": "gem/emerald"
         }
     },
     {
@@ -3396,17 +3396,17 @@
     },
     {
         "zcr": {
-            "asset": "gem/chipped_ruby_stack"
+            "asset": "gem/chipped_ruby"
         }
     },
     {
         "zfr": {
-            "asset": "gem/flawed_ruby_stack"
+            "asset": "gem/flawed_ruby"
         }
     },
     {
         "zsr": {
-            "asset": "gem/ruby_stack"
+            "asset": "gem/ruby"
         }
     },
     {
@@ -3421,17 +3421,17 @@
     },
     {
         "zcw": {
-            "asset": "gem/chipped_diamond_stack"
+            "asset": "gem/chipped_diamond"
         }
     },
     {
         "zfw": {
-            "asset": "gem/flawed_diamond_stack"
+            "asset": "gem/flawed_diamond"
         }
     },
     {
         "zsw": {
-            "asset": "gem/diamond_stack"
+            "asset": "gem/diamond"
         }
     },
     {
@@ -3446,17 +3446,17 @@
     },
     {
         "zkc": {
-            "asset": "gem/chipped_skull_stack"
+            "asset": "gem/chipped_skull"
         }
     },
     {
         "zkf": {
-            "asset": "gem/flawed_skull_stack"
+            "asset": "gem/flawed_skull"
         }
     },
     {
         "zku": {
-            "asset": "gem/skull_stack"
+            "asset": "gem/skull"
         }
     },
     {
