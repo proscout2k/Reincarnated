@@ -250,6 +250,8 @@ W dalszych planach będzie możliwy **Double Corrupt**!
   - Usunięto utratę wytrzymałości.
   - Szybsze ataki.
 
+- **Dodge**, **Evade** i **Avoid** zostały połączone w jeden pasywny skill.  
+
 - **Nowe Skille dla Amazonki**
   - **Bow and Crossbow Mastery**:
     - Enhanced Damage
