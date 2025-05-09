@@ -7176,7 +7176,7 @@
   {
     "id": 4426,
     "Key": "skillsd13",
-    "enUS": "passive - dodges melee attacks",
+    "enUS": "passive - dodges all attacks",
     "zhTW": "被動 - 閃避近戰攻擊",
     "deDE": "Passiv - Weicht Nahkampfangriffen aus.",
     "esES": "Pasiva: Esquiva los ataques cuerpo a cuerpo.",
@@ -7193,7 +7193,7 @@
   {
     "id": 4427,
     "Key": "skillld13",
-    "enUS": "passive - you have a chance to dodge\na melee attack when attacking\nor standing still",
+    "enUS": "passive - you have a chance to dodge all attacks",
     "zhTW": "被動 - 你在站立不動或攻擊時，有一定機率閃避近戰攻擊",
     "deDE": "Passiv - Gewährt eine Chance,\nNahkampfangriffen auszuweichen,\nwenn Ihr angreift oder stillsteht.",
     "esES": "Pasiva: Tienes una probabilidad de esquivar\nun ataque cuerpo a cuerpo\nmientras atacas o estás inmóvil.",

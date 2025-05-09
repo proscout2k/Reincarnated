@@ -193,7 +193,7 @@ markbear	190	4																																					1				bloodlust_state									
 markwolf	191	5										1																											1				impregnated																														0
 goblinaura	192																																						1				aura_fanatic																			goblin_laugh											0
 gold	193																										1																														125	102	150	215	255												0
-startpassive1	195																																																																								0
-ironskintest	196																																																																								0
-spearjavmastery	197																																																																								0
-bowmastery	198																																																																								0
+startpassive1	194																																																																								0
+ironskintest	195																																																																								0
+spearjavmastery	196																																																																								0
+bowmastery	197																																																																								0
