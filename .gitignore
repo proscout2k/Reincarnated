@@ -1,3 +1,4 @@
-.vscode/settings.json
-.gitignore
+.vscode/
 update.bat
+launcher/src/build/
+build/
