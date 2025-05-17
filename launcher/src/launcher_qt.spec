@@ -3,16 +3,16 @@
 
 a = Analysis(
     ['launcher_qt.py'],
-    pathex=[],
+    pathex=['.'],
     binaries=[],
-    datas=[],
+    datas=[('d2r.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
     noarchive=False,
-    optimize=0,
+    optimize=2,
 )
 pyz = PYZ(a.pure)
 
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['d2r.ico'],
+    icon='d2r.ico',
 )
